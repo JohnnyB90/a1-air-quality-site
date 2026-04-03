@@ -1,7 +1,26 @@
 backend:
-  name: github
+  name: git-gateway
   repo: JohnnyB90/a1-air-quality-site
   branch: main
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/0c44972a-604f-44f6-aa44-e8ef9be66229/pkce
+  auth_token_endpoint: /sites/0c44972a-604f-44f6-aa44-e8ef9be66229/token
+  gateway_url: https://gateway.decapbridge.com
+  commit_messages:
+    create: Create {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    update: Update {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    delete: Delete {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    uploadMedia: Upload "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    deleteMedia: Delete "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge
+
+auth:
+  email_claim: email
+  first_name_claim: first_name
+  last_name_claim: last_name
+  avatar_url_claim: avatar_url
+
+site_url: https://fantastic-cuchufli-cea1d0.netlify.app
 
 media_folder: "images/blog"
 public_folder: "/images/blog"

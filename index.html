@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <title>A1 Air Quality Consultants | Air Quality Testing NC SC GA</title>
   <meta name="description" content="Professional air quality, asbestos, lead, mold, and radon testing across NC, SC, and GA. SCDES &amp; NCDHHS licensed. Most results in 48–72 hours. (864) 619-2092.">
   <meta name="keywords" content="air quality testing, asbestos testing, lead testing, mold testing, radon testing, air quality inspection, Spartanburg, Charlotte, Greenville, South Carolina, North Carolina">
@@ -726,5 +727,12 @@
   </a>
 </div>
 <script src="js/main.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function(user) {
+      if (!user) { window.netlifyIdentity.on("login", function() { document.location.href = "/admin/"; }); }
+    });
+  }
+</script>
 </body>
 </html>

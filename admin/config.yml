@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/blog"
+public_folder: "/images/blog"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "blog-content"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string", hint: "Full blog post title" }
+      - { label: "Meta Description", name: "description", widget: "text", hint: "1-2 sentence summary for search engines (under 160 characters)" }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Featured Image", name: "image", widget: "image", hint: "Upload a blog header image (JPEG recommended)" }
+      - { label: "Image Alt Text", name: "imageAlt", widget: "string", hint: "Describe the image for accessibility" }
+      - { label: "Page Subtitle", name: "subtitle", widget: "string", required: false, hint: "Short subtitle shown below the title on the page (optional — defaults to meta description)" }
+      - { label: "Breadcrumb Title", name: "breadcrumbTitle", widget: "string", required: false, hint: "Short version of title for the breadcrumb trail (optional — defaults to full title)" }
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        hint: "Write your blog post content here. Use headings (##), bold, links, and lists."
+      - label: "Sources"
+        name: "sources"
+        widget: "list"
+        required: false
+        hint: "Optional references shown at the bottom of the post"
+        fields:
+          - { label: "Source Title", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: false
+        hint: "Optional FAQ section — great for SEO. Each Q&A gets structured data."
+        fields:
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Answer", name: "answer", widget: "text" }

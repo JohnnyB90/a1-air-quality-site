@@ -1,0 +1,184 @@
+# A1 Air Quality Consultants
+
+> Independent air quality testing and consultation. No remediation — zero conflict of interest.
+
+## Website
+https://a1airqualityconsultants.com
+
+## About
+A1 Air Quality Consultants is a professional air quality testing and consultation company based in Spartanburg, SC. We provide independent, science-based testing for mold, asbestos, lead, radon, and indoor air quality across North Carolina, South Carolina, and parts of Georgia. We do NOT perform remediation or removal — this ensures our results and recommendations are always unbiased.
+
+## Credentials & Certifications
+- SCDES Licensed Building Consultant (South Carolina)
+- NCDHHS Licensed Building Inspector (North Carolina)
+- AHERA Certified (Asbestos Hazard Emergency Response Act)
+- NIOSH 582 Certified (Sampling and Evaluating Airborne Asbestos)
+- OSHA 40-Hour HAZWOPER Trained
+- 25+ years of industry experience
+
+## Key Differentiator
+A1 Air Quality Consultants is a testing-only company. We never sell remediation, removal, or repair services. This eliminates the conflict of interest that exists when the same company both tests for hazards and profits from fixing them. Our findings are based solely on laboratory data and professional analysis.
+
+## Contact
+- Phone: (864) 619-2092
+- Email: inbox@a1airqualityconsultants.com
+- Address: 206 Aspenwood Dr, Spartanburg, SC 29307
+- Hours: Mon–Fri, 8 AM – 5 PM
+- Most results delivered within 48-72 hours
+
+## Main Pages
+- Homepage: /
+- About: /about.html — Company background, team credentials, 25+ years of experience, SCDES/NCDHHS and AHERA certifications, and service area details.
+- Services: (see service list below)
+- Resources & Blog: /resources.html — Blog index page with summaries of all educational articles on mold, asbestos, lead, radon, and indoor air quality.
+- Contact: /contact.html
+- Privacy Policy: /privacy-policy.html
+- Terms of Service: /terms-of-service.html
+
+## Services (Alphabetical)
+- AHERA Project Designs: /services/asbestos-testing.html
+- Air Monitoring for Abatement Projects: /services/asbestos-testing.html
+- Air Quality Testing: /services/indoor-air-quality-testing.html
+- Asbestos Testing & Inspection (PCM & TEM): /services/asbestos-testing.html
+- Commercial & Industrial Air Quality Testing: /services/commercial-industrial-testing.html
+- Lead Testing (surface, dust, paint chip, water): /services/lead-testing.html
+- Mold Project Protocols: /services/mold-testing.html
+- Mold Testing & Inspection: /services/mold-testing.html
+- Radon Testing: /services/radon-testing.html
+
+## Service Areas
+All of South Carolina, all of North Carolina, and parts of Georgia including: Aiken, Albany, Alpharetta, Anderson, Apex, Asheville, Athens, Atlanta, Augusta, Beaufort, Brookhaven, Burlington, Cary, Chapel Hill, Charleston, Charlotte, Clemson, Columbia, Columbus, Concord, Cornelius, Duluth, Dunwoody, Durham, Easley, Fayetteville, Florence, Gainesville, Gastonia, Goose Creek, Greensboro, Greenville (NC), Greenville (SC), Greer, Hanahan, High Point, Hilton Head, Holly Springs, Huntersville, Indian Trail, Irmo, Jacksonville, Johns Creek, Kannapolis, Kennesaw, Lawrenceville, Lexington, Macon, Marietta, Mauldin, Mooresville, Mount Pleasant, Myrtle Beach, North Charleston, Peachtree City, Peachtree Corners, Piedmont, Raleigh, Rock Hill, Rocky Mount, Roswell, Sandy Springs, Savannah, Simpsonville, Smyrna, Spartanburg, Stonecrest, Summerville, Taylors, Valdosta, Wake Forest, Warner Robins, West Columbia, Wilmington, Winston-Salem, Woodstock, and surrounding areas.
+
+## Location Pages
+- Aiken, SC: /locations/aiken-sc.html
+- Albany, GA: /locations/albany-ga.html
+- Alpharetta, GA: /locations/alpharetta-ga.html
+- Anderson, SC: /locations/anderson-sc.html
+- Apex, NC: /locations/apex-nc.html
+- Asheville, NC: /locations/asheville-nc.html
+- Athens, GA: /locations/athens-ga.html
+- Atlanta, GA: /locations/atlanta-ga.html
+- Augusta, GA: /locations/augusta-ga.html
+- Beaufort, SC: /locations/beaufort-sc.html
+- Brookhaven, GA: /locations/brookhaven-ga.html
+- Burlington, NC: /locations/burlington-nc.html
+- Cary, NC: /locations/cary-nc.html
+- Chapel Hill, NC: /locations/chapel-hill-nc.html
+- Charleston, SC: /locations/charleston-sc.html
+- Charlotte, NC: /locations/charlotte-nc.html
+- Clemson, SC: /locations/clemson-sc.html
+- Columbia, SC: /locations/columbia-sc.html
+- Columbus, GA: /locations/columbus-ga.html
+- Concord, NC: /locations/concord-nc.html
+- Cornelius, NC: /locations/cornelius-nc.html
+- Duluth, GA: /locations/duluth-ga.html
+- Dunwoody, GA: /locations/dunwoody-ga.html
+- Durham, NC: /locations/durham-nc.html
+- Easley, SC: /locations/easley-sc.html
+- Fayetteville, NC: /locations/fayetteville-nc.html
+- Florence, SC: /locations/florence-sc.html
+- Gainesville, GA: /locations/gainesville-ga.html
+- Gastonia, NC: /locations/gastonia-nc.html
+- Goose Creek, SC: /locations/goose-creek-sc.html
+- Greensboro, NC: /locations/greensboro-nc.html
+- Greenville, NC: /locations/greenville-nc.html
+- Greenville, SC: /locations/greenville-sc.html
+- Greer, SC: /locations/greer-sc.html
+- Hanahan, SC: /locations/hanahan-sc.html
+- High Point, NC: /locations/high-point-nc.html
+- Hilton Head, SC: /locations/hilton-head-sc.html
+- Holly Springs, NC: /locations/holly-springs-nc.html
+- Huntersville, NC: /locations/huntersville-nc.html
+- Indian Trail, NC: /locations/indian-trail-nc.html
+- Irmo, SC: /locations/irmo-sc.html
+- Jacksonville, NC: /locations/jacksonville-nc.html
+- Johns Creek, GA: /locations/johns-creek-ga.html
+- Kannapolis, NC: /locations/kannapolis-nc.html
+- Kennesaw, GA: /locations/kennesaw-ga.html
+- Lawrenceville, GA: /locations/lawrenceville-ga.html
+- Lexington, SC: /locations/lexington-sc.html
+- Macon, GA: /locations/macon-ga.html
+- Marietta, GA: /locations/marietta-ga.html
+- Mauldin, SC: /locations/mauldin-sc.html
+- Mooresville, NC: /locations/mooresville-nc.html
+- Mount Pleasant, SC: /locations/mount-pleasant-sc.html
+- Myrtle Beach, SC: /locations/myrtle-beach-sc.html
+- North Charleston, SC: /locations/north-charleston-sc.html
+- Peachtree City, GA: /locations/peachtree-city-ga.html
+- Peachtree Corners, GA: /locations/peachtree-corners-ga.html
+- Piedmont, SC: /locations/piedmont-sc.html
+- Raleigh, NC: /locations/raleigh-nc.html
+- Rock Hill, SC: /locations/rock-hill-sc.html
+- Rocky Mount, NC: /locations/rocky-mount-nc.html
+- Roswell, GA: /locations/roswell-ga.html
+- Sandy Springs, GA: /locations/sandy-springs-ga.html
+- Savannah, GA: /locations/savannah-ga.html
+- Simpsonville, SC: /locations/simpsonville-sc.html
+- Smyrna, GA: /locations/smyrna-ga.html
+- Spartanburg, SC: /locations/spartanburg-sc.html
+- Stonecrest, GA: /locations/stonecrest-ga.html
+- Summerville, SC: /locations/summerville-sc.html
+- Taylors, SC: /locations/taylors-sc.html
+- Valdosta, GA: /locations/valdosta-ga.html
+- Wake Forest, NC: /locations/wake-forest-nc.html
+- Warner Robins, GA: /locations/warner-robins-ga.html
+- West Columbia, SC: /locations/west-columbia-sc.html
+- Wilmington, NC: /locations/wilmington-nc.html
+- Winston-Salem, NC: /locations/winston-salem-nc.html
+- Woodstock, GA: /locations/woodstock-ga.html
+
+## Resources & Blog Articles
+
+- **Commercial Indoor Air Quality Testing: Requirements and Best Practices** (Mar 2026): /blog/commercial-indoor-air-quality-testing-requirements.html
+  OSHA and ASHRAE set standards for commercial IAQ. Covers testing requirements, methods, ASHRAE 62.1, and how commercial testing differs from residential.
+
+- **DIY vs Professional Air Quality Testing** (Mar 2026): /blog/diy-vs-professional-air-quality-testing.html
+  Home air quality test kits are affordable but limited. Covers accuracy differences, cost comparison, when to choose professional testing, and real estate implications.
+
+- **How Much Does Air Quality Testing Cost?** (Mar 2026): /blog/how-much-does-air-quality-testing-cost.html
+  Typical price ranges: mold ($250-$600), radon ($150-$300), asbestos ($250-$800), lead ($200-$500), comprehensive IAQ ($300-$600). Factors affecting cost.
+
+- **Why Independent Testing Matters** (Mar 2026): /blog/why-independent-testing-matters.html
+  When the same company tests and remediates, conflict of interest leads to exaggerated findings. Explains why testing-only companies deliver more trustworthy results.
+
+- **Indoor Air Quality: How It Affects Health and Productivity** (Mar 2026): /blog/indoor-air-quality-health-and-productivity.html
+  Americans spend 90% of their time indoors where pollutant levels can be 2–5x higher (EPA). Covers health effects, workplace productivity impact, and testing.
+
+- **Lead Paint Testing: What Every Homeowner Should Know** (Feb 2026): /blog/lead-paint-testing-what-homeowners-should-know.html
+  The only reliable way to detect lead paint. Covers XRF testing, paint chip lab analysis, dust wipe testing, regulations, and costs.
+
+- **Understanding Radon: The Silent Health Risk** (Feb 2026): /blog/understanding-radon-silent-health-risk.html
+  Radon is a radioactive gas and the #2 cause of lung cancer in the U.S. Covers how it enters homes, EPA action levels, and testing methods.
+
+- **What Is Asbestos? Risks, Types, and Why Testing Matters** (Jan 2026): /blog/what-is-asbestos-why-test-before-renovating.html
+  Asbestos is a group of mineral fibers used in construction before the 1980s. Covers where it hides, health risks, and NESHAP/OSHA requirements.
+
+- **Signs You May Need Mold Testing** (Jan 2026): /blog/signs-you-may-need-mold-testing.html
+  Warning signs include musty odors, visible discoloration, recurring allergies, water damage history, and high humidity.
+
+- **Do I Need Radon Testing Before Buying a Home?** (Dec 2025): /blog/do-i-need-radon-testing-before-buying-a-home.html
+  The EPA recommends radon testing for all homes below the third floor. Covers testing during real estate transactions, action levels, and negotiation.
+
+- **VOC Testing: What Are Volatile Organic Compounds?** (Nov 2025): /blog/voc-testing-volatile-organic-compounds.html
+  VOCs are chemicals from paints, cleaning products, and building materials. Indoor levels can be 2–5x higher than outdoors (EPA).
+
+- **Home Inspection Checklist: Mold, Asbestos, Lead, and Radon** (Nov 2025): /blog/home-inspection-checklist-mold-asbestos-lead-radon.html
+  A 5-step checklist for inspecting homes for the four most common air quality hazards before buying or renovating.
+
+- **Radon Levels in NC, SC, and GA** (Oct 2025): /blog/radon-levels-in-north-carolina-south-carolina-georgia.html
+  Radon risk varies across NC, SC, and GA by EPA zone. Covers high-risk counties, health risks (21,000 lung cancer deaths/year), and testing.
+
+- **What Humidity Level Causes Mold?** (Sep 2025): /blog/what-humidity-level-causes-mold.html
+  Indoor humidity above 60% creates ideal conditions for mold growth. The EPA recommends 30–50%. Covers measuring humidity, prevention, and when to test.
+
+- **Lead Paint Dangers in Pre-1978 Homes** (Sep 2025): /blog/lead-paint-dangers-in-pre-1978-homes.html
+  87% of pre-1978 homes contain lead paint. Covers health risks (especially for children), where lead hides, testing methods, and federal disclosure requirements.
+
+- **Do I Need Asbestos Testing Before Renovation?** (Aug 2025): /blog/do-i-need-asbestos-testing-before-renovation.html
+  Asbestos testing is legally required before renovation in many states. Covers NESHAP rules, health risks, the testing process, and what happens if asbestos is found.
+
+- **How Long Does Mold Take to Grow After Water Damage?** (Jul 2025): /blog/how-long-does-mold-take-to-grow-after-water-damage.html
+  Mold can begin growing within 24 to 48 hours after water damage. Covers the growth timeline, conditions that accelerate it, and when to test.
+
+- **What Is Indoor Air Quality Testing? A Complete Guide** (Jul 2025): /blog/what-is-indoor-air-quality-testing.html
+  IAQ testing measures pollutants like VOCs, mold spores, allergens, CO2, and particulates in homes and buildings.

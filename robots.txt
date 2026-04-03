@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow:
+
+Sitemap: https://a1airqualityconsultants.com/sitemap.xml
+
+# LLM-friendly site summary
+# llms.txt: https://a1airqualityconsultants.com/llms.txt

@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: JohnnyB90/a1-air-quality-site
   branch: main
 
 media_folder: "images/blog"

@@ -4,3 +4,49 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+# Redirects from old Wix site URLs to new pages
+[[redirects]]
+  from = "/the-a1-family"
+  to = "/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact-us-1"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/residential-services"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/certifictions"
+  to = "/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/commercial-services-1"
+  to = "/services/commercial-industrial-testing.html"
+  status = 301
+
+[[redirects]]
+  from = "/our-mission"
+  to = "/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/frequently-asked-question"
+  to = "/resources.html"
+  status = 301
+
+[[redirects]]
+  from = "/spartanburg/upstate"
+  to = "/locations/spartanburg-sc.html"
+  status = 301
+
+[[redirects]]
+  from = "/anderson/greenville"
+  to = "/locations/greenville-sc.html"
+  status = 301

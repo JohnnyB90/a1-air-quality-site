@@ -82,38 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  /* --- Form handler helper (mailto fallback) --- */
-  function handleFormSubmit(form) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const data = new FormData(form);
-      const name = data.get('name') || '';
-      const email = data.get('email') || '';
-      const phone = data.get('phone') || '';
-      const service = data.get('service') || '';
-      const message = data.get('message') || '';
-      const subject = encodeURIComponent('New Inquiry from ' + name);
-      const body = encodeURIComponent(
-        'Name: ' + name + '\n' +
-        'Email: ' + email + '\n' +
-        'Phone: ' + phone + '\n' +
-        (service ? 'Service: ' + service + '\n\n' : '\n') +
-        (message ? 'Message:\n' + message : '')
-      );
-      window.location.href = 'mailto:inbox@a1airqualityconsultants.com?subject=' + subject + '&body=' + body;
-      form.innerHTML = '<div style="text-align:center;padding:2rem;"><h3 style="color:#9BCB3B;">Thank You!</h3><p>Your email client should open momentarily. If not, please call us at <a href="tel:+18646192092">(864) 619-2092</a>.</p></div>';
-    });
-  }
-
-  /* --- Contact page form --- */
-  const inquiryForm = document.querySelector('#inquiry-form');
-  if (inquiryForm) handleFormSubmit(inquiryForm);
-
-  /* --- Homepage CTA form --- */
-  const homepageForm = document.querySelector('#homepage-form');
-  if (homepageForm) handleFormSubmit(homepageForm);
-
-  /* --- Sidebar quick-quote forms --- */
-  document.querySelectorAll('.sidebar-form form').forEach(form => handleFormSubmit(form));
+  /* --- Forms are handled by Netlify Forms --- */
 
 });

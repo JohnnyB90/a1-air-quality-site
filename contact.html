@@ -65,11 +65,12 @@
 <div class="content-main">
 <h2>Send Us a Message</h2>
 <p>Fill out the form below and we will get back to you as soon as possible. For faster response, call us directly at <a href="tel:+18646192092">(864) 619-2092</a>.</p>
-<form id="inquiry-form" class="form-grid" action="mailto:inbox@a1airqualityconsultants.com" method="post" enctype="text/plain">
+<form id="inquiry-form" class="form-grid" name="contact" method="POST" data-netlify="true" action="/thank-you.html">
+  <input type="hidden" name="form-name" value="contact">
   <div class="form-group"><label for="name">Full Name *</label><input type="text" id="name" name="name" required placeholder="Your full name"></div>
   <div class="form-group"><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" placeholder="(xxx) xxx-xxxx"></div>
   <div class="form-group"><label for="email">Email Address *</label><input type="email" id="email" name="email" required placeholder="you@example.com"></div>
-  <div class="form-group"><label for="service">Service Needed</label><select id="service" name="service"><option value="">Select a service...</option><option>Asbestos Testing</option><option>Commercial / Industrial Testing</option><option>Air Quality Testing</option><option>Lead Testing</option><option>Mold Testing</option><option>Radon Testing</option><option>Other / Not Sure</option></select></div>
+  <div class="form-group"><label for="service">Service Needed</label><select id="service" name="service"><option value="">Select a service...</option><option>Air Quality Testing</option><option>Asbestos Testing</option><option>Commercial / Industrial Testing</option><option>Lead Testing</option><option>Mold Testing</option><option>Radon Testing</option><option>Other / Not Sure</option></select></div>
   <div class="form-group full"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us about your situation — property type, concerns, preferred scheduling, etc."></textarea></div>
   <div class="form-group full"><button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center">Send Message</button></div>
 </form>

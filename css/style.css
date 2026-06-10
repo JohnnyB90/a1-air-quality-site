@@ -713,6 +713,9 @@ strong { font-weight: 600; }
 .footer-social a { color: var(--gray-400); transition: color .2s; display: flex; padding: 0 .5rem; }
 .footer-social a:hover { color: var(--teal-400); }
 .footer-social svg { width: 28px; height: 28px; }
+.footer-bbb { display: inline-block; margin-top: 1.25rem; line-height: 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.18); transition: opacity .2s ease, transform .2s ease; }
+.footer-bbb:hover { opacity: .9; transform: translateY(-1px); }
+.footer-bbb img { width: 200px; height: auto; display: block; border-radius: 8px; }
 .footer-col h4 {
   color: var(--white);
   font-family: var(--font-body);

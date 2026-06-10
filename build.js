@@ -277,7 +277,7 @@ function updateResources(posts) {
 }
 
 // ---------------------------------------------------------------------------
-// Update sitemap.xml — append new blog post URLs
+// Update sitemap.xml — sync blog post URLs (idempotent; no duplicates on rebuild)
 // ---------------------------------------------------------------------------
 
 function updateSitemap(posts) {
@@ -285,11 +285,14 @@ function updateSitemap(posts) {
 
   let xml = fs.readFileSync(SITEMAP_XML, 'utf8');
   const closingTag = '</urlset>';
-  const idx = xml.lastIndexOf(closingTag);
-  if (idx === -1) {
+  if (xml.indexOf(closingTag) === -1) {
     console.log('Warning: </urlset> not found in sitemap.xml. Skipping sitemap update.');
     return;
   }
+
+  // Remove any previously-generated blog <url> entries first, so repeated builds
+  // stay idempotent (no duplicate blog URLs) and any existing duplicates are cleaned up.
+  xml = xml.replace(/[ \t]*<url>(?:(?!<\/url>)[\s\S])*?\/blog\/(?:(?!<\/url>)[\s\S])*?<\/url>[ \t]*\r?\n?/g, '');
 
   const newEntries = posts.map(p => `  <url>
     <loc>${SITE_URL}/blog/${p.slug}.html</loc>
@@ -298,7 +301,10 @@ function updateSitemap(posts) {
     <priority>0.7</priority>
   </url>`).join('\n');
 
-  xml = xml.substring(0, idx) + newEntries + '\n' + closingTag;
+  // Re-find the closing tag (its index shifts after the removal above) and insert
+  // the current blog entries just before it.
+  const idx = xml.lastIndexOf(closingTag);
+  xml = xml.substring(0, idx) + newEntries + '\n' + xml.substring(idx);
   fs.writeFileSync(SITEMAP_XML, xml);
-  console.log(`Updated sitemap.xml with ${posts.length} new URL(s).`);
+  console.log(`Updated sitemap.xml with ${posts.length} blog URL(s).`);
 }

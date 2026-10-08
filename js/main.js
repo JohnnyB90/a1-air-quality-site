@@ -74,6 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
   /* --- Smooth scroll for anchor links --- */
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
+      // Preserve native fragment navigation so the skip link also moves keyboard focus.
+      if (this.classList.contains('skip-link')) return;
       const target = document.querySelector(this.getAttribute('href'));
       if (target) {
         e.preventDefault();

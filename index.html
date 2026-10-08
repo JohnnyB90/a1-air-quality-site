@@ -20,9 +20,8 @@
   <meta name="robots" content="index, follow">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="/fonts/dm-serif-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/source-sans-3-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
 
   <!-- LocalBusiness Schema -->
@@ -163,10 +162,11 @@
 <!-- ============================================================
      HEADER
      ============================================================ -->
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="site-header" role="banner">
   <div class="container header-inner">
-    <a href="/" class="logo" aria-label="A1 Air Quality Consultants — Home">
-      <img src="/images/logo/logo.png" alt="A1 Air Quality Consultants" width="44" height="44">
+    <a href="/" class="logo">
+      <img src="/images/logo/logo-44.webp" srcset="/images/logo/logo-88.webp 2x, /images/logo/logo-132.webp 3x" alt="" width="44" height="44">
       <div class="logo-text">
         A1 Air Quality<br>Consultants
         <span>Setting the Standard</span>
@@ -192,7 +192,7 @@
     </nav>
 
     <div class="header-cta">
-      <a href="tel:+18646192092" class="header-phone" aria-label="Call us at 864-619-2092">
+      <a href="tel:+18646192092" class="header-phone" aria-label="Call (864) 619-2092">
         <svg style="display:inline;vertical-align:middle;margin-right:4px" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         (864) 619-2092
       </a>
@@ -202,6 +202,7 @@
     <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
   </div>
 </header>
+<main id="main-content" tabindex="-1">
 
 <!-- ============================================================
      HERO
@@ -338,7 +339,7 @@
         </div>
         <h3><a href="/services/indoor-air-quality-testing.html">Air Quality Testing</a></h3>
         <p>Headaches, sneezing, or coughing indoors? We test for VOCs and other airborne contaminants to identify the cause and help you breathe easier.</p>
-        <a href="/services/indoor-air-quality-testing.html" class="card-link">Learn More</a>
+        <a href="/services/indoor-air-quality-testing.html" class="card-link">About Air Quality Testing</a>
       </div>
 
       <!-- Asbestos Testing -->
@@ -348,7 +349,7 @@
         </div>
         <h3><a href="/services/asbestos-testing.html">Asbestos Testing &amp; Inspection</a></h3>
         <p>Before you remodel or demolish, test for asbestos. We collect and analyze suspect building materials using PCM and TEM methods for accurate, NAVLAB-verified results.</p>
-        <a href="/services/asbestos-testing.html" class="card-link">Learn More</a>
+        <a href="/services/asbestos-testing.html" class="card-link">About Asbestos Testing</a>
       </div>
 
       <!-- Commercial -->
@@ -358,7 +359,7 @@
         </div>
         <h3><a href="/services/commercial-industrial-testing.html">Commercial &amp; Industrial Testing</a></h3>
         <p>Comprehensive air quality testing for offices, schools, manufacturing facilities, and commercial properties. AHERA project designs, air monitoring, and clearance testing available.</p>
-        <a href="/services/commercial-industrial-testing.html" class="card-link">Learn More</a>
+        <a href="/services/commercial-industrial-testing.html" class="card-link">About Commercial Testing</a>
       </div>
 
       <!-- Lead Testing -->
@@ -368,7 +369,7 @@
         </div>
         <h3><a href="/services/lead-testing.html">Lead Testing &amp; Inspection</a></h3>
         <p>Protect your family from lead exposure. We test surfaces, dust, paint chips, and water in older homes and buildings to identify lead hazards before they become health risks.</p>
-        <a href="/services/lead-testing.html" class="card-link">Learn More</a>
+        <a href="/services/lead-testing.html" class="card-link">About Lead Testing</a>
       </div>
 
       <!-- Mold Testing -->
@@ -378,7 +379,7 @@
         </div>
         <h3><a href="/services/mold-testing.html">Mold Testing &amp; Inspection</a></h3>
         <p>Identify suspect mold with professional air sampling, surface testing, psychrometric readings, and moisture content readings. Know exactly what is in your air and what to do next.</p>
-        <a href="/services/mold-testing.html" class="card-link">Learn More</a>
+        <a href="/services/mold-testing.html" class="card-link">About Mold Testing</a>
       </div>
 
       <!-- Radon Testing -->
@@ -388,7 +389,7 @@
         </div>
         <h3><a href="/services/radon-testing.html">Radon Testing &amp; Inspection</a></h3>
         <p>Radon is the second leading cause of lung cancer. We measure radon levels in your home or business so you can take action to protect everyone inside.</p>
-        <a href="/services/radon-testing.html" class="card-link">Learn More</a>
+        <a href="/services/radon-testing.html" class="card-link">About Radon Testing</a>
       </div>
 
     </div>
@@ -652,13 +653,14 @@
     <div class="cta-form-wrap">
       <form id="homepage-form" class="cta-inline-form">
         <h3>Request a Free Consultation</h3>
-        <div class="form-group"><input type="text" name="name" required placeholder="Full Name *"></div>
-        <div class="form-group"><input type="tel" name="phone" placeholder="Phone Number"></div>
-        <div class="form-group"><input type="email" name="email" required placeholder="Email Address *"></div>
+        <div class="form-group"><label class="sr-only" for="homepage-name">Full Name *</label><input id="homepage-name" type="text" name="name" autocomplete="name" required placeholder="Full Name *"></div>
+        <div class="form-group"><label class="sr-only" for="homepage-phone">Phone Number</label><input id="homepage-phone" type="tel" name="phone" autocomplete="tel" placeholder="Phone Number"></div>
+        <div class="form-group"><label class="sr-only" for="homepage-email">Email Address *</label><input id="homepage-email" type="email" name="email" autocomplete="email" required placeholder="Email Address *"></div>
         <div class="form-group">
-          <select name="service"><option value="">Select a service...</option><option>Air Quality Testing</option><option>Asbestos Testing</option><option>Commercial / Industrial Testing</option><option>Lead Testing</option><option>Mold Testing</option><option>Radon Testing</option><option>Other / Not Sure</option></select>
+          <label class="sr-only" for="homepage-service">Select a service</label>
+          <select id="homepage-service" name="service"><option value="">Select a service...</option><option>Air Quality Testing</option><option>Asbestos Testing</option><option>Commercial / Industrial Testing</option><option>Lead Testing</option><option>Mold Testing</option><option>Radon Testing</option><option>Other / Not Sure</option></select>
         </div>
-        <div class="form-group"><textarea name="message" rows="3" placeholder="Tell us about your situation..."></textarea></div>
+        <div class="form-group"><label class="sr-only" for="homepage-message">Tell us about your situation</label><textarea id="homepage-message" name="message" rows="3" placeholder="Tell us about your situation..."></textarea></div>
         <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center">Send Message</button>
       </form>
     </div>
@@ -668,19 +670,20 @@
 <!-- ============================================================
      FOOTER
      ============================================================ -->
+</main>
 <footer class="site-footer" role="contentinfo">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/" class="logo">
-          <img src="/images/logo/logo.png" alt="A1 Air Quality Consultants" width="36" height="36">
+          <img src="/images/logo/logo-44.webp" srcset="/images/logo/logo-88.webp 2x, /images/logo/logo-132.webp 3x" alt="" width="36" height="36">
           <div class="logo-text">A1 Air Quality<br>Consultants<span>Setting the Standard</span></div>
         </a>
         <p>Leading independent air quality testing and consultation for homes and businesses across North Carolina, South Carolina, and Georgia. SCDES &amp; NCDHHS licensed. Results you can trust.</p>
         <a class="footer-bbb" href="https://www.bbb.org/us/sc/spartanburg/profile/air-quality-services/a1-air-quality-consultants-0673-90049209" target="_blank" rel="noopener" aria-label="A1 Air Quality Consultants — BBB Accredited Business with an A+ rating (opens in a new tab)"><img src="/images/badges/bbb-accredited-business.svg" alt="BBB Accredited Business — A+ Rating" width="200" height="52" loading="lazy"></a>
       </div>
       <div class="footer-col">
-        <h4>Services</h4>
+        <h2>Services</h2>
         <ul>
           <li><a href="/services/indoor-air-quality-testing.html">Air Quality Testing</a></li>
           <li><a href="/services/asbestos-testing.html">Asbestos Testing</a></li>
@@ -691,7 +694,7 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h2>Contact</h2>
         <div class="footer-contact-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           <a href="tel:+18646192092">(864) 619-2092</a>
@@ -723,7 +726,7 @@
 
 <!-- Mobile Sticky Footer CTA -->
 <div class="mobile-sticky-footer" role="complementary" aria-label="Quick contact">
-  <a href="tel:+18646192092" class="sticky-btn sticky-btn-call" aria-label="Call (864) 619-2092">
+  <a href="tel:+18646192092" class="sticky-btn sticky-btn-call" aria-label="Call Now: (864) 619-2092">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     Call Now
   </a>

@@ -24,25 +24,27 @@ A1 Air Quality Consultants is a testing-only company. We never sell remediation,
 - Email: inbox@a1airqualityconsultants.com
 - Address: 206 Aspenwood Dr, Spartanburg, SC 29307
 - Hours: Mon–Fri, 8 AM – 5 PM
-- Most results delivered within 48-72 hours
+- Ask about sample-specific inspection and laboratory turnaround when requesting a quote.
+
+Service-area listings describe places the team travels to, not separate offices. Confirm current availability and the scope before booking.
 
 ## Main Pages
 - [Homepage](https://a1airqualityconsultants.com/)
 - [About](https://a1airqualityconsultants.com/about.html) — Company background, team credentials, 25+ years of experience, SCDES/NCDHHS and AHERA certifications, and service area details.
 - [Services](https://a1airqualityconsultants.com/#services): See the service list below.
 - [Resources & Blog](https://a1airqualityconsultants.com/resources.html) — Blog index page with summaries of all educational articles on mold, asbestos, lead, radon, and indoor air quality.
+- [Service Areas](https://a1airqualityconsultants.com/service-areas.html) — All 76 city pages grouped by state.
+- [Understanding Your Testing Report](https://a1airqualityconsultants.com/understanding-your-testing-report.html) — Scope, methods, interpretation, and limitations.
 - [Contact](https://a1airqualityconsultants.com/contact.html)
 - [Privacy Policy](https://a1airqualityconsultants.com/privacy-policy.html)
 - [Terms of Service](https://a1airqualityconsultants.com/terms-of-service.html)
 
 ## Services (Alphabetical)
-- [AHERA Project Designs](https://a1airqualityconsultants.com/services/asbestos-testing.html)
 - [Air Monitoring for Abatement Projects](https://a1airqualityconsultants.com/services/asbestos-testing.html)
 - [Air Quality Testing](https://a1airqualityconsultants.com/services/indoor-air-quality-testing.html)
-- [Asbestos Testing & Inspection (PCM & TEM)](https://a1airqualityconsultants.com/services/asbestos-testing.html)
+- [Asbestos Testing & Inspection](https://a1airqualityconsultants.com/services/asbestos-testing.html)
 - [Commercial & Industrial Air Quality Testing](https://a1airqualityconsultants.com/services/commercial-industrial-testing.html)
 - [Lead Testing (surface, dust, paint chip, water)](https://a1airqualityconsultants.com/services/lead-testing.html)
-- [Mold Project Protocols](https://a1airqualityconsultants.com/services/mold-testing.html)
 - [Mold Testing & Inspection](https://a1airqualityconsultants.com/services/mold-testing.html)
 - [Radon Testing](https://a1airqualityconsultants.com/services/radon-testing.html)
 
@@ -136,7 +138,7 @@ All of South Carolina, all of North Carolina, and parts of Georgia including: Ai
   Home air quality test kits are affordable but limited. Covers accuracy differences, cost comparison, when to choose professional testing, and real estate implications.
 
 - [**How Much Does Air Quality Testing Cost?** (Mar 2026)](https://a1airqualityconsultants.com/blog/how-much-does-air-quality-testing-cost.html)
-  Typical price ranges: mold ($250-$600), radon ($150-$300), asbestos ($250-$800), lead ($200-$500), comprehensive IAQ ($300-$600). Factors affecting cost.
+  How inspection scope, sample count, laboratory methods, property location, and reporting affect a quote. Contact A1 for current pricing.
 
 - [**Why Independent Testing Matters** (Mar 2026)](https://a1airqualityconsultants.com/blog/why-independent-testing-matters.html)
   When the same company tests and remediates, conflict of interest leads to exaggerated findings. Explains why testing-only companies deliver more trustworthy results.
@@ -172,10 +174,10 @@ All of South Carolina, all of North Carolina, and parts of Georgia including: Ai
   Indoor humidity above 60% creates ideal conditions for mold growth. The EPA recommends 30–50%. Covers measuring humidity, prevention, and when to test.
 
 - [**Lead Paint Dangers in Pre-1978 Homes** (Sep 2025)](https://a1airqualityconsultants.com/blog/lead-paint-dangers-in-pre-1978-homes.html)
-  87% of pre-1978 homes contain lead paint. Covers health risks (especially for children), where lead hides, testing methods, and federal disclosure requirements.
+  EPA estimates that 87% of homes built before 1940 have some lead-based paint; this is not the percentage for all pre-1978 homes. Covers health risks (especially for children), where lead hides, testing methods, and federal disclosure requirements.
 
 - [**Do I Need Asbestos Testing Before Renovation?** (Aug 2025)](https://a1airqualityconsultants.com/blog/do-i-need-asbestos-testing-before-renovation.html)
-  Asbestos testing is legally required before renovation in many states. Covers NESHAP rules, health risks, the testing process, and what happens if asbestos is found.
+  Inspection requirements depend on building type, project scope, and jurisdiction. Links to EPA and state programs, with guidance on planning an inspection before disturbing suspect materials.
 
 - [**How Long Does Mold Take to Grow After Water Damage?** (Jul 2025)](https://a1airqualityconsultants.com/blog/how-long-does-mold-take-to-grow-after-water-damage.html)
   Mold can begin growing within 24 to 48 hours after water damage. Covers the growth timeline, conditions that accelerate it, and when to test.

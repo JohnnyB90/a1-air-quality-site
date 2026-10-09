@@ -5,6 +5,10 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Keep the established .html canonicals; _redirects consolidates their aliases.
+[build.processing.html]
+  pretty_urls = false
+
 # Redirects from old Wix site URLs to new pages
 [[redirects]]
   from = "/the-a1-family"

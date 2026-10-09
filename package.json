@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node build.js && node scripts/build-site.js"
+    "build": "node build.js && node scripts/build-site.js && node scripts/optimize-assets.js"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
     "marked": "^15.0.0"
+  },
+  "devDependencies": {
+    "beasties": "0.5.4",
+    "postcss": "8.5.29"
   }
 }

@@ -1315,7 +1315,7 @@ strong { font-weight: 600; }
 /* Service-area directory, report guide, and inquiry feedback. */
 .reading-width { max-width: 850px; }
 .reading-width p a:not(.btn), .reading-width li a:not(.btn),
-.service-callout p a:not(.btn), .form-privacy a, .analytics-choice a {
+.service-callout p a:not(.btn), .sidebar-card p a:not(.btn), .form-privacy a, .analytics-choice a {
   text-decoration: underline;
   text-underline-offset: .15em;
 }
@@ -1328,6 +1328,11 @@ strong { font-weight: 600; }
 .city-directory a:hover, .city-directory a:focus-visible { border-color: var(--green-600); background: #eef5df; }
 .service-callout { margin: 2rem 0; padding: 1.5rem 2rem; border-left: 4px solid var(--green-600); border-radius: 8px; background: var(--gray-100); }
 .service-callout .btn { margin: .5rem 1rem .5rem 0; }
+.service-callout li a:not(.btn) { text-decoration: underline; text-underline-offset: .15em; }
+.area-service-group { margin: 1rem 0; border-top: 1px solid var(--gray-200); padding-top: .75rem; }
+.area-service-group summary { cursor: pointer; font-weight: 700; padding: .5rem 0; }
+.area-service-group .city-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: .75rem; }
+#request-testing { scroll-margin-top: 110px; }
 .report-checklist { padding-left: 1.5rem; }
 .report-checklist li { margin: 1rem 0; }
 .report-checklist strong { display: block; }

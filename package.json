@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node build.js && node scripts/build-site.js && node scripts/optimize-assets.js"
+    "build": "node build.js && node scripts/build-location-pages.js && node scripts/build-site.js && node scripts/optimize-assets.js"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

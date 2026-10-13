@@ -5,7 +5,6 @@ const BeastiesModule = require('beasties');
 const Beasties = BeastiesModule.default || BeastiesModule;
 
 const ROOT = path.join(__dirname, '..');
-const publicFiles = require('./public-files');
 const START = '<!-- A1 critical CSS: generated from css/style.css -->';
 const END = '<!-- /A1 critical CSS -->';
 const GENERATED = /<!-- A1 critical CSS: generated from css\/style\.css -->[\s\S]*?<!-- \/A1 critical CSS -->/g;
@@ -32,7 +31,12 @@ const optimizer = new Beasties({
 });
 
 async function main() {
-  const files = publicFiles();
+  const files = [
+    ...fs.readdirSync(ROOT).filter(file => file.endsWith('.html')),
+    ...['services', 'locations', 'blog'].flatMap(dir =>
+      fs.readdirSync(path.join(ROOT, dir)).filter(file => file.endsWith('.html'))
+        .map(file => `${dir}/${file}`))
+  ];
 
   for (const file of files) {
     const filename = path.join(ROOT, file);

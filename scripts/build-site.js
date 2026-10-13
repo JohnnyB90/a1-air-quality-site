@@ -7,13 +7,12 @@ const read = file => fs.readFileSync(path.join(ROOT, file), 'utf8');
 const write = (file, text) => fs.writeFileSync(path.join(ROOT, file), text);
 const services = ['Air Quality Testing', 'Asbestos Testing', 'Mold Testing', 'Commercial / Industrial Testing', 'Lead Testing', 'Radon Testing', 'Other / Not Sure'];
 const serviceSlugs = {'indoor-air-quality-testing': services[0], 'asbestos-testing': services[1], 'mold-testing': services[2], 'commercial-industrial-testing': services[3], 'lead-testing': services[4], 'radon-testing': services[5]};
-const publicFiles = require('./public-files');
-const states = {sc: 'South Carolina', nc: 'North Carolina', ga: 'Georgia', tn: 'Tennessee'};
+const states = {sc: 'South Carolina', nc: 'North Carolina', ga: 'Georgia'};
 const locations = fs.readdirSync(path.join(ROOT, 'locations')).filter(f => f.endsWith('.html')).map(file => {
   const html = read(`locations/${file}`);
   const heading = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)[1].replace(/<[^>]*>/g, '');
-  const city = heading.replace(/^.*?Testing in /, '').replace(/, (SC|NC|GA|TN)$/, '');
-  return {file, city, state: file.match(/-(sc|nc|ga|tn)\.html$/)[1]};
+  const city = heading.replace(/^.*?Testing in /, '').replace(/, (SC|NC|GA)$/, '');
+  return {file, city, state: file.match(/-(sc|nc|ga)\.html$/)[1]};
 }).sort((a, b) => a.city.localeCompare(b.city));
 
 function contentPage(title, description, file, body, extraSchema = null) {
@@ -32,12 +31,12 @@ function contentPage(title, description, file, body, extraSchema = null) {
 }
 
 const areaBody = `<section class="content-section section-pad"><div class="container">
-<div class="reading-width"><h2>Find testing in your area</h2><p>A1 provides independent <a href="/services/asbestos-testing.html">asbestos testing</a>, <a href="/services/mold-testing.html">mold testing</a>, and <a href="/services/indoor-air-quality-testing.html">indoor air quality testing</a> for homes and businesses in the South Carolina, North Carolina, Georgia, and Tennessee communities listed below. Our team travels to the property. A city listing describes a service area, not a separate office.</p><p>Choose your city for local information, or call <a href="tel:+18646192092">(864) 619-2092</a> to confirm availability, travel arrangements, and the right testing scope for your property.</p></div>
+<div class="reading-width"><h2>Find testing in your area</h2><p>A1 provides independent <a href="/services/asbestos-testing.html">asbestos testing</a>, <a href="/services/mold-testing.html">mold testing</a>, and <a href="/services/indoor-air-quality-testing.html">indoor air quality testing</a> for homes and businesses across South Carolina, North Carolina, and the Georgia communities listed below. Our team travels to the property. A city listing describes a service area, not a separate office.</p><p>Choose your city for local information, or call <a href="tel:+18646192092">(864) 619-2092</a> to confirm availability, travel arrangements, and the right testing scope for your property.</p></div>
 <nav class="state-jump-links" aria-label="Choose a state">${Object.entries(states).map(([s, n]) => `<a class="btn btn-outline-dark" href="#${s}">${n}</a>`).join('')}</nav>
 ${Object.entries(states).map(([s, n]) => `<section class="area-state" id="${s}" aria-labelledby="${s}-heading"><h2 id="${s}-heading">${n} testing service areas</h2><ul class="city-directory">${locations.filter(l => l.state === s).map(l => `<li><a href="/locations/${l.file}">${esc(l.city)}, ${s.toUpperCase()}</a></li>`).join('')}</ul></section>`).join('\n')}
 <div class="service-callout"><h2>Tell us what you need to learn</h2><p>For a useful quote, share your city or ZIP code, property type, the issue you are investigating, and any renovation or closing deadline. Testing scope and laboratory turnaround depend on the samples and analysis needed.</p><a class="btn btn-primary" href="/contact.html">Request a testing consultation</a></div>
 </div></section>`;
-write('service-areas.html', contentPage('Asbestos, Mold & Air Quality Testing Service Areas', 'Find independent environmental testing in South Carolina, North Carolina, Georgia, and Tennessee. Choose your city and request a consultation.', 'service-areas.html', areaBody, { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'A1 testing service areas', url: config.url + '/service-areas.html', mainEntity: { '@type': 'ItemList', itemListElement: locations.map((l, i) => ({ '@type': 'ListItem', position: i + 1, name: `${l.city}, ${l.state.toUpperCase()}`, url: `${config.url}/locations/${l.file}` })) } }));
+write('service-areas.html', contentPage('Asbestos, Mold & Air Quality Testing Service Areas', 'Find independent environmental testing in South Carolina, North Carolina, and Georgia. Choose your city and request a consultation.', 'service-areas.html', areaBody, { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'A1 testing service areas', url: config.url + '/service-areas.html', mainEntity: { '@type': 'ItemList', itemListElement: locations.map((l, i) => ({ '@type': 'ListItem', position: i + 1, name: `${l.city}, ${l.state.toUpperCase()}`, url: `${config.url}/locations/${l.file}` })) } }));
 
 const reportBody = `<section class="content-section section-pad"><div class="container reading-width">
 <h2>Start with the question the inspection was designed to answer</h2><p>A testing report documents the property areas inspected, the samples collected, and the findings within the agreed scope. It is not a test for every possible contaminant or a medical diagnosis. Ask which questions the proposed inspection can answer before approving the work.</p>
@@ -60,6 +59,10 @@ function quickForm(service, source) {
 <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Request a quote</button><p class="form-status" role="status" aria-live="polite" tabindex="-1"></p><p class="form-privacy">We use these details to respond to your inquiry. <a href="/privacy-policy.html">Privacy policy</a>.</p></form>`;
 }
 
+function publicFiles() {
+  return [...fs.readdirSync(ROOT).filter(f => f.endsWith('.html')), ...['services', 'locations', 'blog'].flatMap(dir => fs.readdirSync(path.join(ROOT, dir)).filter(f => f.endsWith('.html')).map(f => `${dir}/${f}`))];
+}
+
 for (const file of publicFiles()) {
   let html = read(file);
   const source = file === 'index.html' ? '/' : '/' + file;
@@ -69,12 +72,6 @@ for (const file of publicFiles()) {
   html = html.replace(/<div class="footer-legal">/, '<div class="footer-legal">');
   if (!html.includes('data-footer-directory')) html = html.replace('<div class="footer-legal">', '<div class="footer-legal"><a data-footer-directory href="/service-areas.html">Service Areas</a><a href="/understanding-your-testing-report.html">Testing Reports</a>');
   html = html.replace(/<form(?: id="quick-quote-form"[^>]*)?>([\s\S]*?)<\/form>/g, () => quickForm(serviceSlugs[path.basename(file, '.html')] || 'Other / Not Sure', source));
-  if (/^locations\/[^/]+\/(asbestos|mold)-testing\.html$/.test(file)) {
-    const city = html.match(/<h1[^>]*>[^<]*Testing in ([^<]*)<\/h1>/)[1];
-    html = html.replace(/(<input id="quote-location"[^>]*)(>)/, `$1 value="${esc(city)}"$2`);
-  }
-  html = html.replace(/(48(?:\s+to\s+|[–-])72)\s+hours/g, '$1 business hours');
-  html = html.replace(/(<div class="footer-brand">[\s\S]*?<p>)[\s\S]*?(<\/p>)/, '$1Independent environmental testing and consultation. Service areas in SC, NC, GA, and TN. See our directory for locations and scheduling.$2');
   if (file === 'index.html' || file === 'contact.html') {
     const name = file === 'index.html' ? 'homepage-inquiry' : 'contact';
     // Keep the established Netlify form and its email/Zapier delivery. The
@@ -100,7 +97,7 @@ for (const file of publicFiles()) {
 const files = publicFiles();
 const oldSitemap = read('sitemap.xml');
 const lastmods = new Map([...oldSitemap.matchAll(/<url>\s*<loc>(.*?)<\/loc>([\s\S]*?)<\/url>/g)].map(m => [m[1], m[2].match(/<lastmod>(.*?)<\/lastmod>/)?.[1]]));
-const updated = new Set(['index.html', 'about.html', 'contact.html', 'privacy-policy.html', 'resources.html', 'service-areas.html', 'understanding-your-testing-report.html', 'services/asbestos-testing.html', 'services/mold-testing.html', 'services/indoor-air-quality-testing.html', 'blog/do-i-need-asbestos-testing-before-renovation.html', 'blog/how-much-does-air-quality-testing-cost.html', 'blog/diy-vs-professional-air-quality-testing.html', ...files.filter(file => file.startsWith('locations/'))]);
+const updated = new Set(['index.html', 'about.html', 'contact.html', 'privacy-policy.html', 'resources.html', 'service-areas.html', 'understanding-your-testing-report.html', 'services/asbestos-testing.html', 'services/mold-testing.html', 'services/indoor-air-quality-testing.html', 'blog/do-i-need-asbestos-testing-before-renovation.html', 'blog/how-much-does-air-quality-testing-cost.html', 'blog/diy-vs-professional-air-quality-testing.html', ...locations.map(l => `locations/${l.file}`)]);
 const entries = files.filter(f => !/<meta name="robots" content="[^"]*noindex/.test(read(f))).map(f => {
   const url = config.url + (f === 'index.html' ? '/' : '/' + f);
   const date = updated.has(f) ? config.contentUpdated : lastmods.get(url);

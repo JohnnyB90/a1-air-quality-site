@@ -8,14 +8,14 @@
   font-family: 'DM Serif Display';
   font-style: normal;
   font-weight: 400;
-  font-display: optional;
+  font-display: swap;
   src: url('/fonts/dm-serif-display-latin.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Source Sans 3';
   font-style: normal;
   font-weight: 200 900;
-  font-display: optional;
+  font-display: swap;
   src: url('/fonts/source-sans-3-latin.woff2') format('woff2');
 }
 
@@ -1315,7 +1315,7 @@ strong { font-weight: 600; }
 /* Service-area directory, report guide, and inquiry feedback. */
 .reading-width { max-width: 850px; }
 .reading-width p a:not(.btn), .reading-width li a:not(.btn),
-.service-callout p a:not(.btn), .sidebar-card p a:not(.btn), .form-privacy a, .analytics-choice a {
+.service-callout p a:not(.btn), .form-privacy a, .analytics-choice a {
   text-decoration: underline;
   text-underline-offset: .15em;
 }
@@ -1328,11 +1328,6 @@ strong { font-weight: 600; }
 .city-directory a:hover, .city-directory a:focus-visible { border-color: var(--green-600); background: #eef5df; }
 .service-callout { margin: 2rem 0; padding: 1.5rem 2rem; border-left: 4px solid var(--green-600); border-radius: 8px; background: var(--gray-100); }
 .service-callout .btn { margin: .5rem 1rem .5rem 0; }
-.service-callout li a:not(.btn) { text-decoration: underline; text-underline-offset: .15em; }
-.area-service-group { margin: 1rem 0; border-top: 1px solid var(--gray-200); padding-top: .75rem; }
-.area-service-group summary { cursor: pointer; font-weight: 700; padding: .5rem 0; }
-.area-service-group .city-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: .75rem; }
-#request-testing { scroll-margin-top: 110px; }
 .report-checklist { padding-left: 1.5rem; }
 .report-checklist li { margin: 1rem 0; }
 .report-checklist strong { display: block; }
@@ -1346,7 +1341,6 @@ strong { font-weight: 600; }
 .sidebar-form .form-privacy a, .cta-inline-form .form-privacy a { color: #c4e48a; text-decoration: underline; }
 button:disabled { cursor: wait; opacity: .7; }
 .footer-legal { flex-wrap: wrap; }
-.footer-legal a, .footer-legal .privacy-preferences { min-height: 44px; display: inline-flex; align-items: center; }
 .analytics-choice { position: fixed; z-index: 1000; left: 1rem; right: 1rem; bottom: 1rem; max-width: 1020px; margin: 0 auto; padding: 1.25rem 1.5rem; display: flex; align-items: center; gap: 1.5rem; background: white; color: #171717; border: 1px solid #c5c5c5; border-radius: 10px; box-shadow: 0 4px 24px #0003; }
 .analytics-choice p { margin: .3rem 0 0; font-size: .9rem; line-height: 1.45; }
 .analytics-choice a { color: #254a00; text-decoration: underline; }

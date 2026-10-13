@@ -15,8 +15,8 @@
   try { const ref = new URL(document.referrer); cleanReferrer = ref.origin + ref.pathname; } catch (_) {}
   const serviceForPage = () => {
     const p = location.pathname;
-    if (/\/(?:services|locations\/[^/]+)\/asbestos-testing(?:\.html)?\/?$/.test(p)) return 'asbestos';
-    if (/\/(?:services|locations\/[^/]+)\/mold-testing(?:\.html)?\/?$/.test(p)) return 'mold';
+    if (p.includes('/services/asbestos-testing')) return 'asbestos';
+    if (p.includes('/services/mold-testing')) return 'mold';
     if (p.includes('/services/indoor-air-quality-testing')) return 'air_quality';
     return 'unspecified';
   };

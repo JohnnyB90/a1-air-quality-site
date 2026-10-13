@@ -8,14 +8,14 @@
   font-family: 'DM Serif Display';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
+  font-display: optional;
   src: url('/fonts/dm-serif-display-latin.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Source Sans 3';
   font-style: normal;
   font-weight: 200 900;
-  font-display: swap;
+  font-display: optional;
   src: url('/fonts/source-sans-3-latin.woff2') format('woff2');
 }
 
@@ -1346,6 +1346,7 @@ strong { font-weight: 600; }
 .sidebar-form .form-privacy a, .cta-inline-form .form-privacy a { color: #c4e48a; text-decoration: underline; }
 button:disabled { cursor: wait; opacity: .7; }
 .footer-legal { flex-wrap: wrap; }
+.footer-legal a, .footer-legal .privacy-preferences { min-height: 44px; display: inline-flex; align-items: center; }
 .analytics-choice { position: fixed; z-index: 1000; left: 1rem; right: 1rem; bottom: 1rem; max-width: 1020px; margin: 0 auto; padding: 1.25rem 1.5rem; display: flex; align-items: center; gap: 1.5rem; background: white; color: #171717; border: 1px solid #c5c5c5; border-radius: 10px; box-shadow: 0 4px 24px #0003; }
 .analytics-choice p { margin: .3rem 0 0; font-size: .9rem; line-height: 1.45; }
 .analytics-choice a { color: #254a00; text-decoration: underline; }

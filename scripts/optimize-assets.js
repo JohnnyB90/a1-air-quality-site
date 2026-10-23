@@ -5,6 +5,8 @@ const BeastiesModule = require('beasties');
 const Beasties = BeastiesModule.default || BeastiesModule;
 
 const ROOT = path.join(__dirname, '..');
+const publicFiles = require('./public-files');
+const imageVariants = require('../data/blog-image-variants.json');
 const START = '<!-- A1 critical CSS: generated from css/style.css -->';
 const END = '<!-- /A1 critical CSS -->';
 const GENERATED = /<!-- A1 critical CSS: generated from css\/style\.css -->[\s\S]*?<!-- \/A1 critical CSS -->/g;
@@ -31,18 +33,21 @@ const optimizer = new Beasties({
 });
 
 async function main() {
-  const files = [
-    ...fs.readdirSync(ROOT).filter(file => file.endsWith('.html')),
-    ...['services', 'locations', 'blog'].flatMap(dir =>
-      fs.readdirSync(path.join(ROOT, dir)).filter(file => file.endsWith('.html'))
-        .map(file => `${dir}/${file}`))
-  ];
+  const files = publicFiles();
 
   for (const file of files) {
     const filename = path.join(ROOT, file);
     // Regenerate from the source stylesheet, including when a generated page
     // has been copied from another page by build-site.js. This is idempotent.
     let html = fs.readFileSync(filename, 'utf8').replace(GENERATED, stylesheetLink);
+    html = html.replace(/<img\b[^>]*>/g, tag => {
+      const source = tag.match(/\bsrc="([^"]+)"/)?.[1];
+      const record = imageVariants[source] || Object.values(imageVariants).find(entry => entry.variants.some(v => v.src === source));
+      if (!record) return tag;
+      const largest = record.variants.at(-1);
+      return tag.replace(/\s(?:src|srcset|sizes|width|height|decoding)="[^"]*"/g, '')
+        .replace(/>$/, ` src="${largest.src}" srcset="${record.variants.map(v => `${v.src} ${v.width}w`).join(', ')}" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="${largest.width}" height="${largest.height}" decoding="async">`);
+    });
     if ((html.match(STYLESHEET) || []).length !== 1 || (html.match(MAIN_SCRIPT) || []).length !== 1) {
       throw new Error(`Expected one shared stylesheet and main script in ${file}`);
     }

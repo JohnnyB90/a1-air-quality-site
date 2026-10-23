@@ -1,0 +1,166 @@
+// Focused revisions of supporting articles. These explain project decisions
+// without asserting unverified equipment, credentials, prices, or guarantees.
+module.exports = {
+  'home-inspection-checklist-mold-asbestos-lead-radon': {
+    service: 'mold',
+    updated: '2026-10-15',
+    description: 'Plan environmental testing before a purchase, renovation, or property visit. Download a printable checklist for asbestos, mold, lead, radon, and air-quality questions.',
+    answer: 'Start with the decision you need to make, the areas involved, and your deadline. Then agree which environmental tests can answer that question. Use the free two-page checklist below to gather property details, previous reports, access arrangements, and questions for your testing provider.',
+    download: {
+      href: '/downloads/a1-property-testing-checklist.pdf',
+      label: 'Download checklist (PDF, 2 pages)',
+      description: 'Print it for a home purchase, renovation, rental, or commercial property discussion. No signup is required. The checklist includes all six A1 service categories and space for your project notes.'
+    },
+    cta: {
+      description: 'Tell A1 where the property is, what concerns you, and when you need the findings. We will discuss the testing scope, availability, and quote.',
+      href: '/contact.html',
+      label: 'Discuss your property'
+    },
+    sections: [
+      ['Start with the property and the decision date', '<p>Record the address, property type, approximate construction year if known, and the rooms or materials involved. For a purchase, provide the inspection or due-diligence deadline. For renovation, describe the work planned and when it will begin. For a business, identify occupied areas and any restrictions on access. Share written requirements from a lender, owner, contractor, or other recipient before booking.</p>'],
+      ['Asbestos: identify the materials that may be disturbed', '<p>Tell the provider about planned flooring, ceiling, wall, insulation, or other material work. Share earlier surveys if available, including their sampled locations and limitations. Leave suspect materials undisturbed while professional evaluation is arranged; do not collect samples yourself for this checklist. EPA explains why trained professionals should assess and sample suspected asbestos.</p><p>Read about <a href="/services/asbestos-testing.html">asbestos testing</a> and <a href="/blog/do-i-need-asbestos-testing-before-renovation.html">testing before renovation</a>.</p>'],
+      ['Mold: describe the moisture history first', '<p>Note leaks, flooding, staining, odors, affected rooms, and previous repairs. A photograph taken from a safe, accessible position can help explain the concern. Ask what a proposed sample would establish. EPA says sampling is usually unnecessary when visible mold growth is already present; there are no federal limits for airborne mold that a sample can certify compliance with.</p><p>A <a href="/services/mold-testing.html">mold and moisture consultation</a> can help determine whether sampling answers a useful question for the property.</p>'],
+      ['Lead: be specific about the surface or sample', '<p>Identify older painted components and planned disturbance. Explain whether the question concerns paint, dust, or water. EPA distinguishes a lead-based paint inspection from a lead-hazard risk assessment; a targeted sample is narrower than either. Confirm the assignment and required qualifications before scheduling. A1’s <a href="/services/lead-testing.html">lead-testing service</a> is not offered for HUD or federal grant projects.</p>'],
+      ['Radon: leave time for the measurement', '<p>Obtain any previous report, including dates, locations, and test conditions. Tell the provider how lower-level rooms will be used, whether a radon system is present, and who can provide access. Ask about the monitoring period, building instructions, and reporting date before relying on the result for a transaction deadline.</p><p>See <a href="/services/radon-testing.html">radon testing</a> and our <a href="/blog/do-i-need-radon-testing-before-buying-a-home.html">home-purchase planning guide</a>.</p>'],
+      ['Air quality and commercial properties: describe when the issue occurs', '<p>For an intermittent odor or indoor-air concern, record the affected rooms, time of day, occupancy, recent products or building work, and ventilation conditions. These details help the provider choose useful observations and measurements. For commercial work, add tenant access, operating hours, relevant processes, and the intended report recipient. A general air-quality test does not automatically answer every workplace or regulatory question.</p><p>Explore <a href="/services/indoor-air-quality-testing.html">indoor-air-quality testing</a> or <a href="/services/commercial-industrial-testing.html">commercial and industrial testing</a> for your project.</p>'],
+      ['Agree the quote, access, and deliverable', '<p>Before booking, confirm the areas included, sample types and number, laboratory analysis where applicable, travel, reporting, and any follow-up consultation. Ask which qualifications are required for the assignment and which work is outside the scope. Laboratory results are typically available within 48–72 business hours; confirm the complete schedule for your selected work, including any monitoring period.</p><p>Bring previous reports and arrange access with the owner or property manager. Follow the provider’s instructions; do not disturb suspected materials to prepare for the visit. Afterward, review findings alongside the locations assessed and any limitations. Our <a href="/understanding-your-testing-report.html">testing-report guide</a> explains what to look for.</p>'],
+      ['Use the checklist with your property team', '<p>Homebuyers, owners, real estate agents, contractors, and property managers can use the same worksheet to organize a conversation. Completing it does not establish the condition of a property or replace an inspection. A1 provides independent testing and consultation and does not perform remediation or abatement. <a href="/contact.html">Contact A1</a> with your property location and decision deadline, or check the <a href="/service-areas.html">service-area directory</a>.</p>']
+    ],
+    faqs: [
+      ['Do I need every test on this checklist?', 'No. Choose the scope around the property, planned work, previous findings, and the question you need answered. The checklist helps you discuss options; it is not a mandatory testing package.'],
+      ['Does a general home inspection include these tests?', 'Check the inspector’s written scope. Do not assume that a general inspection includes asbestos sampling, a lead assessment, mold sampling, or a radon measurement.'],
+      ['Should I collect samples before the appointment?', 'Do not disturb suspected asbestos or lead-containing materials for this checklist. Share existing reports and photographs from safe, accessible positions, then follow the testing provider’s instructions.'],
+      ['Can I use the checklist for a business or rental property?', 'Yes. Add the occupied areas, tenant or manager contact, access restrictions, operating hours, and any written reporting requirements. Confirm a scope appropriate to the property.'],
+      ['Is the printable checklist free?', 'Yes. Download and print the two-page PDF without a signup. It is a planning worksheet, not an inspection report or a property clearance certificate.']
+    ],
+    sources: [
+      ['EPA: asbestos in the home and professional assessment', 'https://www.epa.gov/asbestos/protect-your-family-exposures-asbestos'],
+      ['EPA: when mold sampling is useful', 'https://www.epa.gov/mold/mold-testing-or-sampling'],
+      ['EPA: lead inspections and risk assessments', 'https://www.epa.gov/lead/lead-abatement-inspection-and-risk-assessment'],
+      ['EPA: radon resources for buyers and sellers', 'https://www.epa.gov/radon/radon-resources-real-estate-community']
+    ]
+  },
+  'lead-paint-testing-what-homeowners-should-know': {
+    service: 'lead',
+    description: 'Understand the difference between a lead paint inspection, risk assessment, and targeted sample, and what to confirm before booking testing.',
+    answer: 'The useful lead-testing request starts with the question you need answered. Identifying lead in a painted component, assessing lead hazards, and checking a water outlet are different assignments. Agree the scope and required qualifications before treating one result as an answer for the whole property.',
+    sections: [
+      ['A paint inspection and a risk assessment answer different questions', '<p>EPA distinguishes an inspection that identifies lead-based paint and its locations from a risk assessment that evaluates lead hazards and possible responses. A targeted material sample is narrower still: it describes the particular sample and the documented collection location. Ask which of these services your project actually requires.</p>'],
+      ['Explain the decision behind the request', '<p>For renovation, identify the doors, trim, windows, or other components that will be disturbed. For a purchase, share the decision deadline and access arrangements. If an owner, lender, or other organization needs a specified document, provide that requirement before booking. Do not assume that a laboratory result alone will satisfy it.</p>'],
+      ['Confirm the method and the sample type', '<p>Discuss how the chosen method fits the materials and project. Paint, settled dust, and drinking water require different collection locations and interpretations. Confirm which equipment and analysis will be used for your appointment rather than assuming every service includes a particular instrument or a whole-house inspection.</p>'],
+      ['Understand what a quote includes', '<p>Ask about the number of locations, sample collection, laboratory analysis, reporting, travel, and any follow-up consultation. A quote for a few identified components is different from a formal assessment. Laboratory results are typically available within 48–72 business hours; confirm the complete schedule for the selected work.</p>'],
+      ['Review the findings before choosing further work', '<p>The report should connect sample identifiers with locations, methods, results, and limitations. Leave suspect finishes undisturbed while professional evaluation is arranged. If the findings call for further work, discuss the required qualifications for that separate task.</p><p>A1 provides <a href="/services/lead-testing.html">independent lead testing and consultation</a>, with no abatement services. A1’s lead testing is not offered for HUD or federal grant projects. For the broader property context, see our <a href="/blog/lead-paint-dangers-in-pre-1978-homes.html">guide to older painted finishes</a>.</p>']
+    ],
+    faqs: [
+      ['Does a paint sample assess every lead hazard in my home?', 'No. It describes the sampled material within the documented scope. Dust, water, untested components, and a formal risk assessment involve separate questions.'],
+      ['Which lead-testing method will be used?', 'The method depends on the materials, access, project purpose, and required deliverable. Confirm the equipment, sample collection, and analysis included in your quote before booking.'],
+      ['Can A1 provide lead testing for a HUD project?', 'A1’s lead testing is not offered for HUD or federal grant projects. Explain any formal inspection, risk-assessment, or clearance requirement before scheduling.']
+    ],
+    sources: [['EPA: lead inspections and risk assessments', 'https://www.epa.gov/lead/lead-abatement-inspection-and-risk-assessment']]
+  },
+  'lead-paint-dangers-in-pre-1978-homes': {
+    service: 'lead',
+    description: 'Why older painted finishes deserve attention before renovation, how to describe a lead concern, and where testing fits into the project.',
+    answer: 'A home’s age can prompt a lead-paint question, but appearance does not establish whether a particular coating contains lead. Before work disturbs older painted surfaces, discuss the materials, their condition, and the appropriate evaluation with a qualified professional.',
+    sections: [
+      ['Look at the work you plan to do', '<p>An interior repaint, window replacement, or trim removal can involve different surfaces and disturbance. Identify which components will remain and which will be altered. Newer paint over an older finish does not explain the composition of the underlying layers.</p>'],
+      ['Keep the material question separate from a hazard assessment', '<p>Testing a painted component can help identify its lead content. A formal assessment of lead hazards has a different purpose and scope. Discuss damaged finishes, friction surfaces, dust concerns, and the intended use of the report so the proposed assignment fits the need.</p>'],
+      ['Use the current renovation requirements', '<p>EPA’s Renovation, Repair and Painting program addresses covered work involving lead-based paint. Applicability, exceptions, training, and documentation depend on the project. Use the official program information and confirm the relevant requirements instead of relying on a short article as a complete regulatory checklist.</p>'],
+      ['Do not improvise sample collection or removal', '<p>Describe the suspect finishes and arrange professional advice before disturbing them. Share photographs and earlier reports if available. If a child or other occupant may have been exposed, discuss that health concern with a healthcare professional; a building-material test is not a medical assessment.</p>'],
+      ['Choose the next step from the actual findings', '<p>Ask what was assessed, which locations remain untested, and whether further investigation is recommended. Testing and abatement are different services with different project requirements. A1 provides testing and consultation independently of removal work.</p><p>Read about <a href="/blog/lead-paint-testing-what-homeowners-should-know.html">lead-testing scope and reporting</a> or request a <a href="/services/lead-testing.html">lead-testing consultation</a>. A1’s lead testing is not offered for HUD or federal grant projects; confirm any required formal credentials and deliverables before booking.</p>']
+    ],
+    faqs: [
+      ['Does a recent repaint rule out older lead-containing layers?', 'No. Explain the finish history and planned disturbance to the testing provider. Surface appearance does not establish the composition of underlying coatings.'],
+      ['Are renovation and lead abatement the same service?', 'No. Their purposes and requirements differ. Explain whether you are altering a building, investigating a concern, or commissioning lead-hazard reduction before agreeing the scope.']
+    ],
+    sources: [['EPA: Renovation, Repair and Painting program', 'https://www.epa.gov/lead/renovation-repair-and-painting-program'], ['EPA: lead inspections and risk assessments', 'https://www.epa.gov/lead/lead-abatement-inspection-and-risk-assessment']]
+  },
+  'do-i-need-radon-testing-before-buying-a-home': {
+    service: 'radon',
+    description: 'Plan radon testing around a home purchase, including previous reports, access, the monitoring period, and time to review the results.',
+    answer: 'EPA recommends knowing the indoor radon level in a home you are considering buying. Arrange the measurement early enough to allow placement, monitoring, completion, and reporting before your decision deadline. A neighboring property’s result cannot replace measuring the home involved in the transaction.',
+    sections: [
+      ['Start with the decision date', '<p>Give the testing provider the due-diligence or other decision deadline, not only the proposed closing date. Ask whether the complete appointment and reporting schedule fits. Access for placement and completion may require coordination with the seller or property manager.</p>'],
+      ['Review an existing report in full', '<p>If the seller has a report, obtain the measurement dates, locations, method, conditions, and any subsequent changes to the building. Explain which rooms you expect to use. An old result is useful background, but its suitability for the present decision should be discussed rather than assumed.</p>'],
+      ['Allow for the monitoring period', '<p>The selected measurement has instructions for placement and building conditions. Confirm who will maintain those conditions and what to do if the device is disturbed or access changes. The monitoring period is separate from laboratory analysis or report preparation; do not plan around an assumed same-day result.</p>'],
+      ['Agree the deliverable before booking', '<p>Identify the person or organization that will use the report and provide any written requirements. Ask about the device, applicable procedure, qualifications, and documentation for your project. Avoid assuming that a generic service description establishes acceptance by every lender or other party.</p>'],
+      ['Leave time to discuss the findings', '<p>A result should be read alongside its measurement period, locations, and conditions. If further measurement or reduction work is indicated, discuss that next stage and its timing before making assumptions about completion. The EPA buyer and seller resources explain these decisions in more detail.</p><p>A1 offers <a href="/services/radon-testing.html">independent radon testing and consultation</a>. Typical reporting time is 48–72 business hours after monitoring is complete, with the exact schedule confirmed for the selected method and analysis. <a href="/contact.html">Request a quote</a> with the property location and your decision date.</p>']
+    ],
+    faqs: [
+      ['Does a new home still need a radon discussion?', 'Yes. New construction or radon-resistant features do not replace knowing the measured indoor level for the property. Discuss the current building and any existing system with the testing provider.'],
+      ['Is the monitoring period included in the reporting estimate?', 'No. Allow for the agreed measurement period first, then completion and reporting. Confirm the full schedule before relying on it for a transaction deadline.'],
+      ['Can I use the result from the house next door?', 'No. Arrange a measurement for the property involved in your decision. A nearby result does not establish the level in another home.']
+    ],
+    sources: [['EPA: radon resources for buyers, sellers, and real-estate professionals', 'https://www.epa.gov/radon/radon-resources-real-estate-community']]
+  },
+  'radon-levels-in-north-carolina-south-carolina-georgia': {
+    service: 'radon',
+    description: 'Understand the limits of regional radon maps and why a property measurement matters in North Carolina, South Carolina, Georgia, and Tennessee.',
+    answer: 'A regional radon map is background information, not a result for your home. EPA cautions that its zone map should not be used to decide whether an individual home needs testing. Use a property measurement to inform your decision, wherever the address falls on the map.',
+    sections: [
+      ['What a regional map can tell you', '<p>A map can help agencies and communities understand regional patterns and plan radon programs. It cannot describe the concentration in a particular occupied room. Avoid translating a county category into a promise that a property is free of concern or a prediction of its test result.</p>'],
+      ['The same question applies across state lines', '<p>For a property in North Carolina, South Carolina, Georgia, or Tennessee, begin with its layout, use, prior reports, and reason for measurement. A home purchase, a newly occupied lower room, and follow-up after building changes may have different scheduling and documentation needs.</p>'],
+      ['Keep previous measurements useful', '<p>Retain the complete report with dates, locations, method, and recorded conditions. Note later changes to the building or a radon system. Those records help a testing provider discuss the present question; a past result should not be treated as permanent evidence for every future room layout or use.</p>'],
+      ['Plan around access and normal operation', '<p>Explain whether the property is occupied, seasonally used, vacant, or managed from a distance. Arrange access for the selected measurement and identify who can follow its instructions. Record any interruption so the provider can explain whether it affects the result.</p>'],
+      ['Find service for the actual property', '<p>A1 lists communities across four states in the <a href="/service-areas.html">service-area directory</a>. Call to confirm availability and travel arrangements for the address, then discuss the <a href="/services/radon-testing.html">radon-testing scope</a> and complete schedule. For a remotely managed property, identify who will provide access and follow the monitoring instructions while the device is in place.</p>']
+    ],
+    faqs: [
+      ['Does a lower-potential map zone mean testing is unnecessary?', 'No. EPA says the zone map should not determine whether an individual home is tested. The property needs its own measurement to establish the tested level.'],
+      ['Does this article publish measured radon averages for each city?', 'No. It explains how to use regional information without confusing it with a property result. Consult the official map and obtain a measurement for the address involved.']
+    ],
+    sources: [['EPA: map of radon zones and its limitations', 'https://www.epa.gov/radon/epa-map-radon-zones-and-supplemental-information']]
+  },
+  'understanding-radon-silent-health-risk': {
+    service: 'radon',
+    description: 'What a radon measurement can establish, how to read the result in context, and why monitoring conditions and follow-up matter.',
+    answer: 'Radon cannot be evaluated by a room’s smell or appearance. A measurement establishes information about the tested space and period. The result, method, placement, and recorded conditions belong together when deciding whether further measurement or reduction work is appropriate.',
+    sections: [
+      ['A concentration needs context', '<p>Radon is a naturally occurring radioactive gas. EPA identifies it as a lung-cancer risk and provides consumer guidance on testing and reduction. A building measurement describes environmental conditions; it does not diagnose an individual’s health or attribute a person’s symptoms to the property.</p>'],
+      ['Understand the action level', '<p>EPA recommends taking action to reduce radon at 4 pCi/L or above and considering reduction between 2 and 4 pCi/L. The action level is not a guarantee of no risk below that number. Review EPA’s current guide and discuss the appropriate follow-up for the measurement you received.</p>'],
+      ['Short and longer measurements serve a purpose', '<p>A selected measurement captures conditions over its monitoring period. Ask how the method and duration fit the decision, particularly when a transaction deadline is involved. Placement and building-operation instructions matter, and interruptions should be recorded and discussed with the provider.</p>'],
+      ['Keep a record of changes', '<p>Retain earlier reports and describe later alterations, changes in room use, or work on a radon system. Those details help frame a new testing request. If reduction work is performed, discuss the follow-up measurement and future testing advice with the qualified provider for that work.</p>'],
+      ['Discuss the property with A1', '<p>A1 provides <a href="/services/radon-testing.html">independent testing and consultation</a>, not mitigation installation. Share the layout, prior reports, intended room use, and decision deadline so the measurement scope and schedule can be confirmed. For a transaction, see our <a href="/blog/do-i-need-radon-testing-before-buying-a-home.html">homebuyer’s testing guide</a>.</p>']
+    ],
+    faqs: [
+      ['Can an odor tell me whether radon is present?', 'No. An odor is not a radon measurement. Discuss an odor as its own indoor-air concern and arrange a radon measurement when that is the question you need answered.'],
+      ['Is 4 pCi/L a boundary between safe and unsafe?', 'EPA uses it as an action level and also recommends considering reduction between 2 and 4 pCi/L. A result below the action level is not a promise of no risk.']
+    ],
+    sources: [['EPA: A Citizen’s Guide to Radon', 'https://www.epa.gov/sites/default/files/2016-12/documents/2016_a_citizens_guide_to_radon.pdf']]
+  },
+  'commercial-indoor-air-quality-testing-requirements': {
+    service: 'commercial-industrial',
+    description: 'Define commercial indoor-air testing by the building concern, project requirements, access, and intended use of the report.',
+    answer: 'Commercial indoor-air testing should answer a defined building or workplace question. It does not automatically certify a property as safe or compliant with every standard. Provide any required methods, qualifications, and acceptance criteria before the testing scope is agreed.',
+    sections: [
+      ['Start with the workplace concern', '<p>Identify affected rooms, observed conditions, when the concern appears, and the activities underway. Note ventilation arrangements, water incidents, maintenance, cleaning, and recent material changes. Separate a general building concern from a task-specific exposure question involving a particular process or substance.</p>'],
+      ['Understand the limits of a general IAQ assessment', '<p>OSHA explains that there is no single test for an indoor-air problem and that it has no general IAQ standard. Particular workplace hazards can involve other requirements. A collection of readings should therefore be interpreted against the actual assignment, not presented as a blanket certificate of compliance.</p>'],
+      ['Provide the requirements that apply to your project', '<p>If a school, contractor, owner, insurer, or regulator requests a specific document, supply it before booking. Agree the required credentials, methods, sample locations, and acceptance criteria. The scope may differ for renovation materials, an occupied office concern, post-work assessment, or occupational exposure monitoring.</p>'],
+      ['Coordinate access while operations continue', '<p>Identify tenant boundaries, common spaces, locked service rooms, and who can authorize entry. Discuss visits in phases where needed, along with operating conditions during the inspection. A report for an accessible suite should not imply that every neighboring unit or shared system was assessed.</p>'],
+      ['Make the report useful to the decision-maker', '<p>Confirm who will use the report and why. Useful documentation connects the inspected areas, observations or samples, findings, and limitations to the agreed question. Any conclusion about clearance or compliance needs the applicable project criteria, not a generic statement that testing was completed.</p><p>A1 provides <a href="/services/commercial-industrial-testing.html">commercial and industrial environmental testing</a> independently of removal or remediation. Discuss the property, work area, and deadline to confirm the services and qualifications appropriate to the assignment.</p>']
+    ],
+    faqs: [
+      ['Does an IAQ report automatically clear a building for occupancy?', 'No. A report documents the work performed. Any clearance purpose needs agreed acceptance criteria, appropriate qualifications, and a scope suited to that project.'],
+      ['Can an office-air check replace a process exposure assessment?', 'Do not assume that it can. Describe the process, substance, task, and applicable requirements so the needed discipline and scope can be confirmed.'],
+      ['Can testing be arranged in an occupied business?', 'Discuss operating hours, access restrictions, and the concern before booking. The inspection conditions need to answer the question, with occupied and inaccessible areas identified.']
+    ],
+    sources: [['OSHA: indoor air quality questions', 'https://www.osha.gov/indoor-air-quality/faqs'], ['EPA: building air quality guide', 'https://www.epa.gov/indoor-air-quality-iaq/building-air-quality-guide-guide-building-owners-and-facility-managers']]
+  },
+  'what-is-indoor-air-quality-testing': {
+    service: 'indoor-air-quality',
+    description: 'How an indoor-air investigation combines the building history, observations, and selected measurements to answer a defined concern.',
+    answer: 'Indoor air quality testing investigates a specific concern using the building history, observations, and selected measurements or samples. There is no single test that identifies every indoor pollutant or guarantees that all rooms are free of problems.',
+    sections: [
+      ['Describe the concern before selecting tests', '<p>An odor noticed after decorating, moisture near a repaired leak, and a concern in a busy meeting room do not automatically call for the same sampling package. Explain where and when the issue occurs, what changed, and which nearby areas appear unaffected. These details help define a useful investigation.</p>'],
+      ['Use observations and measurements together', '<p>Depending on the agreed scope, the visit may include building observations, moisture or humidity readings, ventilation context, or selected laboratory samples. Ask what each proposed measurement can establish and what it cannot. A result from one location or substance should not be extended to every room and possible contaminant.</p>'],
+      ['Choose a separate scope where the question differs', '<p><a href="/services/mold-testing.html">Mold and moisture investigations</a>, <a href="/services/radon-testing.html">radon measurements</a>, and <a href="/services/asbestos-testing.html">asbestos material testing</a> have different purposes. Discuss all relevant concerns at the outset so separate testing can be identified where appropriate.</p>'],
+      ['Read the report with its limitations', '<p>Look for the locations assessed, conditions during the visit, sample identifiers, findings, and uninspected areas. An intermittent issue may not be present during the appointment, making a dated observation history valuable. Environmental findings do not establish an individual medical diagnosis; discuss personal health concerns with a healthcare professional.</p>'],
+      ['Connect results to a practical response', '<p>EPA describes source control, ventilation, and air cleaning as different approaches to improving indoor air. The useful next action depends on the building and findings. A generic product or an isolated number is not a substitute for understanding the concern.</p><p>A1 offers <a href="/services/indoor-air-quality-testing.html">independent indoor-air testing and consultation</a>. Laboratory results are typically available within 48–72 business hours, depending on the selected analysis. Confirm the overall schedule and reporting scope when requesting a quote.</p>']
+    ],
+    faqs: [
+      ['Does every air-quality investigation need laboratory samples?', 'The scope depends on the concern. Discuss which observations or measurements are useful and whether sampling will answer a defined question before selecting a package.'],
+      ['Does a low reading guarantee that a room is safe?', 'A reading needs to be interpreted for its substance, location, method, and time. It does not describe every contaminant or establish the condition of untested areas.'],
+      ['What information helps with an intermittent odor?', 'Keep dates, affected rooms, occupancy, operating conditions, and recent product or maintenance changes. Share that history even if the odor is absent during the visit.']
+    ],
+    sources: [['EPA: improving indoor air quality', 'https://www.epa.gov/indoor-air-quality-iaq/improving-indoor-air-quality'], ['OSHA: indoor air quality questions', 'https://www.osha.gov/indoor-air-quality/faqs']]
+  }
+};

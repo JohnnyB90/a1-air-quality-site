@@ -14,11 +14,9 @@
   let cleanReferrer = '';
   try { const ref = new URL(document.referrer); cleanReferrer = ref.origin + ref.pathname; } catch (_) {}
   const serviceForPage = () => {
-    const p = location.pathname;
-    if (p.includes('/services/asbestos-testing')) return 'asbestos';
-    if (p.includes('/services/mold-testing')) return 'mold';
-    if (p.includes('/services/indoor-air-quality-testing')) return 'air_quality';
-    return 'unspecified';
+    const match = location.pathname.match(/^\/(?:services|locations\/[^/]+)\/([a-z-]+)-testing(?:\.html)?\/?$/);
+    const categories = {asbestos: 'asbestos', mold: 'mold', 'indoor-air-quality': 'air_quality', lead: 'lead', radon: 'radon', 'commercial-industrial': 'commercial'};
+    return match ? categories[match[1]] || 'unspecified' : 'unspecified';
   };
   function gtag() { window.dataLayer.push(arguments); }
   function event(name, data = {}) {

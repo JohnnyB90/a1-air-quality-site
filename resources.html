@@ -18,21 +18,22 @@
   font-family: 'DM Serif Display';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
+  font-display: optional;
   src: url('/fonts/dm-serif-display-latin.woff2') format('woff2');
 }@font-face {
   font-family: 'Source Sans 3';
   font-style: normal;
   font-weight: 200 900;
-  font-display: swap;
+  font-display: optional;
   src: url('/fonts/source-sans-3-latin.woff2') format('woff2');
 }
 :root{--navy-900:#111111;--navy-800:#161616;--navy-700:#1B1B1B;--navy-600:#222222;--navy-500:#2a2a2a;--teal-500:#9BCB3B;--teal-400:#B0E548;--teal-600:#4F6B1C;--teal-700:#3E5516;--gold-500:#9BCB3B;--gold-400:#B0E548;--white:#ffffff;--gray-50:#F7F7F7;--gray-100:#EBEBEB;--gray-200:#D8D8D8;--gray-300:#B0B0B0;--gray-600:#5E5E5E;--gray-700:#4C4C4C;--gray-800:#1B1B1B;--red-600:#c93b3b;--green-600:#7AAF28;--font-display:'DM Serif Display', Georgia, serif;--font-body:'Source Sans 3', 'Segoe UI', sans-serif;--font-mono:'JetBrains Mono', monospace;--shadow-sm:0 1px 3px rgba(0,0,0,.08);--shadow-md:0 4px 16px rgba(0,0,0,.12);--shadow-lg:0 8px 32px rgba(0,0,0,.18);--shadow-xl:0 16px 48px rgba(0,0,0,.22);--radius-sm:6px;--radius-md:10px;--radius-lg:16px;--transition:.28s cubic-bezier(.4,0,.2,1);--max-width:1200px}*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden}body{font-family:var(--font-body);font-size:17px;line-height:1.7;color:var(--gray-700);background:var(--white);-webkit-font-smoothing:antialiased}img{max-width:100%;height:auto;display:block}a{color:var(--teal-600);text-decoration:none;transition:color var(--transition)}a:hover{color:var(--teal-700)}.content-main p a:not(.btn),.content-main li a:not(.btn){text-decoration:underline;text-underline-offset:.15em}h1,h2,h3{font-family:var(--font-display);color:var(--navy-800);line-height:1.2;font-weight:400}h1{font-size:clamp(2rem, 4.5vw, 3.2rem);margin-bottom:.6em}h2{font-size:clamp(1.6rem, 3.5vw, 2.4rem);margin-bottom:.5em}h3{font-size:clamp(1.25rem, 2.5vw, 1.6rem);margin-bottom:.4em}p{margin-bottom:1em}strong{font-weight:600}.container{width:92%;max-width:var(--max-width);margin:0 auto}.skip-link{position:fixed;top:.75rem;left:.75rem;z-index:1001;padding:.75rem 1rem;background:var(--white);color:var(--navy-900);border-radius:var(--radius-sm);transform:translateY(-200%)}.skip-link:focus{transform:translateY(0)}.section-pad{padding:5rem 0}.btn{display:inline-flex;align-items:center;gap:.5em;font-family:var(--font-body);font-size:.95rem;font-weight:600;padding:.85em 2em;border-radius:var(--radius-sm);border:none;cursor:pointer;transition:all var(--transition);text-decoration:none;letter-spacing:.02em}.btn-primary{background:var(--teal-500);color:var(--navy-900);box-shadow:0 2px 12px rgba(155,203,59,.3)}.btn-primary:hover{background:var(--teal-600);color:var(--white);transform:translateY(-2px);box-shadow:0 4px 20px rgba(155,203,59,.4)}.btn-outline{background:transparent;color:var(--white);border:2px solid rgba(255,255,255,.4)}.btn-outline:hover{background:rgba(255,255,255,.1);color:var(--white);border-color:var(--white)}.btn-gold{background:var(--gold-500);color:var(--navy-900)}.btn-gold:hover{background:var(--gold-400);color:var(--navy-900);transform:translateY(-2px)}.btn-navy{background:var(--navy-700);color:var(--white)}.btn-navy:hover{background:var(--navy-600);color:var(--white);transform:translateY(-2px)}.btn-sm{padding:.6em 1.4em;font-size:.875rem}.btn-lg{padding:1em 2.4em;font-size:1.05rem}.btn-phone{background:var(--green-600);color:var(--navy-900)}.btn-phone:hover{background:#6B9E22;color:var(--navy-900);transform:translateY(-2px)}.site-header{position:fixed;top:0;left:0;width:100%;z-index:1000;background:rgba(17,17,17,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.06);transition:background var(--transition)}.header-inner{display:flex;align-items:center;justify-content:space-between;padding:.65rem 0}.logo{display:flex;align-items:center;gap:.75rem;text-decoration:none}.logo img{height:44px;width:auto}.logo-text{font-family:var(--font-display);font-size:1.1rem;color:var(--white);line-height:1.2}.logo-text span{display:block;font-size:.72rem;color:var(--teal-400);font-family:var(--font-body);letter-spacing:.08em;text-transform:uppercase;font-weight:600}.main-nav{display:flex;align-items:center;gap:0}.main-nav a{color:rgba(255,255,255,.78);font-size:.875rem;font-weight:500;padding:.5rem .9rem;transition:color var(--transition);white-space:nowrap}.main-nav a:hover{color:var(--teal-400)}.nav-dropdown{position:relative}.nav-dropdown > a::after{content:'▾';font-size:.65em;margin-left:.3em}.dropdown-menu{position:absolute;top:100%;left:0;background:var(--navy-800);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius-sm);min-width:240px;padding:.5rem 0;box-shadow:var(--shadow-lg);opacity:0;visibility:hidden;transform:translateY(8px);transition:all var(--transition);z-index:100}.nav-dropdown:hover .dropdown-menu,.nav-dropdown:focus-within .dropdown-menu{opacity:1;visibility:visible;transform:translateY(0)}.dropdown-menu a{display:block;padding:.5rem 1.2rem;font-size:.84rem;color:rgba(255,255,255,.72)}.dropdown-menu a:hover{background:rgba(255,255,255,.05);color:var(--teal-400)}.header-cta{display:flex;align-items:center;gap:.75rem}.header-phone{color:var(--teal-400);font-weight:600;font-size:.9rem;white-space:nowrap}.header-phone:hover{color:var(--white)}.menu-toggle{display:none;background:none;border:none;color:var(--white);font-size:1.5rem;cursor:pointer;padding:.5rem}.services-section{background:var(--white)}.section-header{text-align:center;max-width:660px;margin:0 auto 3rem}.section-header .label{display:inline-block;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--teal-600);margin-bottom:.5rem}.section-header p{color:var(--gray-600)}.services-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:1.75rem}.service-card{background:var(--white);border:1px solid var(--gray-100);border-radius:var(--radius-lg);padding:2rem;transition:all var(--transition);position:relative;overflow:hidden}.service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--teal-500);transform:scaleX(0);transform-origin:left;transition:transform var(--transition)}.service-card:hover::before{transform:scaleX(1)}.service-card:hover{box-shadow:var(--shadow-md);transform:translateY(-4px);border-color:var(--gray-200)}.service-card h3{font-size:1.2rem;margin-bottom:.5em}.service-card h3 a{color:var(--navy-800)}.service-card h3 a:hover{color:var(--teal-600)}.service-card p{font-size:.92rem;color:var(--gray-600);margin-bottom:1.25rem}.service-card .card-link{font-size:.875rem;font-weight:600;color:var(--teal-600);display:inline-flex;align-items:center;gap:.4em}.service-card .card-link::after{content:'→';transition:transform var(--transition)}.service-card:hover .card-link::after{transform:translateX(4px)}.cta-section{background:linear-gradient(135deg, var(--navy-900), var(--navy-700));padding:4.5rem 0;text-align:center;position:relative;overflow:hidden}.cta-section::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%, rgba(155,203,59,.08), transparent 70%)}.cta-section h2{color:var(--white);position:relative}.cta-section p{color:rgba(255,255,255,.7);max-width:560px;margin:0 auto 2rem;position:relative}.cta-buttons{display:flex;justify-content:center;flex-wrap:wrap;gap:1rem;position:relative}.site-footer{background:var(--navy-900);color:rgba(255,255,255,.6);padding:4rem 0 0}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem}.footer-brand .logo{margin-bottom:1rem}.footer-brand p{font-size:.88rem;line-height:1.65;max-width:300px}.footer-social{display:flex;align-items:center;gap:2rem;margin-top:.75rem}.footer-social a{color:var(--gray-400);transition:color .2s;display:flex;padding:0 .5rem}.footer-social a:hover{color:var(--teal-400)}.footer-social svg{width:28px;height:28px}.footer-bbb{display:inline-block;margin-top:1.25rem;line-height:0;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.18);transition:opacity .2s ease, transform .2s ease}.footer-bbb:hover{opacity:.9;transform:translateY(-1px)}.footer-bbb img{width:200px;height:auto;display:block;border-radius:8px}.footer-col h2{color:var(--white);font-family:var(--font-body);font-weight:700;font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:1.25rem}.footer-col ul{list-style:none}.footer-col li{margin-bottom:.5rem}.footer-col a{color:rgba(255,255,255,.55);font-size:.88rem}.footer-col a:hover{color:var(--teal-400)}.footer-contact-item{display:flex;align-items:flex-start;gap:.6rem;margin-bottom:.75rem;font-size:.88rem}.footer-bottom{border-top:1px solid rgba(255,255,255,.06);padding:1.5rem 0;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;font-size:.8rem}.footer-legal a{color:rgba(255,255,255,.45);margin-left:1.5rem}.footer-legal a:hover{color:var(--teal-400)}.page-hero{background:linear-gradient(135deg, var(--navy-900), var(--navy-700));padding:8rem 0 4rem;text-align:center;position:relative;overflow:hidden}.page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%, rgba(155,203,59,.08), transparent 60%),
-    radial-gradient(ellipse at 80% 30%, rgba(155,203,59,.04), transparent 50%)}.page-hero h1{color:var(--white);position:relative}.page-hero p{color:rgba(255,255,255,.65);max-width:600px;margin:0 auto;position:relative;font-size:1.1rem}.breadcrumb{position:relative;margin-bottom:1rem;font-size:.82rem}.breadcrumb a{color:rgba(255,255,255,.5)}.breadcrumb a:hover{color:var(--teal-400)}.breadcrumb span{color:rgba(255,255,255,.35);margin:0 .5em}.breadcrumb .current{color:rgba(255,255,255,.75)}.faq-item.open .faq-question .icon{background:var(--teal-500);color:var(--white);transform:rotate(45deg)}@media (max-width: 1024px) {.services-grid{grid-template-columns:repeat(2, 1fr)}.footer-grid{grid-template-columns:repeat(2, 1fr)}}@media (max-width: 768px) {body{font-size:16px}.section-pad{padding:3.5rem 0}.main-nav,.header-cta .btn{display:none}.menu-toggle{display:block}.header-phone{display:block}.main-nav.open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:var(--navy-800);border-top:1px solid rgba(255,255,255,.06);padding:1rem 0}.main-nav.open a{padding:.75rem 5%}.dropdown-menu{position:static;opacity:1;visibility:visible;transform:none;background:rgba(0,0,0,.15);box-shadow:none;border:none;border-radius:0;min-width:auto;display:none}.nav-dropdown.open .dropdown-menu{display:block}.dropdown-menu a{padding-left:10%}.mega-col.open h5{border-bottom-color:rgba(155,203,59,.2)}.mega-col.open h5::after{transform:rotate(45deg);color:var(--teal-400)}.mega-col.open{display:grid;grid-template-columns:1fr 1fr;gap:0;padding-bottom:.4rem}.mega-col.open h5{grid-column:1 / -1}.mega-col.open a{display:block}.page-hero{padding:6rem 0 2.5rem}.services-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr;gap:2rem}.footer-bottom{flex-direction:column;text-align:center}}@media (max-width: 480px) {.hero-buttons .btn{width:100%;justify-content:center}}.mobile-sticky-footer{display:none}@media (max-width: 768px) {.mobile-sticky-footer{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:999;background:var(--navy-900);border-top:1px solid rgba(255,255,255,.08);padding:.6rem .75rem;gap:.6rem;box-shadow:0 -4px 20px rgba(0,0,0,.3)}.mobile-sticky-footer .sticky-btn{flex:1;display:flex;align-items:center;justify-content:center;gap:.5em;padding:.8rem .5rem;border-radius:var(--radius-sm);font-family:var(--font-body);font-size:.9rem;font-weight:700;text-decoration:none;border:none;cursor:pointer;letter-spacing:.02em;transition:all var(--transition)}.mobile-sticky-footer .sticky-btn svg{width:18px;height:18px;flex-shrink:0}.mobile-sticky-footer .sticky-btn-call{background:var(--green-600);color:var(--navy-900)}.mobile-sticky-footer .sticky-btn-call:hover{background:#6B9E22;color:var(--navy-900)}.mobile-sticky-footer .sticky-btn-consult{background:var(--teal-500);color:var(--navy-900)}.mobile-sticky-footer .sticky-btn-consult:hover{background:var(--teal-600);color:var(--white)}body{padding-bottom:72px}}.reading-width p a:not(.btn),.reading-width li a:not(.btn),.service-callout p a:not(.btn),.analytics-choice a{text-decoration:underline;text-underline-offset:.15em}.btn-outline-dark{border:2px solid var(--navy-800);color:var(--navy-800);background:white}.btn-outline-dark:hover{background:var(--navy-800);color:white}.service-callout .btn{margin:.5rem 1rem .5rem 0}button:disabled{cursor:wait;opacity:.7}.footer-legal{flex-wrap:wrap}.analytics-choice{position:fixed;z-index:1000;left:1rem;right:1rem;bottom:1rem;max-width:1020px;margin:0 auto;padding:1.25rem 1.5rem;display:flex;align-items:center;gap:1.5rem;background:white;color:#171717;border:1px solid #c5c5c5;border-radius:10px;box-shadow:0 4px 24px #0003}.analytics-choice p{margin:.3rem 0 0;font-size:.9rem;line-height:1.45}.analytics-choice a{color:#254a00;text-decoration:underline}.analytics-choice-actions{display:flex;flex-shrink:0;gap:.5rem}.privacy-preferences{border:0;background:transparent;color:inherit;text-decoration:underline;font:inherit;padding:0;cursor:pointer}@media (max-width: 1100px) and (min-width: 769px) {.header-cta .btn{display:none}.main-nav{gap:1rem}}@media (max-width: 768px) {.analytics-choice{bottom:80px;left:.5rem;right:.5rem;padding:1rem;display:block;max-height:55vh;overflow-y:auto}.analytics-choice-actions{margin-top:.75rem;flex-wrap:wrap}}</style>
+    radial-gradient(ellipse at 80% 30%, rgba(155,203,59,.04), transparent 50%)}.page-hero h1{color:var(--white);position:relative}.page-hero p{color:rgba(255,255,255,.65);max-width:600px;margin:0 auto;position:relative;font-size:1.1rem}.breadcrumb{position:relative;margin-bottom:1rem;font-size:.82rem}.breadcrumb a{color:rgba(255,255,255,.5)}.breadcrumb a:hover{color:var(--teal-400)}.breadcrumb span{color:rgba(255,255,255,.35);margin:0 .5em}.breadcrumb .current{color:rgba(255,255,255,.75)}.faq-item.open .faq-question .icon{background:var(--teal-500);color:var(--white);transform:rotate(45deg)}@media (max-width: 1024px) {.services-grid{grid-template-columns:repeat(2, 1fr)}.footer-grid{grid-template-columns:repeat(2, 1fr)}}@media (max-width: 768px) {body{font-size:16px}.section-pad{padding:3.5rem 0}.main-nav,.header-cta .btn{display:none}.menu-toggle{display:block}.header-phone{display:block}.main-nav.open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:var(--navy-800);border-top:1px solid rgba(255,255,255,.06);padding:1rem 0}.main-nav.open a{padding:.75rem 5%}.dropdown-menu{position:static;opacity:1;visibility:visible;transform:none;background:rgba(0,0,0,.15);box-shadow:none;border:none;border-radius:0;min-width:auto;display:none}.nav-dropdown.open .dropdown-menu{display:block}.dropdown-menu a{padding-left:10%}.mega-col.open h5{border-bottom-color:rgba(155,203,59,.2)}.mega-col.open h5::after{transform:rotate(45deg);color:var(--teal-400)}.mega-col.open{display:grid;grid-template-columns:1fr 1fr;gap:0;padding-bottom:.4rem}.mega-col.open h5{grid-column:1 / -1}.mega-col.open a{display:block}.page-hero{padding:6rem 0 2.5rem}.services-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr;gap:2rem}.footer-bottom{flex-direction:column;text-align:center}}@media (max-width: 480px) {.hero-buttons .btn{width:100%;justify-content:center}}.mobile-sticky-footer{display:none}@media (max-width: 768px) {.mobile-sticky-footer{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:999;background:var(--navy-900);border-top:1px solid rgba(255,255,255,.08);padding:.6rem .75rem;gap:.6rem;box-shadow:0 -4px 20px rgba(0,0,0,.3)}.mobile-sticky-footer .sticky-btn{flex:1;display:flex;align-items:center;justify-content:center;gap:.5em;padding:.8rem .5rem;border-radius:var(--radius-sm);font-family:var(--font-body);font-size:.9rem;font-weight:700;text-decoration:none;border:none;cursor:pointer;letter-spacing:.02em;transition:all var(--transition)}.mobile-sticky-footer .sticky-btn svg{width:18px;height:18px;flex-shrink:0}.mobile-sticky-footer .sticky-btn-call{background:var(--green-600);color:var(--navy-900)}.mobile-sticky-footer .sticky-btn-call:hover{background:#6B9E22;color:var(--navy-900)}.mobile-sticky-footer .sticky-btn-consult{background:var(--teal-500);color:var(--navy-900)}.mobile-sticky-footer .sticky-btn-consult:hover{background:var(--teal-600);color:var(--white)}body{padding-bottom:72px}}.reading-width p a:not(.btn),.reading-width li a:not(.btn),.service-callout p a:not(.btn),.sidebar-card p a:not(.btn),.analytics-choice a{text-decoration:underline;text-underline-offset:.15em}.btn-outline-dark{border:2px solid var(--navy-800);color:var(--navy-800);background:white}.btn-outline-dark:hover{background:var(--navy-800);color:white}.service-callout{margin:2rem 0;padding:1.5rem 2rem;border-left:4px solid var(--green-600);border-radius:8px;background:var(--gray-100)}.service-callout .btn{margin:.5rem 1rem .5rem 0}.service-callout li a:not(.btn){text-decoration:underline;text-underline-offset:.15em}button:disabled{cursor:wait;opacity:.7}.footer-legal{flex-wrap:wrap}.footer-legal a,.footer-legal .privacy-preferences{min-height:44px;display:inline-flex;align-items:center}.analytics-choice{position:fixed;z-index:1000;left:1rem;right:1rem;bottom:1rem;max-width:1020px;margin:0 auto;padding:1.25rem 1.5rem;display:flex;align-items:center;gap:1.5rem;background:white;color:#171717;border:1px solid #c5c5c5;border-radius:10px;box-shadow:0 4px 24px #0003}.analytics-choice p{margin:.3rem 0 0;font-size:.9rem;line-height:1.45}.analytics-choice a{color:#254a00;text-decoration:underline}.analytics-choice-actions{display:flex;flex-shrink:0;gap:.5rem}.privacy-preferences{border:0;background:transparent;color:inherit;text-decoration:underline;font:inherit;padding:0;cursor:pointer}@media (max-width: 1100px) and (min-width: 769px) {.header-cta .btn{display:none}.main-nav{gap:1rem}}@media (max-width: 768px) {.service-callout{padding:1.25rem}.analytics-choice{bottom:80px;left:.5rem;right:.5rem;padding:1rem;display:block;max-height:55vh;overflow-y:auto}.analytics-choice-actions{margin-top:.75rem;flex-wrap:wrap}}@media (max-width: 480px) {.location-actions .btn{width:100%;text-align:center;justify-content:center}}</style>
 <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all';this.onload=null">
 <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
 <!-- /A1 critical CSS -->
-<script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Air Quality Resources & Insights",
@@ -59,7 +60,10 @@
           "datePublished": "2026-03-04",
           "url": "https://a1airqualityconsultants.com/blog/commercial-indoor-air-quality-testing-requirements.html",
           "description": "Commercial buildings require indoor air quality testing for OSHA compliance and occupant health. Learn about testing requirements, methods, and standards.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -71,7 +75,10 @@
           "datePublished": "2026-03-04",
           "url": "https://a1airqualityconsultants.com/blog/diy-vs-professional-air-quality-testing.html",
           "description": "Home air quality test kits are affordable but limited. Learn the key differences between DIY and professional testing for mold, radon, and indoor air quality.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -83,7 +90,10 @@
           "datePublished": "2026-03-04",
           "url": "https://a1airqualityconsultants.com/blog/how-much-does-air-quality-testing-cost.html",
           "description": "Air quality testing costs vary by service type and property size. Learn typical price ranges for mold, radon, asbestos, lead, and IAQ testing.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -95,7 +105,10 @@
           "datePublished": "2026-03-04",
           "url": "https://a1airqualityconsultants.com/blog/why-independent-testing-matters.html",
           "description": "When the same company that tests your air also sells remediation, there is an inherent conflict of interest. Learn why choosing an independent, testing-only company delivers more trustworthy results.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -107,7 +120,10 @@
           "datePublished": "2026-03-03",
           "url": "https://a1airqualityconsultants.com/blog/indoor-air-quality-health-and-productivity.html",
           "description": "Poor indoor air quality from VOCs, airborne contaminants, and inadequate ventilation can cause headaches, fatigue, and respiratory issues. Learn how professional IAQ testing can identify hidden problems.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -119,7 +135,10 @@
           "datePublished": "2026-02-19",
           "url": "https://a1airqualityconsultants.com/blog/lead-paint-testing-what-homeowners-should-know.html",
           "description": "Homes built before 1978 may contain lead-based paint. Understand the health risks — especially for children — and learn when and how to get your home tested.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -131,7 +150,10 @@
           "datePublished": "2026-02-05",
           "url": "https://a1airqualityconsultants.com/blog/understanding-radon-silent-health-risk.html",
           "description": "Radon is the second leading cause of lung cancer in the United States. Learn what radon is, how it enters your home, and why every property should be tested.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -143,7 +165,10 @@
           "datePublished": "2026-01-22",
           "url": "https://a1airqualityconsultants.com/blog/what-is-asbestos-why-test-before-renovating.html",
           "description": "Asbestos was used extensively in building materials before the 1980s. Discover why testing before any renovation or demolition project is both a safety requirement and a legal one.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -155,7 +180,10 @@
           "datePublished": "2026-01-08",
           "url": "https://a1airqualityconsultants.com/blog/signs-you-may-need-mold-testing.html",
           "description": "Learn the most common warning signs that indicate you may need professional mold testing — from musty odors and visible discoloration to unexplained allergies and past water damage.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -167,7 +195,10 @@
           "datePublished": "2025-12-10",
           "url": "https://a1airqualityconsultants.com/blog/do-i-need-radon-testing-before-buying-a-home.html",
           "description": "Radon testing is strongly recommended before any home purchase. Learn why the EPA recommends testing, what levels are concerning, and how radon affects real estate transactions.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -179,7 +210,10 @@
           "datePublished": "2025-11-19",
           "url": "https://a1airqualityconsultants.com/blog/voc-testing-volatile-organic-compounds.html",
           "description": "Volatile organic compounds are chemicals released by everyday products that can cause serious health effects. Learn what VOCs are, where they come from, and when to test.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -190,8 +224,12 @@
           "headline": "Home Inspection Checklist: Mold, Asbestos, Lead, and Radon",
           "datePublished": "2025-11-05",
           "url": "https://a1airqualityconsultants.com/blog/home-inspection-checklist-mold-asbestos-lead-radon.html",
-          "description": "A step-by-step home inspection checklist covering the four most common indoor air quality hazards: mold, asbestos, lead, and radon.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "description": "Plan environmental testing before a purchase, renovation, or property visit. Download a printable checklist for asbestos, mold, lead, radon, and air-quality questions.",
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          },
+          "dateModified": "2026-10-15"
         }
       },
       {
@@ -203,7 +241,10 @@
           "datePublished": "2025-10-15",
           "url": "https://a1airqualityconsultants.com/blog/radon-levels-in-north-carolina-south-carolina-georgia.html",
           "description": "Radon risk varies across North Carolina, South Carolina, and Georgia. Learn about EPA radon zones, high-risk counties, and why every home should be tested.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -215,7 +256,10 @@
           "datePublished": "2025-09-24",
           "url": "https://a1airqualityconsultants.com/blog/what-humidity-level-causes-mold.html",
           "description": "Indoor humidity above 60% creates ideal conditions for mold growth. Learn the EPA-recommended humidity range and how to protect your home from mold.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -227,7 +271,10 @@
           "datePublished": "2025-09-10",
           "url": "https://a1airqualityconsultants.com/blog/lead-paint-dangers-in-pre-1978-homes.html",
           "description": "Homes built before 1978 may contain lead-based paint that poses serious health risks. Learn about lead exposure dangers, testing methods, and federal disclosure requirements.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -239,7 +286,10 @@
           "datePublished": "2025-08-20",
           "url": "https://a1airqualityconsultants.com/blog/do-i-need-asbestos-testing-before-renovation.html",
           "description": "Asbestos testing is legally required before renovation in many states and strongly recommended for all pre-1980 buildings. Learn about requirements, health risks, and the testing process.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -251,7 +301,10 @@
           "datePublished": "2025-07-30",
           "url": "https://a1airqualityconsultants.com/blog/how-long-does-mold-take-to-grow-after-water-damage.html",
           "description": "Mold can begin growing within 24 to 48 hours after water damage. Learn the timeline, what accelerates growth, and when to schedule professional mold testing.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       },
       {
@@ -263,12 +316,16 @@
           "datePublished": "2025-07-09",
           "url": "https://a1airqualityconsultants.com/blog/what-is-indoor-air-quality-testing.html",
           "description": "Indoor air quality testing identifies pollutants like mold, VOCs, airborne contaminants, and radon in your home or building. Learn what IAQ testing involves and when you need it.",
-          "author": {"@type": "Organization", "name": "A1 Air Quality Consultants"}
+          "author": {
+            "@type": "Organization",
+            "name": "A1 Air Quality Consultants"
+          }
         }
       }
     ]
   }
-}</script></head><body>
+}
+</script></head><body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="site-header" role="banner"><div class="container header-inner">
 <a href="/" class="logo"><img src="/images/logo/logo-44.webp" srcset="/images/logo/logo-88.webp 2x, /images/logo/logo-132.webp 3x" alt="" width="44" height="44"><div class="logo-text">A1 Air Quality<br>Consultants<span>Setting the Standard</span></div></a>
@@ -284,13 +341,20 @@
 <section class="page-hero"><div class="container"><div class="breadcrumb"><a href="/">Home</a><span>/</span><span class="current">Resources</span></div>
 <h1>Air Quality Resources &amp; Insights</h1><p>Educational guides from our SCDES &amp; NCDHHS-licensed experts to help you understand air quality risks, testing methods, and how to protect your home or business.</p></div></section>
 
+<section class="section-pad" id="printable-checklist" aria-labelledby="checklist-heading"><div class="container"><div class="service-callout">
+<span class="label">Free printable resource</span><h2 id="checklist-heading">Plan testing for your property</h2>
+<p>Buying, renovating, or investigating a property concern? Use this two-page worksheet to gather the details your testing provider needs. It covers asbestos, mold, lead, radon, indoor air quality, and commercial projects, with room for your notes.</p>
+<p><a class="btn btn-primary" href="/downloads/a1-property-testing-checklist.pdf" download>Download checklist (PDF, 2 pages)</a></p>
+<p><a href="/blog/home-inspection-checklist-mold-asbestos-lead-radon.html">Read the testing checklist and planning guide</a>. No signup required.</p>
+</div></div></section>
+
 <section class="services-section section-pad"><div class="container">
 <div class="section-header"><span class="label">From Our Experts</span><h2>Latest Articles</h2><p>Stay informed with practical guidance on mold, asbestos, lead, radon, air quality, and the importance of independent testing.</p></div>
 <div class="services-grid">
 <!-- CMS_POSTS_START --><!-- CMS_POSTS_END -->
 
 <article class="service-card">
-<img src="/images/blog/commercial-indoor-air-quality-testing-requirements.jpeg" alt="Commercial air quality testing requirements" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="Commercial air quality testing requirements" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/commercial-indoor-air-quality-testing-requirements-1200.webp" srcset="/images/blog/commercial-indoor-air-quality-testing-requirements-640.webp 640w, /images/blog/commercial-indoor-air-quality-testing-requirements-720.webp 720w, /images/blog/commercial-indoor-air-quality-testing-requirements-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/commercial-indoor-air-quality-testing-requirements.html">Commercial Air Quality Testing: Requirements and Best Practices</a></h3>
 <p>OSHA and ASHRAE set standards for commercial air quality. Learn about testing requirements, what commercial IAQ testing measures, and how it differs from residential testing.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">March 4, 2026</span>
@@ -298,7 +362,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/diy-vs-professional-air-quality-testing.jpeg" alt="DIY vs professional air quality testing" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="DIY vs professional air quality testing" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/diy-vs-professional-air-quality-testing-1200.webp" srcset="/images/blog/diy-vs-professional-air-quality-testing-640.webp 640w, /images/blog/diy-vs-professional-air-quality-testing-720.webp 720w, /images/blog/diy-vs-professional-air-quality-testing-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/diy-vs-professional-air-quality-testing.html">DIY vs Professional Air Quality Testing: What You Need to Know</a></h3>
 <p>Home air quality test kits are affordable but have significant limitations. Learn the key differences between DIY and professional testing for mold, radon, and indoor air quality — and when each makes sense.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">March 4, 2026</span>
@@ -306,7 +370,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/how-much-does-air-quality-testing-cost.jpg" alt="How much does air quality testing cost" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="How much does air quality testing cost" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/how-much-does-air-quality-testing-cost-1200.webp" srcset="/images/blog/how-much-does-air-quality-testing-cost-640.webp 640w, /images/blog/how-much-does-air-quality-testing-cost-720.webp 720w, /images/blog/how-much-does-air-quality-testing-cost-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/how-much-does-air-quality-testing-cost.html">How Much Does Air Quality Testing Cost?</a></h3>
 <p>Learn how inspection scope, sample count, laboratory analysis, location, and report requirements affect your testing quote. Compare what is included and prepare for a consultation.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">March 4, 2026</span>
@@ -314,7 +378,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/whyindependenttestingmatters.jpeg" alt="Why independent air quality testing matters" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="Why independent air quality testing matters" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/whyindependenttestingmatters-1200.webp" srcset="/images/blog/whyindependenttestingmatters-640.webp 640w, /images/blog/whyindependenttestingmatters-720.webp 720w, /images/blog/whyindependenttestingmatters-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/why-independent-testing-matters.html">Why Independent Testing Matters: The Case Against Conflict of Interest</a></h3>
 <p>When the same company that tests your air quality also profits from selling remediation services, there is an inherent conflict of interest. Independent, testing-only companies have no financial incentive to exaggerate findings or recommend unnecessary work. Choosing an unbiased testing provider ensures your results are honest and your recommendations are based solely on the data.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">March 4, 2026</span>
@@ -322,7 +386,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/indoorairqualityandhowitaffectsyourhealth.jpeg" alt="Indoor air quality and its effect on health and productivity" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="Indoor air quality and its effect on health and productivity" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/indoorairqualityandhowitaffectsyourhealth-1200.webp" srcset="/images/blog/indoorairqualityandhowitaffectsyourhealth-640.webp 640w, /images/blog/indoorairqualityandhowitaffectsyourhealth-720.webp 720w, /images/blog/indoorairqualityandhowitaffectsyourhealth-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/indoor-air-quality-health-and-productivity.html">Air Quality: How It Affects Your Health and Productivity</a></h3>
 <p>Volatile organic compounds (VOCs), airborne contaminants, mold spores, and poor ventilation can silently degrade the air inside your home or commercial building. Symptoms like persistent headaches, fatigue, and respiratory irritation are often linked to air quality problems. Professional IAQ testing identifies the specific contaminants affecting your space so you can take targeted corrective action.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">March 3, 2026</span>
@@ -330,7 +394,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/leadpainttesting.jpeg" alt="Lead paint testing for homeowners" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="Lead paint testing for homeowners" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/leadpainttesting-1200.webp" srcset="/images/blog/leadpainttesting-640.webp 640w, /images/blog/leadpainttesting-720.webp 720w, /images/blog/leadpainttesting-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/lead-paint-testing-what-homeowners-should-know.html">Lead Paint Testing: What Every Homeowner Should Know</a></h3>
 <p>Homes built before 1978 may contain lead-based paint, which poses serious health risks — especially for young children and pregnant women. Lead exposure can cause developmental delays, nervous system damage, and cognitive impairment. Professional testing using XRF analyzers or lab-analyzed samples is the safest way to determine if lead is present in your home.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">February 19, 2026</span>
@@ -338,7 +402,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/understandingradon.jpeg" alt="Understanding radon as a silent health risk" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="Understanding radon as a silent health risk" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/understandingradon-1200.webp" srcset="/images/blog/understandingradon-640.webp 640w, /images/blog/understandingradon-720.webp 720w, /images/blog/understandingradon-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/understanding-radon-silent-health-risk.html">Understanding Radon: The Silent Health Risk in Your Home</a></h3>
 <p>Radon is a colorless, odorless radioactive gas that seeps into homes through cracks in foundations and is the second leading cause of lung cancer in the United States. The EPA recommends taking action at levels of 4 pCi/L or higher, yet many homeowners have never tested. Professional radon testing is the only way to know if your home is at risk.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">February 5, 2026</span>
@@ -346,7 +410,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/whatisasbestos.jpeg" alt="What is asbestos and why testing matters" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="What is asbestos and why testing matters" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/whatisasbestos-1200.webp" srcset="/images/blog/whatisasbestos-640.webp 640w, /images/blog/whatisasbestos-720.webp 720w, /images/blog/whatisasbestos-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/what-is-asbestos-why-test-before-renovating.html">What Is Asbestos? Understanding the Risks and Why Testing Matters</a></h3>
 <p>Asbestos was widely used in insulation, floor tiles, roofing, and pipe wrap in buildings constructed before the 1980s. Disturbing these materials during renovation or demolition can release microscopic fibers that cause serious lung disease and mesothelioma. Testing before any renovation project is both a safety measure and a legal requirement.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">January 22, 2026</span>
@@ -354,7 +418,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/signsyoumayneedmoldtesting.jpeg" alt="Signs you may need mold testing" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="Signs you may need mold testing" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/signsyoumayneedmoldtesting-1200.webp" srcset="/images/blog/signsyoumayneedmoldtesting-640.webp 640w, /images/blog/signsyoumayneedmoldtesting-720.webp 720w, /images/blog/signsyoumayneedmoldtesting-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/signs-you-may-need-mold-testing.html">Signs You May Need Mold Testing in Your Home</a></h3>
 <p>Musty odors, visible discoloration on walls or ceilings, recurring allergy symptoms, and past water damage are all warning signs that mold may be growing hidden in your home. Even small leaks can create the conditions mold needs to thrive behind drywall and under flooring.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">January 8, 2026</span>
@@ -362,7 +426,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/doineedradontestingbeforebuyingahome.jpeg" alt="Radon testing before buying a home" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="Radon testing before buying a home" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/doineedradontestingbeforebuyingahome-1200.webp" srcset="/images/blog/doineedradontestingbeforebuyingahome-640.webp 640w, /images/blog/doineedradontestingbeforebuyingahome-720.webp 720w, /images/blog/doineedradontestingbeforebuyingahome-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/do-i-need-radon-testing-before-buying-a-home.html">Do I Need Radon Testing Before Buying a Home?</a></h3>
 <p>Radon testing is strongly recommended before purchasing any home. The EPA recommends testing all homes below the third floor, and elevated radon levels can affect your health and your home's value. Learn why radon testing should be part of every real estate transaction.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">December 10, 2025</span>
@@ -370,7 +434,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/voctesting.jpeg" alt="VOC testing for volatile organic compounds" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="VOC testing for volatile organic compounds" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/voctesting-1200.webp" srcset="/images/blog/voctesting-640.webp 640w, /images/blog/voctesting-720.webp 720w, /images/blog/voctesting-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/voc-testing-volatile-organic-compounds.html">VOC Testing: What Are Volatile Organic Compounds and Why Test?</a></h3>
 <p>Volatile organic compounds (VOCs) are chemicals released by paints, cleaning products, building materials, and furnishings that evaporate at room temperature. Prolonged VOC exposure can cause headaches, respiratory irritation, and long-term health effects. Professional VOC testing identifies the specific compounds in your indoor air.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">November 19, 2025</span>
@@ -378,15 +442,15 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/homeinspectionchecklist.jpeg" alt="Home inspection checklist for mold asbestos lead and radon" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="Home inspection checklist for mold asbestos lead and radon" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/homeinspectionchecklist-1200.webp" srcset="/images/blog/homeinspectionchecklist-640.webp 640w, /images/blog/homeinspectionchecklist-720.webp 720w, /images/blog/homeinspectionchecklist-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/home-inspection-checklist-mold-asbestos-lead-radon.html">Home Inspection Checklist: Mold, Asbestos, Lead, and Radon</a></h3>
-<p>A comprehensive home inspection should include testing for mold, asbestos, lead, and radon — the four most common indoor air quality hazards. Use this step-by-step checklist to protect your family and make informed decisions about your home.</p>
-<span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">November 5, 2025</span>
+<p>Plan environmental testing before a purchase, renovation, or property visit. Download a printable checklist for asbestos, mold, lead, radon, and air-quality questions.</p>
+<span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">Updated October 15, 2026</span>
 <a href="/blog/home-inspection-checklist-mold-asbestos-lead-radon.html" class="card-link" aria-label="Read Article: Home Inspection Checklist: Mold, Asbestos, Lead, and Radon">Read Article</a>
 </article>
 
 <article class="service-card">
-<img src="/images/blog/radonlevelsinncscga.jpeg" alt="Radon levels in North Carolina South Carolina and Georgia" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="Radon levels in North Carolina South Carolina and Georgia" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/radonlevelsinncscga-1200.webp" srcset="/images/blog/radonlevelsinncscga-640.webp 640w, /images/blog/radonlevelsinncscga-720.webp 720w, /images/blog/radonlevelsinncscga-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/radon-levels-in-north-carolina-south-carolina-georgia.html">Radon Levels in NC, SC, and GA: What Homeowners Should Know</a></h3>
 <p>Radon risk varies significantly across North Carolina, South Carolina, and Georgia. Some counties fall in EPA Zone 1 (highest risk), while others are lower. Understanding your local radon risk and testing your home is the only way to know if your family is safe.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">October 15, 2025</span>
@@ -394,7 +458,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/whathumiditylevelcausesmold.jpeg" alt="What humidity level causes mold growth" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="What humidity level causes mold growth" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/whathumiditylevelcausesmold-1200.webp" srcset="/images/blog/whathumiditylevelcausesmold-640.webp 640w, /images/blog/whathumiditylevelcausesmold-720.webp 720w, /images/blog/whathumiditylevelcausesmold-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/what-humidity-level-causes-mold.html">What Humidity Level Causes Mold? How to Protect Your Home</a></h3>
 <p>Indoor humidity levels above 60% create ideal conditions for mold growth. The EPA recommends maintaining indoor humidity between 30% and 50% to prevent mold. Learn how to monitor humidity, identify problem areas, and protect your home from mold damage.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">September 24, 2025</span>
@@ -402,7 +466,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/leadpaintdangersinpre1978homes.jpeg" alt="Lead paint dangers in pre-1978 homes" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="Lead paint dangers in pre-1978 homes" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/leadpaintdangersinpre1978homes-1200.webp" srcset="/images/blog/leadpaintdangersinpre1978homes-640.webp 640w, /images/blog/leadpaintdangersinpre1978homes-720.webp 720w, /images/blog/leadpaintdangersinpre1978homes-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/lead-paint-dangers-in-pre-1978-homes.html">Lead Paint Dangers in Pre-1978 Homes: What You Need to Know</a></h3>
 <p>Lead-based paint was banned in 1978, but millions of older homes still contain it. Lead exposure is especially dangerous for children, causing developmental delays, learning disabilities, and nervous system damage. Understanding where lead paint hides and how to test for it protects your family.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">September 10, 2025</span>
@@ -410,7 +474,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/doineedasbestostestingbeforerenovation.jpeg" alt="Asbestos testing before renovation" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="Asbestos testing before renovation" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/doineedasbestostestingbeforerenovation-1200.webp" srcset="/images/blog/doineedasbestostestingbeforerenovation-640.webp 640w, /images/blog/doineedasbestostestingbeforerenovation-720.webp 720w, /images/blog/doineedasbestostestingbeforerenovation-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/do-i-need-asbestos-testing-before-renovation.html">Do I Need Asbestos Testing Before Renovation?</a></h3>
 <p>Asbestos testing is legally required before renovation and demolition projects in many states, and strongly recommended for all buildings constructed before 1980. Disturbing asbestos-containing materials without testing can expose workers and occupants to dangerous fibers and result in significant fines.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">August 20, 2025</span>
@@ -418,7 +482,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/howlongdoesmoldtaketogrow.jpeg" alt="How long mold takes to grow after water damage" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="How long mold takes to grow after water damage" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/howlongdoesmoldtaketogrow-1200.webp" srcset="/images/blog/howlongdoesmoldtaketogrow-640.webp 640w, /images/blog/howlongdoesmoldtaketogrow-720.webp 720w, /images/blog/howlongdoesmoldtaketogrow-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/how-long-does-mold-take-to-grow-after-water-damage.html">How Long Does Mold Take to Grow After Water Damage?</a></h3>
 <p>Mold can begin growing within 24 to 48 hours after water damage occurs. Warm temperatures, high humidity, and organic materials like drywall and wood accelerate the process. Acting quickly after water damage — and scheduling professional mold testing — is critical to preventing widespread contamination.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">July 30, 2025</span>
@@ -426,7 +490,7 @@
 </article>
 
 <article class="service-card">
-<img src="/images/blog/whatisindoorairqualitytesting.jpeg" alt="What is indoor air quality testing" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;">
+<img alt="What is indoor air quality testing" loading="lazy" style="width:calc(100% + 4rem);margin:-2rem -2rem 1.5rem;height:200px;object-fit:cover;" src="/images/blog/whatisindoorairqualitytesting-1200.webp" srcset="/images/blog/whatisindoorairqualitytesting-640.webp 640w, /images/blog/whatisindoorairqualitytesting-720.webp 720w, /images/blog/whatisindoorairqualitytesting-1200.webp 1200w" sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) 65vw, 780px" width="1200" height="655" decoding="async">
 <h3><a href="/blog/what-is-indoor-air-quality-testing.html">What Is Air Quality Testing? A Complete Guide</a></h3>
 <p>Air quality testing is the process of measuring pollutants and contaminants in your indoor environment. Professional testing identifies mold spores, VOCs, radon, and other hazards that can affect your health. This complete guide explains what IAQ testing involves and when you need it.</p>
 <span style="display:block;font-size:.78rem;color:var(--gray-600);margin-bottom:.75rem;">July 9, 2025</span>
@@ -439,7 +503,7 @@
 <section class="cta-section"><div class="container"><h2>Have Questions About Air Quality in Your Home or Business?</h2><p>Call today for a free phone consultation. We answer your questions, explain the process, and schedule your inspection.</p><div class="cta-buttons"><a href="tel:+18646192092" class="btn btn-phone btn-lg">Call (864) 619-2092</a><a href="/contact.html" class="btn btn-gold btn-lg">Request Free Consultation</a></div></div></section>
 </main>
 <footer class="site-footer" role="contentinfo"><div class="container"><div class="footer-grid">
-<div class="footer-brand"><a href="/" class="logo"><img src="/images/logo/logo-44.webp" srcset="/images/logo/logo-88.webp 2x, /images/logo/logo-132.webp 3x" alt="" width="36" height="36"><div class="logo-text">A1 Air Quality<br>Consultants<span>Setting the Standard</span></div></a><p>Leading independent air quality testing. SCDES &amp; NCDHHS licensed. NC, SC &amp; GA.</p><a class="footer-bbb" href="https://www.bbb.org/us/sc/spartanburg/profile/air-quality-services/a1-air-quality-consultants-0673-90049209" target="_blank" rel="noopener" aria-label="A1 Air Quality Consultants — BBB Accredited Business with an A+ rating (opens in a new tab)"><img src="/images/badges/bbb-accredited-business.svg" alt="BBB Accredited Business — A+ Rating" width="200" height="52" loading="lazy"></a></div>
+<div class="footer-brand"><a href="/" class="logo"><img src="/images/logo/logo-44.webp" srcset="/images/logo/logo-88.webp 2x, /images/logo/logo-132.webp 3x" alt="" width="36" height="36"><div class="logo-text">A1 Air Quality<br>Consultants<span>Setting the Standard</span></div></a><p>Independent environmental testing and consultation. Service areas in SC, NC, GA, and TN. See our directory for locations and scheduling.</p><a class="footer-bbb" href="https://www.bbb.org/us/sc/spartanburg/profile/air-quality-services/a1-air-quality-consultants-0673-90049209" target="_blank" rel="noopener" aria-label="A1 Air Quality Consultants — BBB Accredited Business with an A+ rating (opens in a new tab)"><img src="/images/badges/bbb-accredited-business.svg" alt="BBB Accredited Business — A+ Rating" width="200" height="52" loading="lazy"></a></div>
 <div class="footer-col"><h2>Services</h2><ul><li><a href="/services/indoor-air-quality-testing.html">Air Quality Testing</a></li><li><a href="/services/asbestos-testing.html">Asbestos Testing</a></li><li><a href="/services/commercial-industrial-testing.html">Commercial Testing</a></li><li><a href="/services/lead-testing.html">Lead Testing</a></li><li><a href="/services/mold-testing.html">Mold Testing</a></li><li><a href="/services/radon-testing.html">Radon Testing</a></li></ul></div>
 
 <div class="footer-col"><h2>Contact</h2><div class="footer-contact-item"><a href="tel:+18646192092">(864) 619-2092</a></div><div class="footer-contact-item"><a href="mailto:inbox@a1airqualityconsultants.com">inbox@a1airqualityconsultants.com</a></div><div class="footer-contact-item">206 Aspenwood Dr, Spartanburg, SC 29307</div><div class="footer-contact-item">Mon&ndash;Fri: 8 AM &ndash; 5 PM</div></div>

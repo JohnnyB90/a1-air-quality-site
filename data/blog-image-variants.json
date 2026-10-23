@@ -1,0 +1,452 @@
+{
+  "/images/blog/commercial-indoor-air-quality-testing-requirements.jpeg": {
+    "width": 5632,
+    "height": 3072,
+    "originalBytes": 8576195,
+    "variants": [
+      {
+        "src": "/images/blog/commercial-indoor-air-quality-testing-requirements-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 32462
+      },
+      {
+        "src": "/images/blog/commercial-indoor-air-quality-testing-requirements-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 38322
+      },
+      {
+        "src": "/images/blog/commercial-indoor-air-quality-testing-requirements-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 74378
+      }
+    ]
+  },
+  "/images/blog/diy-vs-professional-air-quality-testing.jpeg": {
+    "width": 5632,
+    "height": 3072,
+    "originalBytes": 8523158,
+    "variants": [
+      {
+        "src": "/images/blog/diy-vs-professional-air-quality-testing-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 36998
+      },
+      {
+        "src": "/images/blog/diy-vs-professional-air-quality-testing-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 43820
+      },
+      {
+        "src": "/images/blog/diy-vs-professional-air-quality-testing-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 81196
+      }
+    ]
+  },
+  "/images/blog/doineedasbestostestingbeforerenovation.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 2948683,
+    "variants": [
+      {
+        "src": "/images/blog/doineedasbestostestingbeforerenovation-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 33870
+      },
+      {
+        "src": "/images/blog/doineedasbestostestingbeforerenovation-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 41660
+      },
+      {
+        "src": "/images/blog/doineedasbestostestingbeforerenovation-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 96266
+      }
+    ]
+  },
+  "/images/blog/doineedradontestingbeforebuyingahome.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 4136202,
+    "variants": [
+      {
+        "src": "/images/blog/doineedradontestingbeforebuyingahome-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 29668
+      },
+      {
+        "src": "/images/blog/doineedradontestingbeforebuyingahome-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 35708
+      },
+      {
+        "src": "/images/blog/doineedradontestingbeforebuyingahome-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 73964
+      }
+    ]
+  },
+  "/images/blog/homeinspectionchecklist.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 6115471,
+    "variants": [
+      {
+        "src": "/images/blog/homeinspectionchecklist-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 49208
+      },
+      {
+        "src": "/images/blog/homeinspectionchecklist-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 61212
+      },
+      {
+        "src": "/images/blog/homeinspectionchecklist-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 144464
+      }
+    ]
+  },
+  "/images/blog/how-much-does-air-quality-testing-cost.jpg": {
+    "width": 5632,
+    "height": 3072,
+    "originalBytes": 7900320,
+    "variants": [
+      {
+        "src": "/images/blog/how-much-does-air-quality-testing-cost-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 29972
+      },
+      {
+        "src": "/images/blog/how-much-does-air-quality-testing-cost-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 35600
+      },
+      {
+        "src": "/images/blog/how-much-does-air-quality-testing-cost-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 64666
+      }
+    ]
+  },
+  "/images/blog/howlongdoesmoldtaketogrow.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 2718578,
+    "variants": [
+      {
+        "src": "/images/blog/howlongdoesmoldtaketogrow-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 30016
+      },
+      {
+        "src": "/images/blog/howlongdoesmoldtaketogrow-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 35966
+      },
+      {
+        "src": "/images/blog/howlongdoesmoldtaketogrow-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 68436
+      }
+    ]
+  },
+  "/images/blog/indoorairqualityandhowitaffectsyourhealth.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 3000614,
+    "variants": [
+      {
+        "src": "/images/blog/indoorairqualityandhowitaffectsyourhealth-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 34776
+      },
+      {
+        "src": "/images/blog/indoorairqualityandhowitaffectsyourhealth-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 41576
+      },
+      {
+        "src": "/images/blog/indoorairqualityandhowitaffectsyourhealth-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 84408
+      }
+    ]
+  },
+  "/images/blog/leadpaintdangersinpre1978homes.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 8501848,
+    "variants": [
+      {
+        "src": "/images/blog/leadpaintdangersinpre1978homes-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 38918
+      },
+      {
+        "src": "/images/blog/leadpaintdangersinpre1978homes-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 48538
+      },
+      {
+        "src": "/images/blog/leadpaintdangersinpre1978homes-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 107978
+      }
+    ]
+  },
+  "/images/blog/leadpainttesting.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 2871668,
+    "variants": [
+      {
+        "src": "/images/blog/leadpainttesting-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 26814
+      },
+      {
+        "src": "/images/blog/leadpainttesting-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 31242
+      },
+      {
+        "src": "/images/blog/leadpainttesting-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 62348
+      }
+    ]
+  },
+  "/images/blog/radonlevelsinncscga.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 6967718,
+    "variants": [
+      {
+        "src": "/images/blog/radonlevelsinncscga-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 39408
+      },
+      {
+        "src": "/images/blog/radonlevelsinncscga-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 47652
+      },
+      {
+        "src": "/images/blog/radonlevelsinncscga-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 92030
+      }
+    ]
+  },
+  "/images/blog/signsyoumayneedmoldtesting.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 3638702,
+    "variants": [
+      {
+        "src": "/images/blog/signsyoumayneedmoldtesting-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 29178
+      },
+      {
+        "src": "/images/blog/signsyoumayneedmoldtesting-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 35018
+      },
+      {
+        "src": "/images/blog/signsyoumayneedmoldtesting-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 74928
+      }
+    ]
+  },
+  "/images/blog/understandingradon.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 3038474,
+    "variants": [
+      {
+        "src": "/images/blog/understandingradon-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 27310
+      },
+      {
+        "src": "/images/blog/understandingradon-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 32930
+      },
+      {
+        "src": "/images/blog/understandingradon-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 72118
+      }
+    ]
+  },
+  "/images/blog/voctesting.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 4754134,
+    "variants": [
+      {
+        "src": "/images/blog/voctesting-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 27660
+      },
+      {
+        "src": "/images/blog/voctesting-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 31746
+      },
+      {
+        "src": "/images/blog/voctesting-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 63758
+      }
+    ]
+  },
+  "/images/blog/whathumiditylevelcausesmold.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 2690613,
+    "variants": [
+      {
+        "src": "/images/blog/whathumiditylevelcausesmold-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 27302
+      },
+      {
+        "src": "/images/blog/whathumiditylevelcausesmold-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 32604
+      },
+      {
+        "src": "/images/blog/whathumiditylevelcausesmold-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 65332
+      }
+    ]
+  },
+  "/images/blog/whatisasbestos.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 3224621,
+    "variants": [
+      {
+        "src": "/images/blog/whatisasbestos-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 29308
+      },
+      {
+        "src": "/images/blog/whatisasbestos-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 35232
+      },
+      {
+        "src": "/images/blog/whatisasbestos-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 73070
+      }
+    ]
+  },
+  "/images/blog/whatisindoorairqualitytesting.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 2708194,
+    "variants": [
+      {
+        "src": "/images/blog/whatisindoorairqualitytesting-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 29774
+      },
+      {
+        "src": "/images/blog/whatisindoorairqualitytesting-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 35138
+      },
+      {
+        "src": "/images/blog/whatisindoorairqualitytesting-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 68584
+      }
+    ]
+  },
+  "/images/blog/whyindependenttestingmatters.jpeg": {
+    "width": 2816,
+    "height": 1536,
+    "originalBytes": 2860901,
+    "variants": [
+      {
+        "src": "/images/blog/whyindependenttestingmatters-640.webp",
+        "width": 640,
+        "height": 349,
+        "bytes": 31922
+      },
+      {
+        "src": "/images/blog/whyindependenttestingmatters-720.webp",
+        "width": 720,
+        "height": 393,
+        "bytes": 38078
+      },
+      {
+        "src": "/images/blog/whyindependenttestingmatters-1200.webp",
+        "width": 1200,
+        "height": 655,
+        "bytes": 80718
+      }
+    ]
+  }
+}

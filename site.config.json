@@ -2,5 +2,28 @@
   "url": "https://a1airqualityconsultants.com",
   "analyticsMeasurementId": "G-WK0RYP45YP",
   "contentUpdated": "2026-10-12",
-  "pageUpdated": {"resources.html": "2026-10-15"}
+  "pageUpdated": {
+    "resources.html": "2026-10-26",
+    "about.html": "2026-10-26",
+    "index.html": "2026-10-26",
+    "terms-of-service.html": "2026-10-26",
+    "blog/diy-vs-professional-air-quality-testing.html": "2026-10-26",
+    "blog/do-i-need-asbestos-testing-before-renovation.html": "2026-10-26",
+    "blog/do-i-need-radon-testing-before-buying-a-home.html": "2026-10-26",
+    "blog/how-long-does-mold-take-to-grow-after-water-damage.html": "2026-10-26",
+    "blog/how-much-does-air-quality-testing-cost.html": "2026-10-26",
+    "blog/indoor-air-quality-health-and-productivity.html": "2026-10-26",
+    "blog/radon-levels-in-north-carolina-south-carolina-georgia.html": "2026-10-26",
+    "blog/signs-you-may-need-mold-testing.html": "2026-10-26",
+    "blog/understanding-radon-silent-health-risk.html": "2026-10-26",
+    "blog/what-humidity-level-causes-mold.html": "2026-10-26",
+    "blog/what-is-asbestos-why-test-before-renovating.html": "2026-10-26",
+    "blog/why-independent-testing-matters.html": "2026-10-26",
+    "services/asbestos-testing.html": "2026-10-26",
+    "services/mold-testing.html": "2026-10-26",
+    "services/radon-testing.html": "2026-10-26",
+    "locations/albany-ga.html": "2026-10-26",
+    "locations/albany-ga/asbestos-testing.html": "2026-10-26",
+    "locations/albany-ga/mold-testing.html": "2026-10-26"
+  }
 }

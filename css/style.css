@@ -886,7 +886,7 @@ strong { font-weight: 600; }
   color: var(--white);
   border: none;
 }
-.sidebar-form h3 {
+.sidebar-form h2, .sidebar-form h3 {
   color: var(--white);
   border-bottom-color: var(--teal-400);
 }
@@ -1137,9 +1137,7 @@ strong { font-weight: 600; }
   .content-grid { grid-template-columns: 1fr; }
 }
 
-@media (max-width: 768px) {
-  body { font-size: 16px; }
-  .section-pad { padding: 3.5rem 0; }
+@media (max-width: 1024px) {
   .main-nav, .header-cta .btn { display: none; }
   .menu-toggle { display: block; }
   .header-phone { display: block; }
@@ -1155,6 +1153,10 @@ strong { font-weight: 600; }
     background: var(--navy-800);
     border-top: 1px solid rgba(255,255,255,.06);
     padding: 1rem 0;
+    max-height: calc(100vh - 160px);
+    max-height: calc(100dvh - 160px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
   }
   .main-nav.open a { padding: .75rem 5%; }
   .dropdown-menu {
@@ -1228,7 +1230,11 @@ strong { font-weight: 600; }
   .mega-col.open a {
     display: block;
   }
+}
 
+@media (max-width: 768px) {
+  body { font-size: 16px; }
+  .section-pad { padding: 3.5rem 0; }
   .page-hero { padding: 6rem 0 2.5rem; }
   .hero { min-height: auto; padding: 7rem 0 4rem; }
   .hero-stats { gap: 1.5rem; }
@@ -1363,6 +1369,15 @@ button:disabled { cursor: wait; opacity: .7; }
   .analytics-choice-actions { margin-top: .75rem; flex-wrap: wrap; }
 }
 @media (max-width: 380px) { .city-directory { grid-template-columns: 1fr; } }
+@media (max-width: 360px) {
+  .header-inner { width: 96%; }
+  .logo { gap: .4rem; }
+  .logo img { height: 32px; }
+  .logo-text { font-size: .9rem; white-space: nowrap; }
+  .logo-text span { font-size: .55rem; letter-spacing: .02em; }
+  .header-phone { font-size: .72rem; }
+  .menu-toggle { padding: .5rem .3rem; }
+}
 
 /* City landing pages: service choices and contact actions before project detail. */
 .location-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .75rem; margin-top: 1.5rem; }

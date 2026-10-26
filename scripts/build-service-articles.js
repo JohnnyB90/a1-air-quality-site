@@ -13,7 +13,7 @@ for (const [slug, article] of Object.entries(articles)) {
   if (!oldBody) throw new Error(`Missing article body: ${slug}`);
   const picture = oldBody[1].match(/<img\b[^>]*>/)?.[0] || '';
   const sources = `<section class="service-callout"><h2>Primary resources</h2><ul>${article.sources.map(([label, url]) => `<li><a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a></li>`).join('')}</ul></section>`;
-  const updated = article.updated || config.contentUpdated;
+  const updated = article.updated || config.pageUpdated?.[`blog/${slug}.html`] || config.contentUpdated;
   const updatedLabel = new Date(`${updated}T12:00:00Z`).toLocaleDateString('en-US', {month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC'});
   const download = article.download ? `<section class="service-callout" id="printable-checklist" aria-labelledby="download-title"><h2 id="download-title">A checklist to take with you</h2><p>${esc(article.download.description)}</p><p><a class="btn btn-primary" href="${esc(article.download.href)}" download>${esc(article.download.label)}</a></p></section>` : '';
   const body = `<article class="content-main"><p class="article-byline">By A1 Air Quality Consultants · Updated ${updatedLabel}</p>${picture}<p class="article-answer"><strong>${esc(article.answer)}</strong></p>${download}${article.sections.map(([heading, content]) => `<h2>${esc(heading)}</h2>${content}`).join('\n')}${sources}</article>`;

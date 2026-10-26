@@ -7,17 +7,34 @@ document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.main-nav');
   if (toggle && nav) {
+    nav.id = nav.id || 'main-navigation';
+    toggle.setAttribute('aria-controls', nav.id);
+    const closeMenu = () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.textContent = '☰';
+    };
     toggle.addEventListener('click', () => {
       nav.classList.toggle('open');
       toggle.setAttribute('aria-expanded', nav.classList.contains('open'));
       toggle.innerHTML = nav.classList.contains('open') ? '✕' : '☰';
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && nav.classList.contains('open')) {
+        closeMenu();
+        toggle.focus();
+      }
+    });
+    nav.addEventListener('click', event => {
+      const link = event.target.closest('a[href]');
+      if (link && !link.matches('.nav-dropdown > a')) closeMenu();
     });
   }
 
   /* --- Mobile dropdowns --- */
   document.querySelectorAll('.nav-dropdown > a').forEach(link => {
     link.addEventListener('click', (e) => {
-      if (window.innerWidth <= 768) {
+      if (window.innerWidth <= 1024) {
         e.preventDefault();
         e.stopImmediatePropagation();
         link.parentElement.classList.toggle('open');
@@ -28,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /* --- Mobile mega-menu state toggles --- */
   document.querySelectorAll('.mega-col h5').forEach(heading => {
     heading.addEventListener('click', () => {
-      if (window.innerWidth <= 768) {
+      if (window.innerWidth <= 1024) {
         heading.parentElement.classList.toggle('open');
       }
     });

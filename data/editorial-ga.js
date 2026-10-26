@@ -1,6 +1,6 @@
 module.exports = {
   'albany-ga': {
-    source: ['Albany-Dougherty Historic Preservation Commission', 'https://www.albanyga.gov/about-us/city-departments/planning-development/boards/historic-preservation-commission'],
+    source: ['Albany-Dougherty Historic Preservation Commission', 'https://www.albanyga.gov/City-Commission/Appointed-Boards'],
     local: 'Albany-Dougherty’s Historic Preservation Commission reviews certain exterior work in the Local Historic District. For repairs after a water event, separate the damaged materials from other renovation work. Preservation review, moisture assessment, and asbestos material testing each address different parts of the project.',
     air: 'For a building repaired after repeated water events, record when each area was reopened and how it was ventilated. Describe concerns by room and repair stage rather than as one continuous incident.',
     asbestos: ['Separating water-damaged finishes from other removals', ['Identify emergency removals already completed.', 'List remaining damaged and undamaged layers.', 'Show additional renovation work outside the damage.'], 'Does a water-damage inspection cover all demolition materials?', 'No. It may document the water event without identifying material composition. Discuss the remaining finishes and planned disturbance as a separate asbestos-testing question.'],

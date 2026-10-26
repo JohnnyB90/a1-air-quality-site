@@ -6,7 +6,7 @@
 [Website](https://a1airqualityconsultants.com/)
 
 ## About
-A1 Air Quality Consultants is a professional air quality testing and consultation company based in Spartanburg, SC. We provide independent, science-based testing for mold, asbestos, lead, radon, and indoor air quality across North Carolina, South Carolina, and parts of Georgia. We do NOT perform remediation or removal — this ensures our results and recommendations are always unbiased.
+A1 Air Quality Consultants is a professional air quality testing and consultation company based in Spartanburg, SC. We provide independent, science-based testing for mold, asbestos, lead, radon, and indoor air quality in listed communities across South Carolina, North Carolina, Georgia, and Tennessee. We do NOT perform remediation or removal — this ensures our results and recommendations are always unbiased.
 
 ## Credentials & Certifications
 - SCDES Licensed Building Consultant (South Carolina)
@@ -33,7 +33,7 @@ Service-area listings describe places the team travels to, not separate offices.
 - [About](https://a1airqualityconsultants.com/about.html) — Company background, team credentials, 25+ years of experience, SCDES/NCDHHS and AHERA certifications, and service area details.
 - [Services](https://a1airqualityconsultants.com/#services): See the service list below.
 - [Resources & Blog](https://a1airqualityconsultants.com/resources.html) — Blog index page with summaries of all educational articles on mold, asbestos, lead, radon, and indoor air quality.
-- [Service Areas](https://a1airqualityconsultants.com/service-areas.html) — All 76 city pages grouped by state.
+- [Service Areas](https://a1airqualityconsultants.com/service-areas.html) — All 91 city pages grouped by state.
 - [Understanding Your Testing Report](https://a1airqualityconsultants.com/understanding-your-testing-report.html) — Scope, methods, interpretation, and limitations.
 - [Contact](https://a1airqualityconsultants.com/contact.html)
 - [Privacy Policy](https://a1airqualityconsultants.com/privacy-policy.html)
@@ -49,7 +49,7 @@ Service-area listings describe places the team travels to, not separate offices.
 - [Radon Testing](https://a1airqualityconsultants.com/services/radon-testing.html)
 
 ## Service Areas
-All of South Carolina, all of North Carolina, and parts of Georgia including: Aiken, Albany, Alpharetta, Anderson, Apex, Asheville, Athens, Atlanta, Augusta, Beaufort, Brookhaven, Burlington, Cary, Chapel Hill, Charleston, Charlotte, Clemson, Columbia, Columbus, Concord, Cornelius, Duluth, Dunwoody, Durham, Easley, Fayetteville, Florence, Gainesville, Gastonia, Goose Creek, Greensboro, Greenville (NC), Greenville (SC), Greer, Hanahan, High Point, Hilton Head, Holly Springs, Huntersville, Indian Trail, Irmo, Jacksonville, Johns Creek, Kannapolis, Kennesaw, Lawrenceville, Lexington, Macon, Marietta, Mauldin, Mooresville, Mount Pleasant, Myrtle Beach, North Charleston, Peachtree City, Peachtree Corners, Piedmont, Raleigh, Rock Hill, Rocky Mount, Roswell, Sandy Springs, Savannah, Simpsonville, Smyrna, Spartanburg, Stonecrest, Summerville, Taylors, Valdosta, Wake Forest, Warner Robins, West Columbia, Wilmington, Winston-Salem, Woodstock, and surrounding areas.
+A1 serves the listed communities in South Carolina, North Carolina, Georgia, and Tennessee. Confirm availability, travel arrangements, and the testing scope for your property. City pages describe service areas, not separate offices.
 
 ## Location Pages
 - [Aiken, SC](https://a1airqualityconsultants.com/locations/aiken-sc.html)
@@ -62,16 +62,20 @@ All of South Carolina, all of North Carolina, and parts of Georgia including: Ai
 - [Atlanta, GA](https://a1airqualityconsultants.com/locations/atlanta-ga.html)
 - [Augusta, GA](https://a1airqualityconsultants.com/locations/augusta-ga.html)
 - [Beaufort, SC](https://a1airqualityconsultants.com/locations/beaufort-sc.html)
+- [Bluffton, SC](https://a1airqualityconsultants.com/locations/bluffton-sc.html)
 - [Brookhaven, GA](https://a1airqualityconsultants.com/locations/brookhaven-ga.html)
+- [Bryson City, NC](https://a1airqualityconsultants.com/locations/bryson-city-nc.html)
 - [Burlington, NC](https://a1airqualityconsultants.com/locations/burlington-nc.html)
 - [Cary, NC](https://a1airqualityconsultants.com/locations/cary-nc.html)
 - [Chapel Hill, NC](https://a1airqualityconsultants.com/locations/chapel-hill-nc.html)
 - [Charleston, SC](https://a1airqualityconsultants.com/locations/charleston-sc.html)
 - [Charlotte, NC](https://a1airqualityconsultants.com/locations/charlotte-nc.html)
+- [Cherokee, NC](https://a1airqualityconsultants.com/locations/cherokee-nc.html)
 - [Clemson, SC](https://a1airqualityconsultants.com/locations/clemson-sc.html)
 - [Columbia, SC](https://a1airqualityconsultants.com/locations/columbia-sc.html)
 - [Columbus, GA](https://a1airqualityconsultants.com/locations/columbus-ga.html)
 - [Concord, NC](https://a1airqualityconsultants.com/locations/concord-nc.html)
+- [Conway, SC](https://a1airqualityconsultants.com/locations/conway-sc.html)
 - [Cornelius, NC](https://a1airqualityconsultants.com/locations/cornelius-nc.html)
 - [Duluth, GA](https://a1airqualityconsultants.com/locations/duluth-ga.html)
 - [Dunwoody, GA](https://a1airqualityconsultants.com/locations/dunwoody-ga.html)
@@ -79,12 +83,15 @@ All of South Carolina, all of North Carolina, and parts of Georgia including: Ai
 - [Easley, SC](https://a1airqualityconsultants.com/locations/easley-sc.html)
 - [Fayetteville, NC](https://a1airqualityconsultants.com/locations/fayetteville-nc.html)
 - [Florence, SC](https://a1airqualityconsultants.com/locations/florence-sc.html)
+- [Fort Mill, SC](https://a1airqualityconsultants.com/locations/fort-mill-sc.html)
 - [Gainesville, GA](https://a1airqualityconsultants.com/locations/gainesville-ga.html)
 - [Gastonia, NC](https://a1airqualityconsultants.com/locations/gastonia-nc.html)
+- [Gatlinburg, TN](https://a1airqualityconsultants.com/locations/gatlinburg-tn.html)
 - [Goose Creek, SC](https://a1airqualityconsultants.com/locations/goose-creek-sc.html)
 - [Greensboro, NC](https://a1airqualityconsultants.com/locations/greensboro-nc.html)
 - [Greenville, NC](https://a1airqualityconsultants.com/locations/greenville-nc.html)
 - [Greenville, SC](https://a1airqualityconsultants.com/locations/greenville-sc.html)
+- [Greenwood, SC](https://a1airqualityconsultants.com/locations/greenwood-sc.html)
 - [Greer, SC](https://a1airqualityconsultants.com/locations/greer-sc.html)
 - [Hanahan, SC](https://a1airqualityconsultants.com/locations/hanahan-sc.html)
 - [High Point, NC](https://a1airqualityconsultants.com/locations/high-point-nc.html)
@@ -97,33 +104,41 @@ All of South Carolina, all of North Carolina, and parts of Georgia including: Ai
 - [Johns Creek, GA](https://a1airqualityconsultants.com/locations/johns-creek-ga.html)
 - [Kannapolis, NC](https://a1airqualityconsultants.com/locations/kannapolis-nc.html)
 - [Kennesaw, GA](https://a1airqualityconsultants.com/locations/kennesaw-ga.html)
+- [Knoxville, TN](https://a1airqualityconsultants.com/locations/knoxville-tn.html)
 - [Lawrenceville, GA](https://a1airqualityconsultants.com/locations/lawrenceville-ga.html)
+- [Lenoir City, TN](https://a1airqualityconsultants.com/locations/lenoir-city-tn.html)
 - [Lexington, SC](https://a1airqualityconsultants.com/locations/lexington-sc.html)
 - [Macon, GA](https://a1airqualityconsultants.com/locations/macon-ga.html)
+- [Maggie Valley, NC](https://a1airqualityconsultants.com/locations/maggie-valley-nc.html)
 - [Marietta, GA](https://a1airqualityconsultants.com/locations/marietta-ga.html)
 - [Mauldin, SC](https://a1airqualityconsultants.com/locations/mauldin-sc.html)
 - [Mooresville, NC](https://a1airqualityconsultants.com/locations/mooresville-nc.html)
 - [Mount Pleasant, SC](https://a1airqualityconsultants.com/locations/mount-pleasant-sc.html)
 - [Myrtle Beach, SC](https://a1airqualityconsultants.com/locations/myrtle-beach-sc.html)
+- [North Augusta, SC](https://a1airqualityconsultants.com/locations/north-augusta-sc.html)
 - [North Charleston, SC](https://a1airqualityconsultants.com/locations/north-charleston-sc.html)
 - [Peachtree City, GA](https://a1airqualityconsultants.com/locations/peachtree-city-ga.html)
 - [Peachtree Corners, GA](https://a1airqualityconsultants.com/locations/peachtree-corners-ga.html)
 - [Piedmont, SC](https://a1airqualityconsultants.com/locations/piedmont-sc.html)
+- [Pigeon Forge, TN](https://a1airqualityconsultants.com/locations/pigeon-forge-tn.html)
 - [Raleigh, NC](https://a1airqualityconsultants.com/locations/raleigh-nc.html)
 - [Rock Hill, SC](https://a1airqualityconsultants.com/locations/rock-hill-sc.html)
 - [Rocky Mount, NC](https://a1airqualityconsultants.com/locations/rocky-mount-nc.html)
 - [Roswell, GA](https://a1airqualityconsultants.com/locations/roswell-ga.html)
 - [Sandy Springs, GA](https://a1airqualityconsultants.com/locations/sandy-springs-ga.html)
 - [Savannah, GA](https://a1airqualityconsultants.com/locations/savannah-ga.html)
+- [Sevierville, TN](https://a1airqualityconsultants.com/locations/sevierville-tn.html)
 - [Simpsonville, SC](https://a1airqualityconsultants.com/locations/simpsonville-sc.html)
 - [Smyrna, GA](https://a1airqualityconsultants.com/locations/smyrna-ga.html)
 - [Spartanburg, SC](https://a1airqualityconsultants.com/locations/spartanburg-sc.html)
 - [Stonecrest, GA](https://a1airqualityconsultants.com/locations/stonecrest-ga.html)
 - [Summerville, SC](https://a1airqualityconsultants.com/locations/summerville-sc.html)
+- [Sumter, SC](https://a1airqualityconsultants.com/locations/sumter-sc.html)
 - [Taylors, SC](https://a1airqualityconsultants.com/locations/taylors-sc.html)
 - [Valdosta, GA](https://a1airqualityconsultants.com/locations/valdosta-ga.html)
 - [Wake Forest, NC](https://a1airqualityconsultants.com/locations/wake-forest-nc.html)
 - [Warner Robins, GA](https://a1airqualityconsultants.com/locations/warner-robins-ga.html)
+- [Waynesville, NC](https://a1airqualityconsultants.com/locations/waynesville-nc.html)
 - [West Columbia, SC](https://a1airqualityconsultants.com/locations/west-columbia-sc.html)
 - [Wilmington, NC](https://a1airqualityconsultants.com/locations/wilmington-nc.html)
 - [Winston-Salem, NC](https://a1airqualityconsultants.com/locations/winston-salem-nc.html)
@@ -167,8 +182,8 @@ All of South Carolina, all of North Carolina, and parts of Georgia including: Ai
 - [**Home Inspection Checklist: Mold, Asbestos, Lead, and Radon** (Nov 2025)](https://a1airqualityconsultants.com/blog/home-inspection-checklist-mold-asbestos-lead-radon.html)
   A 5-step checklist for inspecting homes for the four most common air quality hazards before buying or renovating.
 
-- [**Radon Levels in NC, SC, and GA** (Oct 2025)](https://a1airqualityconsultants.com/blog/radon-levels-in-north-carolina-south-carolina-georgia.html)
-  Radon risk varies across NC, SC, and GA by EPA zone. Covers high-risk counties, health risks (21,000 lung cancer deaths/year), and testing.
+- [**Radon Levels in SC, NC, GA, and TN** (Oct 2025)](https://a1airqualityconsultants.com/blog/radon-levels-in-north-carolina-south-carolina-georgia.html)
+  Explains the limits of regional radon maps and how to plan property testing in South Carolina, North Carolina, Georgia, and Tennessee.
 
 - [**What Humidity Level Causes Mold?** (Sep 2025)](https://a1airqualityconsultants.com/blog/what-humidity-level-causes-mold.html)
   Indoor humidity above 60% creates ideal conditions for mold growth. The EPA recommends 30–50%. Covers measuring humidity, prevention, and when to test.

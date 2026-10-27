@@ -8,6 +8,7 @@ const editorial = require('../data/location-editorial');
 const additional = require('../data/additional-service-editorial');
 const landingCopy = require('../data/location-landing-copy');
 const guides = require('../data/service-guides');
+const priorityCopy = require('../data/priority-service-copy');
 const states = {sc: 'South Carolina', nc: 'North Carolina', ga: 'Georgia', tn: 'Tennessee'};
 const read = file => fs.readFileSync(path.join(ROOT, file), 'utf8');
 const write = (file, html) => {
@@ -136,7 +137,7 @@ for (const location of locations) {
 <div class="section-header location-services-heading"><h2>Choose the testing you need</h2><p>Explore a service or call us if you are unsure where to start.</p></div>
 <div class="services-grid location-services">${Object.entries(labels).map(([type, label]) => `<article class="service-card"><h3>${esc(label)}</h3><p>${esc(cardCopy[type])}</p><a class="card-link" href="${servicePath(slug, type)}">${esc(label)} in ${esc(city)}</a></article>`).join('\n')}</div></div></section>
 <section class="content-section section-pad section-alt"><div class="container content-grid"><div class="content-main">
-<h2>Independent testing. Clear next steps.</h2><p>A1 provides testing and consultation without selling removal or remediation. We explain the findings for your inspection so you can decide what comes next.</p>
+${(priorityCopy[`${slug}/overview`]?.sections || []).map(([heading, content]) => `<h2>${esc(heading)}</h2>${content}\n`).join('')}<h2>Independent testing. Clear next steps.</h2><p>A1 provides testing and consultation without selling removal or remediation. We explain the findings for your inspection so you can decide what comes next.</p>
 <ol class="location-process"><li><strong>Tell us what is happening.</strong> Start with your concern, location, and timing.</li><li><strong>Arrange the property visit.</strong> We confirm the testing scope, quote, access, and appointment.</li><li><strong>Understand the findings.</strong> Review the results and discuss any recommended follow-up.</li></ol>
 <h2>When will I have results?</h2><p>Laboratory results are typically available within 48–72 business hours. Confirm the schedule for your samples and project. Radon testing also needs its agreed monitoring period before reporting.</p>
 <details class="location-detail"><summary>Local resources for a ${esc(city)} property project</summary>${localContext(entry, city)}</details>
@@ -155,12 +156,13 @@ ${nearbyLinks(location)}
     const section = original ? {heading: entry[type][0], brief: plans[slug][isAsbestos ? 0 : 1], preparation: entry[type][1], faq: entry[type].slice(2)} : additional[slug][type];
     const file = servicePath(slug,type).slice(1);
     const title = `${labels[type]} in ${city}, ${state.toUpperCase()}`;
-    const description = `${labels[type]} in ${city}, ${state.toUpperCase()}. Independent testing and consultation for your property or project. Call A1 to discuss options and a quote.`;
+    const focused = priorityCopy[`${slug}/${type}`];
+    const description = focused?.description || `${labels[type]} in ${city}, ${state.toUpperCase()}. Independent testing and consultation for your property or project. Call A1 to discuss options and a quote.`;
     const timing = original ? turnaround : guides[type].timing;
     const limitation = original ? (isAsbestos ? 'Leave suspect materials undisturbed while arranging professional evaluation. A sample result describes its documented material and scope.' : 'A mold investigation considers moisture history and accessible conditions. Sampling is selected for a defined question; an air sample alone does not describe an entire building.') : guides[type].limitation;
     const body = `<section class="content-section section-pad"><div class="container content-grid"><div class="content-main">
-<h2>${esc(benefits[type][0])}</h2><p>${esc(benefits[type][1])}</p>
-<h2>${esc(section.heading)}</h2><p>${esc(section.brief)}</p>
+<h2>${esc(focused?.heading || benefits[type][0])}</h2><p>${esc(focused?.intro || benefits[type][1])}</p>
+${focused ? focused.sections.map(([heading, content]) => `<h2>${esc(heading)}</h2>${content}`).join('\n') : `<h2>${esc(section.heading)}</h2><p>${esc(section.brief)}</p>`}
 <p><a class="btn btn-primary" href="#request-testing">Discuss your ${esc(city)} property</a></p>
 <details class="location-detail"><summary>What helps us quote this project?</summary><ul>${section.preparation.map(item => `<li>${esc(item)}</li>`).join('')}</ul></details>
 ${original ? `<details class="location-detail"><summary>Local property project resources</summary>${localContext(entry, city)}</details>` : ''}
@@ -168,7 +170,7 @@ ${original ? `<details class="location-detail"><summary>Local property project r
 <h2>Results and follow-up</h2><p>${esc(timing)}</p><p>A1 provides testing and consultation independently of removal or remediation. <a href="/understanding-your-testing-report.html">Understanding your testing report</a>.</p>
 <nav class="service-callout" aria-label="Related testing information"><h2>More services in ${esc(city)}</h2><ul><li><a href="${overviewPath(slug)}">All testing services in ${esc(city)}</a></li>${serviceLinks(slug, type)}<li><a href="/service-areas.html">All service areas</a></li></ul></nav>
 </div><aside><section class="sidebar-card sidebar-form" id="request-testing"><h2>Request ${esc(labels[type].toLowerCase())}</h2><p>Tell us about your ${esc(city)} property. We will confirm the quote, scope, access, and scheduling.</p><form></form></section>${office(slug)}${isAsbestos && state==='tn' ? `<section class="sidebar-card"><h2>Tennessee inspector information</h2><p>TDEC lists Dallas Gunn as an Active asbestos inspector through January 20, 2027. Entry checked October 12, 2026.</p><a href="${esc(tdecUrl)}" target="_blank" rel="noopener">Verify Dallas Gunn in the TDEC registry</a></section>` : ''}<section class="sidebar-card sidebar-cta"><h2>Prefer to call?</h2><a class="phone-big" href="tel:+18646192092">(864) 619-2092</a><p>Free phone consultation. Testing is arranged at your property.</p></section></aside></div></section>`;
-    write(file, page({title, description, file, city, slug, service: type, body, faqs:[section.faq]}));
+    write(file, page({title, description, file, city, slug, service: type, body, faqs:[...(focused?.faqs || []), section.faq]}));
   }
 }
 

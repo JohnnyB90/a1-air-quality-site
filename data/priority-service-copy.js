@@ -8,6 +8,10 @@ module.exports = {
     sections: [['Air-quality help for an occupied Greer property', '<p>When a concern follows HVAC work, an addition or a change in room use, <a href="/locations/greer-sc/indoor-air-quality-testing.html">air quality testing in Greer</a> can start with the building history and the spaces involved. A1 will discuss the proposed scope and quote before scheduling.</p><p>A leak or suspected growth may call for <a href="/locations/greer-sc/mold-testing.html">Greer mold testing</a>, while a business expansion can involve <a href="/locations/greer-sc/commercial-industrial-testing.html">commercial environmental testing</a>. You can call without knowing which test to select first.</p>']]
   },
   'athens-ga/overview': {
+    description: 'A1 provides independent asbestos, mold, indoor air, lead, radon, and commercial testing for Athens, GA homes and businesses. Call for a testing quote.',
+    cardCopy: {
+      'indoor-air-quality': 'A1 provides indoor air quality testing in Athens, GA for odors and indoor-condition concerns. We discuss the question and select a testing scope before confirming the quote, access, and appointment.'
+    },
     sections: [['Testing for an Athens home, rental or business', '<p>Before renovation, discuss <a href="/locations/athens-ga/asbestos-testing.html">Athens asbestos testing</a> for the materials the work will disturb. For a leak, musty room or possible growth, start with <a href="/locations/athens-ga/mold-testing.html">mold testing in Athens</a>. A broader odor or indoor-air question can be discussed through our <a href="/locations/athens-ga/indoor-air-quality-testing.html">Athens air quality service</a>.</p><p>Owners and managers can also arrange a consultation about <a href="/locations/athens-ga/commercial-industrial-testing.html">commercial properties and rental portfolios in Athens</a>. A1 keeps the testing scope tied to the addresses and areas agreed for the assignment.</p>']]
   },
   'greenville-sc/indoor-air-quality': {

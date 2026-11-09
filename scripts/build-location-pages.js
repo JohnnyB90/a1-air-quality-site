@@ -132,10 +132,11 @@ for (const location of locations) {
   }
   if (!entry.local || !entry.air || !/^https:\/\//.test(entry.source?.[1])) throw new Error(`Incomplete local source for ${slug}`);
   const title = `Asbestos, Mold & Air Quality Testing in ${city}, ${state.toUpperCase()}`;
-  const description = `Independent testing for ${city}, ${state.toUpperCase()} homes and businesses. Asbestos, mold, indoor air, lead, radon, and commercial services. Call A1 for a quote.`;
+  const overviewCopy = priorityCopy[`${slug}/overview`];
+  const description = overviewCopy?.description || `Independent testing for ${city}, ${state.toUpperCase()} homes and businesses. Asbestos, mold, indoor air, lead, radon, and commercial services. Call A1 for a quote.`;
   const body = `<section class="section-pad location-intro"><div class="container"><div class="reading-width"><h2>Answers for your ${esc(city)} property</h2><p>${esc(landingCopy[slug])}</p></div>
 <div class="section-header location-services-heading"><h2>Choose the testing you need</h2><p>Explore a service or call us if you are unsure where to start.</p></div>
-<div class="services-grid location-services">${Object.entries(labels).map(([type, label]) => `<article class="service-card"><h3>${esc(label)}</h3><p>${esc(cardCopy[type])}</p><a class="card-link" href="${servicePath(slug, type)}">${esc(label)} in ${esc(city)}</a></article>`).join('\n')}</div></div></section>
+<div class="services-grid location-services">${Object.entries(labels).map(([type, label]) => `<article class="service-card"><h3>${esc(label)}</h3><p>${esc(overviewCopy?.cardCopy?.[type] || cardCopy[type])}</p><a class="card-link" href="${servicePath(slug, type)}">${esc(label)} in ${esc(city)}</a></article>`).join('\n')}</div></div></section>
 <section class="content-section section-pad section-alt"><div class="container content-grid"><div class="content-main">
 ${(priorityCopy[`${slug}/overview`]?.sections || []).map(([heading, content]) => `<h2>${esc(heading)}</h2>${content}\n`).join('')}<h2>Independent testing. Clear next steps.</h2><p>A1 provides testing and consultation without selling removal or remediation. We explain the findings for your inspection so you can decide what comes next.</p>
 <ol class="location-process"><li><strong>Tell us what is happening.</strong> Start with your concern, location, and timing.</li><li><strong>Arrange the property visit.</strong> We confirm the testing scope, quote, access, and appointment.</li><li><strong>Understand the findings.</strong> Review the results and discuss any recommended follow-up.</li></ol>

@@ -10,8 +10,12 @@ module.exports = {
   'athens-ga/overview': {
     description: 'A1 provides independent asbestos, mold, indoor air, lead, radon, and commercial testing for Athens, GA homes and businesses. Call for a testing quote.',
     cardCopy: {
-      'indoor-air-quality': 'A1 provides indoor air quality testing in Athens, GA for odors and indoor-condition concerns. We discuss the question and select a testing scope before confirming the quote, access, and appointment.'
+      'indoor-air-quality': 'A1 provides indoor air quality testing in Athens, GA for odors and indoor-condition concerns. We discuss the question and select a testing scope before confirming the quote, access, and appointment.',
+      lead: 'A1 lead testing in Athens, GA can address a defined question about paint, dust, or water at a property. Property owners and managers can discuss the specific concern so the testing scope is tied to the agreed address and areas for the assignment.',
+      radon: 'A1 radon testing in Athens, GA arranges measurement for a purchase, an occupied room, or another property decision. Radon testing requires its agreed monitoring period before reporting, so confirm the schedule for the property and project when arranging the appointment.',
+      'commercial-industrial': 'A1 commercial and industrial testing in Athens, GA coordinates environmental testing for business properties and facility projects. Owners and managers can discuss one property or several units, with the inspection scope and reporting kept clear for each location.'
     },
+    independentCopy: 'A1 provides independent environmental testing and consultation in Athens without selling removal or remediation. A1 explains the findings for your inspection and discusses recommended follow-up, so you can decide what comes next for the property.',
     sections: [['Testing for an Athens home, rental or business', '<p>Before renovation, discuss <a href="/locations/athens-ga/asbestos-testing.html">Athens asbestos testing</a> for the materials the work will disturb. For a leak, musty room or possible growth, start with <a href="/locations/athens-ga/mold-testing.html">mold testing in Athens</a>. A broader odor or indoor-air question can be discussed through our <a href="/locations/athens-ga/indoor-air-quality-testing.html">Athens air quality service</a>.</p><p>Owners and managers can also arrange a consultation about <a href="/locations/athens-ga/commercial-industrial-testing.html">commercial properties and rental portfolios in Athens</a>. A1 keeps the testing scope tied to the addresses and areas agreed for the assignment.</p>']]
   },
   'greenville-sc/indoor-air-quality': {

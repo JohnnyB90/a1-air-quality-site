@@ -83,7 +83,7 @@ module.exports = {
     heading: 'Get answers about indoor air at your Athens property',
     intro: 'A1 provides independent indoor air quality testing and consultation for Athens homes, rentals and business properties. Whether the concern is a recurring odor, a change after building work or conditions in an occupied room, we help identify a useful investigation and explain what the selected tests can establish.',
     sections: [
-      ['Different rooms can need different questions', '<p>In a shared rental, a bathroom moisture concern and a bedroom odor may have different histories. A1 can review observations room by room and discuss which areas and measurements to include. Cleaning, recent decorating, vacancy periods and ventilation changes can all be relevant to planning the visit.</p><p>If a leak or suspected growth is the main issue, explore <a href="/locations/athens-ga/mold-testing.html">Athens mold testing</a>. A concern about materials before renovation belongs in a separate <a href="/locations/athens-ga/asbestos-testing.html">asbestos testing</a> discussion.</p>'],
+      ['Different rooms can need different questions', '<p>In a shared rental, a bathroom moisture concern and a bedroom odor may have different histories. A1 can review observations room by room and discuss which areas and measurements to include. Cleaning, recent decorating, vacancy periods and ventilation changes can all be relevant to planning the visit.</p><p><a href="https://www.epa.gov/indoor-air-quality-iaq/improving-indoor-air-quality" target="_blank" rel="noopener">EPA: ventilation and indoor air quality</a></p><p>If a leak or suspected growth is the main issue, explore <a href="/locations/athens-ga/mold-testing.html">Athens mold testing</a>. A concern about materials before renovation belongs in a separate <a href="/locations/athens-ga/asbestos-testing.html">asbestos testing</a> discussion.</p>'],
       ['Homes, rentals and occupied workplaces', '<p>Homeowners can discuss a single property concern. Rental owners can arrange access around tenants and maintenance. Businesses can identify affected rooms, shared areas and operating hours. The inspection scope should reflect the property involved rather than treating one result as representative of unrelated buildings or units.</p><p>For multiple properties or a tenant-space project, see <a href="/locations/athens-ga/commercial-industrial-testing.html">commercial and rental-property testing in Athens</a>.</p>'],
       ['Start with a conversation about the property', '<p>Tell A1 what you have noticed, the location and when you need help. You can request a quote without choosing a testing package first. We will discuss scope, access, availability and reporting before you book. An environmental test investigates the property; it does not diagnose an individual health condition.</p>']
     ],
@@ -92,6 +92,18 @@ module.exports = {
       ['Can one visit cover several Athens rental units?', 'Discuss the addresses, units, concerns and access with A1. Each area included in the assignment must be identified, and a finding from one unit should not be assumed to cover the others.'],
       ['How do I get an air-testing quote for Athens?', 'Call (864) 619-2092 or use the request form with the property location, concern and timing. A1 will discuss the proposed work, samples if needed and scheduling before confirming the quote.']
     ]
+  },
+  'athens-ga/lead': {
+    coverageReference: {
+      url: 'https://www.epa.gov/lead/lead-abatement-inspection-and-risk-assessment',
+      label: 'EPA: lead inspections and risk assessments'
+    }
+  },
+  'athens-ga/radon': {
+    coverageReference: {
+      url: 'https://www.epa.gov/sites/default/files/2016-12/documents/2016_a_citizens_guide_to_radon.pdf',
+      label: 'EPA: radon testing conditions and follow-up (PDF)'
+    }
   },
   'athens-ga/commercial-industrial': {
     description: 'Commercial environmental testing in Athens, GA for offices, rental properties and renovation projects. Discuss air quality, mold and material testing with A1.',

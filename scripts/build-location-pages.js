@@ -107,8 +107,8 @@ const locations = Object.keys(plans).map(slug => {
 }).sort((a,b) => a.city.localeCompare(b.city));
 if (Object.keys(editorial).length !== locations.length || Object.keys(landingCopy).length !== locations.length) throw new Error('Editorial inventory differs from location inventory');
 
-function localContext(entry, city) {
-  return `<section aria-label="Local project context"><h2>Local planning context for ${esc(city)}</h2><p>${esc(entry.local)}</p><p><a href="${esc(entry.source[1])}" target="_blank" rel="noopener">${esc(entry.source[0])}</a></p></section>`;
+function localContext(entry, city, heading) {
+  return `<section aria-label="Local project context"><h2>${esc(heading || `Local planning context for ${city}`)}</h2><p>${esc(entry.local)}</p><p><a href="${esc(entry.source[1])}" target="_blank" rel="noopener">${esc(entry.source[0])}</a></p></section>`;
 }
 
 function serviceLinks(slug, current) {
@@ -166,8 +166,8 @@ ${nearbyLinks(location)}
 ${focused?.sections ? focused.sections.map(([heading, content]) => `<h2>${esc(heading)}</h2>${content}`).join('\n') : `<h2>${esc(section.heading)}</h2><p>${esc(section.brief)}</p>`}
 <p><a class="btn btn-primary" href="#request-testing">Discuss your ${esc(city)} property</a></p>
 <details class="location-detail"><summary>What helps us quote this project?</summary><ul>${section.preparation.map(item => `<li>${esc(item)}</li>`).join('')}</ul></details>
-${original ? `<details class="location-detail"><summary>Local property project resources</summary>${localContext(entry, city)}</details>` : ''}
-<h2>What the testing covers</h2><p>${esc(limitation)}</p>${focused?.coverageReference ? `<p><a href="${esc(focused.coverageReference.url)}" target="_blank" rel="noopener">${esc(focused.coverageReference.label)}</a></p>` : ''}<p><a href="/services/${type}-testing.html">Explore the ${esc(labels[type].toLowerCase())} service and common questions</a>.</p>
+${original ? `<details class="location-detail"><summary>Local property project resources</summary>${localContext(entry, city, focused?.localContextHeading)}</details>` : ''}
+<h2>${esc(focused?.coverageHeading || 'What the testing covers')}</h2><p>${esc(limitation)}</p>${focused?.coverageReference ? `<p><a href="${esc(focused.coverageReference.url)}" target="_blank" rel="noopener">${esc(focused.coverageReference.label)}</a></p>` : ''}<p><a href="/services/${type}-testing.html">Explore the ${esc(labels[type].toLowerCase())} service and common questions</a>.</p>
 <h2>Results and follow-up</h2><p>${esc(timing)}</p><p>A1 provides testing and consultation independently of removal or remediation. <a href="/understanding-your-testing-report.html">Understanding your testing report</a>.</p>
 <nav class="service-callout" aria-label="Related testing information"><h2>More services in ${esc(city)}</h2><ul><li><a href="${overviewPath(slug)}">All testing services in ${esc(city)}</a></li>${serviceLinks(slug, type)}<li><a href="/service-areas.html">All service areas</a></li></ul></nav>
 </div><aside><section class="sidebar-card sidebar-form" id="request-testing"><h2>Request ${esc(labels[type].toLowerCase())}</h2><p>Tell us about your ${esc(city)} property. We will confirm the quote, scope, access, and scheduling.</p><form></form></section>${office(slug)}${isAsbestos && state==='tn' ? `<section class="sidebar-card"><h2>Tennessee inspector information</h2><p>TDEC lists Dallas Gunn as an Active asbestos inspector through January 20, 2027. Entry checked October 12, 2026.</p><a href="${esc(tdecUrl)}" target="_blank" rel="noopener">Verify Dallas Gunn in the TDEC registry</a></section>` : ''}<section class="sidebar-card sidebar-cta"><h2>Prefer to call?</h2><a class="phone-big" href="tel:+18646192092">(864) 619-2092</a><p>Free phone consultation. Testing is arranged at your property.</p></section></aside></div></section>`;

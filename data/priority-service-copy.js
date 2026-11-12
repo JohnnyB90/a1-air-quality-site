@@ -1,6 +1,10 @@
 // Focused improvements based on Search Console demand, October 26, 2026.
 // These describe offered services, not claimed past jobs or unverified credentials.
 module.exports = {
+  'knoxville-tn/asbestos': {
+    coverageHeading: 'What Asbestos Testing Covers',
+    localContextHeading: 'Knoxville Project Planning for Asbestos Inspections'
+  },
   'greenville-sc/overview': {
     sections: [['Help with an indoor-air concern in Greenville', '<p>A persistent odor, a concern after a leak or a change in an occupied room can be a reason to discuss <a href="/locations/greenville-sc/indoor-air-quality-testing.html">indoor air quality testing in Greenville</a>. A1 can help select an investigation for the concern without assuming every property needs the same package.</p><p>For an office, tenant space or renovation project, explore <a href="/locations/greenville-sc/commercial-industrial-testing.html">Greenville commercial testing</a>. If the property is in Greer, use our <a href="/locations/greer-sc/indoor-air-quality-testing.html">Greer air quality testing page</a> and confirm appointment availability with A1.</p>']]
   },

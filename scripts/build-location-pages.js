@@ -36,7 +36,7 @@ const cardCopy = {
   radon: 'Arrange measurement for a purchase, an occupied room, or another property decision.',
   'commercial-industrial': 'Coordinate environmental testing for business properties and facility projects.'
 };
-const turnaround = 'Results are typically available within 48–72 business hours. Confirm the expected timing for your sample types, laboratory analysis, and project deadline before scheduling.';
+const turnaround = 'Confirm the expected timing for your sample types, laboratory analysis, and project deadline before scheduling. Do not assume a fixed turnaround.';
 const tdecUrl = 'https://dataviewers.tdec.tn.gov/dataviewers/f?p=35001:640::::::';
 const regionalContacts = [
   {name: 'Piedmont', address: '142 Sir Lancelot Drive, Piedmont, SC', cities: ['anderson-sc', 'clemson-sc', 'easley-sc', 'greenville-sc', 'greer-sc', 'mauldin-sc', 'piedmont-sc', 'simpsonville-sc', 'taylors-sc', 'greenwood-sc']},
@@ -140,7 +140,7 @@ for (const location of locations) {
 <section class="content-section section-pad section-alt"><div class="container content-grid"><div class="content-main">
 ${(priorityCopy[`${slug}/overview`]?.sections || []).map(([heading, content]) => `<h2>${esc(heading)}</h2>${content}\n`).join('')}<h2>Independent testing. Clear next steps.</h2><p>${esc(overviewCopy?.independentCopy || 'A1 provides testing and consultation without selling removal or remediation. We explain the findings for your inspection so you can decide what comes next.')}</p>
 <ol class="location-process"><li><strong>Tell us what is happening.</strong> Start with your concern, location, and timing.</li><li><strong>Arrange the property visit.</strong> We confirm the testing scope, quote, access, and appointment.</li><li><strong>Understand the findings.</strong> Review the results and discuss any recommended follow-up.</li></ol>
-<h2>When will I have results?</h2><p>Laboratory results are typically available within 48–72 business hours. Confirm the schedule for your samples and project. Radon testing also needs its agreed monitoring period before reporting.</p>
+<h2>When will I have results?</h2><p>Confirm the overall schedule and reporting scope when requesting a quote, including any sampling or laboratory analysis. Do not assume a fixed turnaround. Radon testing also needs its agreed monitoring period before reporting.</p>
 <details class="location-detail"><summary>Local resources for a ${esc(city)} property project</summary>${localContext(entry, city)}</details>
 ${nearbyLinks(location)}
 </div><aside><section class="sidebar-card sidebar-cta"><h2>Talk with A1</h2><p>Free phone consultation. Discuss the concern and get a quote for testing at your property.</p><a class="phone-big" href="tel:+18646192092">(864) 619-2092</a><a class="btn btn-primary" href="/contact.html">Request a consultation</a></section>${office(slug)}<section class="sidebar-card"><h2>Testing at your property</h2><p>We travel to listed service areas. Call to confirm availability and travel arrangements. This page describes service in ${esc(city)}; it is not a separate office listing.</p></section></aside></div></section>`;

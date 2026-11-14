@@ -154,7 +154,7 @@ module.exports = {
   },
   'what-is-indoor-air-quality-testing': {
     service: 'indoor-air-quality',
-    updated: '2026-10-26',
+    updated: '2026-11-14',
     description: 'How an indoor-air investigation combines the building history, observations, and selected measurements to answer a defined concern.',
     answer: 'Indoor air quality testing investigates a specific concern using the building history, observations, and selected measurements or samples. There is no single test that identifies every indoor pollutant or guarantees that all rooms are free of problems.',
     sections: [
@@ -162,7 +162,7 @@ module.exports = {
       ['Use observations and measurements together', '<p>Depending on the agreed scope, the visit may include building observations, moisture or humidity readings, ventilation context, or selected laboratory samples. Ask what each proposed measurement can establish and what it cannot. A result from one location or substance should not be extended to every room and possible contaminant.</p>'],
       ['Choose a separate scope where the question differs', '<p><a href="/services/mold-testing.html">Mold and moisture investigations</a>, <a href="/services/radon-testing.html">radon measurements</a>, and <a href="/services/asbestos-testing.html">asbestos material testing</a> have different purposes. Discuss all relevant concerns at the outset so separate testing can be identified where appropriate.</p>'],
       ['Read the report with its limitations', '<p>Look for the locations assessed, conditions during the visit, sample identifiers, findings, and uninspected areas. An intermittent issue may not be present during the appointment, making a dated observation history valuable. Environmental findings do not establish an individual medical diagnosis; discuss personal health concerns with a healthcare professional.</p>'],
-      ['Connect results to a practical response', '<p>EPA describes source control, ventilation, and air cleaning as different approaches to improving indoor air. The useful next action depends on the building and findings. A generic product or an isolated number is not a substitute for understanding the concern.</p><p>A1 offers <a href="/services/indoor-air-quality-testing.html">independent indoor-air testing and consultation</a>. Laboratory results are typically available within 48–72 business hours, depending on the selected analysis. Confirm the overall schedule and reporting scope when requesting a quote.</p>']
+      ['Connect results to a practical response', '<p>EPA describes source control, ventilation, and air cleaning as different approaches to improving indoor air. The useful next action depends on the building and findings. A generic product or an isolated number is not a substitute for understanding the concern.</p><p>A1 offers <a href="/services/indoor-air-quality-testing.html">independent indoor-air testing and consultation</a>. Confirm the overall schedule and reporting scope when requesting a quote, including any sampling or laboratory analysis. Do not assume a fixed turnaround.</p>']
     ],
     faqs: [
       ['Does every air-quality investigation need laboratory samples?', 'The scope depends on the concern. Discuss which observations or measurements are useful and whether sampling will answer a defined question before selecting a package.'],

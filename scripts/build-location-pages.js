@@ -198,7 +198,7 @@ for (const type of Object.keys(labels)) {
   write(file, html);
 }
 
-let contact = read('contact.html').replace('We serve all of NC, SC, and parts of GA from this location.', 'Call to arrange testing at properties in our listed service areas across SC, NC, GA, and TN.');
+let contact = read('contact.html').replace('We serve all of NC, SC, and parts of GA from this location.', 'Check our <a href="/service-areas.html">service areas by state</a>, then call to arrange testing at your property.');
 const contacts = regionalContacts.map(c => `<div class="sidebar-card"><h3>${c.name} regional contact address</h3><p>${esc(c.address)}</p><p>Call to arrange property testing and confirm any visit to this address.</p></div>`).join('\n');
 contact = managed(contact, 'regional addresses', contacts, '</aside>');
 write('contact.html', contact);

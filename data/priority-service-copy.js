@@ -2,6 +2,7 @@
 // These describe offered services, not claimed past jobs or unverified credentials.
 module.exports = {
   'knoxville-tn/asbestos': {
+    description: 'Planning a renovation in Knoxville, TN? A1 can inspect suspect building materials and arrange asbestos sampling before work begins. Request a testing quote.',
     coverageHeading: 'What Asbestos Testing Covers',
     localContextHeading: 'Knoxville Project Planning for Asbestos Inspections'
   },

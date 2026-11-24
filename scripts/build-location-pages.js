@@ -116,6 +116,9 @@ function serviceLinks(slug, current) {
 }
 
 function nearbyLinks(location) {
+  if (location.nearby.length === 0) {
+    return '<nav aria-label="Service area directory"><h2>Service area directory</h2><p><a href="/service-areas.html">Browse all service areas</a></p></nav>';
+  }
   return `<nav aria-label="Nearby service areas"><h2>Nearby service areas</h2><ul>${location.nearby.map(slug => {
     const other = locations.find(l => l.slug === slug);
     if (!other) throw new Error(`Unknown nearby city ${slug} on ${location.slug}`);

@@ -23,6 +23,9 @@ module.exports = {
   'summerville-sc/overview': {
     sections: [['Indoor air testing in Summerville and Charleston', '<p>If a leak, renovation or recurring odor has raised questions at a Summerville property, start with <a href="/locations/summerville-sc/indoor-air-quality-testing.html">indoor air quality testing in Summerville</a>. For a property in Charleston, see <a href="/locations/charleston-sc/indoor-air-quality-testing.html">indoor air quality testing in Charleston</a> to discuss the affected rooms and the timing of your concern.</p>']]
   },
+  'piedmont-sc/overview': {
+    sections: [['Air testing for your property', '<p>If an odor keeps coming back at a home or business in Piedmont, see <a href="/locations/piedmont-sc/indoor-air-quality-testing.html">indoor air quality testing in Piedmont</a>. If the affected property is in Greenville, our <a href="/locations/greenville-sc/indoor-air-quality-testing.html">Greenville air quality testing page</a> explains how to describe the affected rooms and plan a visit.</p>']]
+  },
   'athens-ga/overview': {
     description: 'A1 provides independent asbestos, mold, indoor air, lead, radon, and commercial testing for Athens, GA homes and businesses. Call for a testing quote.',
     cardCopy: {

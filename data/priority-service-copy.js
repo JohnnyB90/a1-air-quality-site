@@ -1,6 +1,11 @@
 // Focused improvements based on Search Console demand, October 26, 2026.
 // These describe offered services, not claimed past jobs or unverified credentials.
 module.exports = {
+  'charleston-sc/indoor-air-quality': {
+    faqs: [
+      ['When should I arrange air testing after restoration work?', 'Start with the decision you need to make. If a report is needed before people return, ask the person requesting it which rooms, measurements and conditions the report must cover. If an odor returns only while a room is in use, record when it occurs and whether the ventilation system is running. Share that timing when booking so A1 can discuss a visit that represents the concern. A general air test cannot clear an entire building for occupancy.']
+    ]
+  },
   'knoxville-tn/asbestos': {
     description: 'Planning a renovation in Knoxville, TN? A1 can inspect suspect building materials and arrange asbestos sampling before work begins. Request a testing quote.',
     coverageHeading: 'What Asbestos Testing Covers',

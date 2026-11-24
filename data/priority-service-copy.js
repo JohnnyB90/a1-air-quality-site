@@ -12,6 +12,12 @@ module.exports = {
   'greer-sc/overview': {
     sections: [['Air-quality help for an occupied Greer property', '<p>When a concern follows HVAC work, an addition or a change in room use, <a href="/locations/greer-sc/indoor-air-quality-testing.html">air quality testing in Greer</a> can start with the building history and the spaces involved. A1 will discuss the proposed scope and quote before scheduling.</p><p>A leak or suspected growth may call for <a href="/locations/greer-sc/mold-testing.html">Greer mold testing</a>, while a business expansion can involve <a href="/locations/greer-sc/commercial-industrial-testing.html">commercial environmental testing</a>. You can call without knowing which test to select first.</p>']]
   },
+  'spartanburg-sc/overview': {
+    sections: [['Which property needs air testing?', '<p>For a concern at a Spartanburg home or workplace, see <a href="/locations/spartanburg-sc/indoor-air-quality-testing.html">indoor air quality testing in Spartanburg</a>. If the property is in Greer, our <a href="/locations/greer-sc/indoor-air-quality-testing.html">Greer air quality testing page</a> explains how to prepare for a visit, including what to record when an odor comes and goes.</p>']]
+  },
+  'summerville-sc/overview': {
+    sections: [['Indoor air testing in Summerville and Charleston', '<p>If a leak, renovation or recurring odor has raised questions at a Summerville property, start with <a href="/locations/summerville-sc/indoor-air-quality-testing.html">indoor air quality testing in Summerville</a>. For a property in Charleston, see <a href="/locations/charleston-sc/indoor-air-quality-testing.html">indoor air quality testing in Charleston</a> to discuss the affected rooms and the timing of your concern.</p>']]
+  },
   'athens-ga/overview': {
     description: 'A1 provides independent asbestos, mold, indoor air, lead, radon, and commercial testing for Athens, GA homes and businesses. Call for a testing quote.',
     cardCopy: {

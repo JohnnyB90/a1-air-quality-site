@@ -170,7 +170,7 @@ ${breadcrumbLD}
   </div>
 </section>
 
-<div class="no-conflict"><div class="container no-conflict-inner"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;color:#9BCB3B;flex-shrink:0"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p><strong>100% Independent Testing — Zero Conflict of Interest.</strong> We never sell remediation or removal services. Our results and recommendations are always honest and unbiased.</p></div></div>
+<div class="no-conflict"><div class="container no-conflict-inner"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;color:#9BCB3B;flex-shrink:0"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><p><strong>Independent environmental testing.</strong> A1 provides testing and consultation. A separate contractor handles any recommended removal or remediation.</p></div></div>
 
 <section class="content-section section-pad">
   <div class="container content-grid">

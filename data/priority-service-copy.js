@@ -1,6 +1,26 @@
 // Focused improvements based on Search Console demand, October 26, 2026.
 // These describe offered services, not claimed past jobs or unverified credentials.
 module.exports = {
+  'raleigh-nc/overview': {
+    title: 'Indoor Air Quality, Mold & Asbestos Testing in Raleigh, NC',
+    description: 'Arrange independent testing at a Raleigh home, rental or workplace. Tell A1 where an odor or moisture concern occurs, or which materials a renovation will disturb.',
+    sections: [['Choose the investigation for your Raleigh property', '<p>An odor that appears only when a particular suite is occupied calls for a different conversation than suspect flooring that a contractor plans to remove. For <a href="/locations/raleigh-nc/indoor-air-quality-testing.html">indoor air quality testing in Raleigh</a>, note the rooms, times and ventilation conditions associated with the concern. For <a href="/locations/raleigh-nc/asbestos-testing.html">asbestos testing before work</a>, identify the materials the contractor expects to disturb. Include the access contact for any shared areas so A1 can quote the right scope.</p>']]
+  },
+  'greenville-nc/overview': {
+    title: 'Radon, Air Quality & Environmental Testing in Greenville, NC',
+    description: 'Planning radon testing for a Greenville, North Carolina property? Share the building use, occupied floors and access details. A1 also investigates mold and indoor-air concerns.',
+    sections: [['Planning radon testing in a Greenville business', '<p>For a multi-suite property, describe which ground-contact spaces are occupied, who controls access, and whether the party requesting the report has specified rooms or a measurement period. For a single building, start with <a href="/locations/greenville-nc/radon-testing.html">radon testing in Greenville, NC</a>. If several units or tenant spaces need coordination, include the floor plan and access contact when discussing <a href="/locations/greenville-nc/commercial-industrial-testing.html">commercial environmental testing</a>. Confirm the scope and reporting schedule before booking.</p>']]
+  },
+  'knoxville-tn/overview': {
+    title: 'Mold Inspection, Asbestos & Air Testing in Knoxville, TN',
+    description: 'Request independent mold or asbestos testing in Knoxville. A1 can help investigate a recurring leak or assess suspect materials before renovation.',
+    sections: [['A leak, a musty room or flooring due for removal?', '<p>For <a href="/locations/knoxville-tn/mold-testing.html">mold inspection in Knoxville</a>, describe the water history, visible changes and affected rooms. If a contractor will lift older flooring, leave the material undisturbed while you discuss an <a href="/locations/knoxville-tn/asbestos-testing.html">asbestos inspection for the Knoxville project</a>. A1 assesses the agreed areas and explains findings. If removal is needed, it is separate from the testing assignment.</p>']]
+  },
+  'augusta-ga/overview': {
+    title: 'Asbestos Inspection, Mold & Air Testing in Augusta, GA',
+    description: 'Before a renovation in Augusta, Georgia, identify the materials the contractor will disturb. A1 provides independent asbestos, mold and indoor air testing.',
+    sections: [['Request an inspection before work disturbs the material', '<p>If the crew will remove flooring, wall layers or ceiling finishes, send the Augusta address and a description of the work to be done in each room. A drawing or photos taken without disturbing suspect material can help define the inspection area. Review <a href="/locations/augusta-ga/asbestos-testing.html">asbestos testing in Augusta</a> before arranging access. If your concern is moisture or a persistent odor instead, describe when you first noticed it and ask about <a href="/locations/augusta-ga/mold-testing.html">mold testing in Augusta</a>.</p>']]
+  },
   'charleston-sc/indoor-air-quality': {
     faqs: [
       ['When should I arrange air testing after restoration work?', 'Start with the decision you need to make. If a report is needed before people return, ask the person requesting it which rooms, measurements and conditions the report must cover. If an odor returns only while a room is in use, record when it occurs and whether the ventilation system is running. Share that timing when booking so A1 can discuss a visit that represents the concern. A general air test cannot clear an entire building for occupancy.']

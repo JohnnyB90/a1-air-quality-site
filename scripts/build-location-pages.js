@@ -134,8 +134,8 @@ for (const location of locations) {
     if (!Array.isArray(section) || section.length !== 4 || section[1].length !== 3 || section.some(v => !v)) throw new Error(`Incomplete ${slug} ${key} editorial brief`);
   }
   if (!entry.local || !entry.air || !/^https:\/\//.test(entry.source?.[1])) throw new Error(`Incomplete local source for ${slug}`);
-  const title = `Asbestos, Mold & Air Quality Testing in ${city}, ${state.toUpperCase()}`;
   const overviewCopy = priorityCopy[`${slug}/overview`];
+  const title = overviewCopy?.title || `Asbestos, Mold & Air Quality Testing in ${city}, ${state.toUpperCase()}`;
   const description = overviewCopy?.description || `Independent testing for ${city}, ${state.toUpperCase()} homes and businesses. Asbestos, mold, indoor air, lead, radon, and commercial services. Call A1 for a quote.`;
   const body = `<section class="section-pad location-intro"><div class="container"><div class="reading-width"><h2>Answers for your ${esc(city)} property</h2><p>${esc(landingCopy[slug])}</p></div>
 <div class="section-header location-services-heading"><h2>Choose the testing you need</h2><p>Explore a service or call us if you are unsure where to start.</p></div>

@@ -1,6 +1,13 @@
 // Focused improvements based on Search Console demand, October 26, 2026.
 // These describe offered services, not claimed past jobs or unverified credentials.
 module.exports = {
+  'anderson-sc/indoor-air-quality': {
+    description: 'Investigate recurring odors or indoor air concerns in an Anderson home, shop or workplace. Ask A1 which rooms to assess and when measurements would be useful.',
+    coverageHeading: 'What Indoor Air Quality Testing Covers',
+    faqs: [
+      ['Can a single visit document an intermittent indoor air concern?', 'A visit documents the rooms and conditions assessed at that time. If an odor occurs only when a workshop is operating, note the activity, the affected rooms and how long the odor lasts. Share that record before booking. Ask whether a visit during the activity or measurements over a longer period would answer your question, and confirm the locations and duration included in the quote.']
+    ]
+  },
   'raleigh-nc/overview': {
     title: 'Indoor Air Quality, Mold & Asbestos Testing in Raleigh, NC',
     description: 'Arrange independent testing at a Raleigh home, rental or workplace. Tell A1 where an odor or moisture concern occurs, or which materials a renovation will disturb.',

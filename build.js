@@ -75,7 +75,7 @@ function buildBlogPage(p) {
     headline: p.title,
     description: p.description,
     datePublished: p.dateISO,
-    author: { "@type": "Organization", name: "A1 Air Quality Consultants" },
+    author: { "@type": "Organization", name: "A1 Air Quality Consultants", url: `${SITE_URL}/about.html` },
     publisher: {
       "@type": "Organization",
       name: "A1 Air Quality Consultants",

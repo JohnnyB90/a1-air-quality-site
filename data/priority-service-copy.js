@@ -1,7 +1,40 @@
 // Focused improvements based on Search Console demand, October 26, 2026.
 // These describe offered services, not claimed past jobs or unverified credentials.
 module.exports = {
+  'anderson-sc/indoor-air-quality': {
+    description: 'Investigate recurring odors or indoor air concerns in an Anderson home, shop or workplace. Ask A1 which rooms to assess and when measurements would be useful.',
+    coverageHeading: 'What Indoor Air Quality Testing Covers',
+    faqs: [
+      ['Can a single visit document an intermittent indoor air concern?', 'A visit documents the rooms and conditions assessed at that time. If an odor occurs only when a workshop is operating, note the activity, the affected rooms and how long the odor lasts. Share that record before booking. Ask whether a visit during the activity or measurements over a longer period would answer your question, and confirm the locations and duration included in the quote.']
+    ]
+  },
+  'raleigh-nc/overview': {
+    title: 'Indoor Air Quality, Mold & Asbestos Testing in Raleigh, NC',
+    description: 'Arrange independent testing at a Raleigh home, rental or workplace. Tell A1 where an odor or moisture concern occurs, or which materials a renovation will disturb.',
+    sections: [['Choose the investigation for your Raleigh property', '<p>An odor that appears only when a particular suite is occupied calls for a different conversation than suspect flooring that a contractor plans to remove. For <a href="/locations/raleigh-nc/indoor-air-quality-testing.html">indoor air quality testing in Raleigh</a>, note the rooms, times and ventilation conditions associated with the concern. For <a href="/locations/raleigh-nc/asbestos-testing.html">asbestos testing before work</a>, identify the materials the contractor expects to disturb. Include the access contact for any shared areas so A1 can quote the right scope.</p>']]
+  },
+  'greenville-nc/overview': {
+    title: 'Radon, Air Quality & Environmental Testing in Greenville, NC',
+    description: 'Planning radon testing for a Greenville, North Carolina property? Share the building use, occupied floors and access details. A1 also investigates mold and indoor-air concerns.',
+    sections: [['Planning radon testing in a Greenville business', '<p>For a multi-suite property, describe which ground-contact spaces are occupied, who controls access, and whether the party requesting the report has specified rooms or a measurement period. For a single building, start with <a href="/locations/greenville-nc/radon-testing.html">radon testing in Greenville, NC</a>. If several units or tenant spaces need coordination, include the floor plan and access contact when discussing <a href="/locations/greenville-nc/commercial-industrial-testing.html">commercial environmental testing</a>. Confirm the scope and reporting schedule before booking.</p>']]
+  },
+  'knoxville-tn/overview': {
+    title: 'Mold Inspection, Asbestos & Air Testing in Knoxville, TN',
+    description: 'Request independent mold or asbestos testing in Knoxville. A1 can help investigate a recurring leak or assess suspect materials before renovation.',
+    sections: [['A leak, a musty room or flooring due for removal?', '<p>For <a href="/locations/knoxville-tn/mold-testing.html">mold inspection in Knoxville</a>, describe the water history, visible changes and affected rooms. If a contractor will lift older flooring, leave the material undisturbed while you discuss an <a href="/locations/knoxville-tn/asbestos-testing.html">asbestos inspection for the Knoxville project</a>. A1 assesses the agreed areas and explains findings. If removal is needed, it is separate from the testing assignment.</p>']]
+  },
+  'augusta-ga/overview': {
+    title: 'Asbestos Inspection, Mold & Air Testing in Augusta, GA',
+    description: 'Before a renovation in Augusta, Georgia, identify the materials the contractor will disturb. A1 provides independent asbestos, mold and indoor air testing.',
+    sections: [['Request an inspection before work disturbs the material', '<p>If the crew will remove flooring, wall layers or ceiling finishes, send the Augusta address and a description of the work to be done in each room. A drawing or photos taken without disturbing suspect material can help define the inspection area. Review <a href="/locations/augusta-ga/asbestos-testing.html">asbestos testing in Augusta</a> before arranging access. If your concern is moisture or a persistent odor instead, describe when you first noticed it and ask about <a href="/locations/augusta-ga/mold-testing.html">mold testing in Augusta</a>.</p>']]
+  },
+  'charleston-sc/indoor-air-quality': {
+    faqs: [
+      ['When should I arrange air testing after restoration work?', 'Start with the decision you need to make. If a report is needed before people return, ask the person requesting it which rooms, measurements and conditions the report must cover. If an odor returns only while a room is in use, record when it occurs and whether the ventilation system is running. Share that timing when booking so A1 can discuss a visit that represents the concern. A general air test cannot clear an entire building for occupancy.']
+    ]
+  },
   'knoxville-tn/asbestos': {
+    description: 'Planning a renovation in Knoxville, TN? A1 can inspect suspect building materials and arrange asbestos sampling before work begins. Request a testing quote.',
     coverageHeading: 'What Asbestos Testing Covers',
     localContextHeading: 'Knoxville Project Planning for Asbestos Inspections'
   },
@@ -10,6 +43,15 @@ module.exports = {
   },
   'greer-sc/overview': {
     sections: [['Air-quality help for an occupied Greer property', '<p>When a concern follows HVAC work, an addition or a change in room use, <a href="/locations/greer-sc/indoor-air-quality-testing.html">air quality testing in Greer</a> can start with the building history and the spaces involved. A1 will discuss the proposed scope and quote before scheduling.</p><p>A leak or suspected growth may call for <a href="/locations/greer-sc/mold-testing.html">Greer mold testing</a>, while a business expansion can involve <a href="/locations/greer-sc/commercial-industrial-testing.html">commercial environmental testing</a>. You can call without knowing which test to select first.</p>']]
+  },
+  'spartanburg-sc/overview': {
+    sections: [['Which property needs air testing?', '<p>For a concern at a Spartanburg home or workplace, see <a href="/locations/spartanburg-sc/indoor-air-quality-testing.html">indoor air quality testing in Spartanburg</a>. If the property is in Greer, our <a href="/locations/greer-sc/indoor-air-quality-testing.html">Greer air quality testing page</a> explains how to prepare for a visit, including what to record when an odor comes and goes.</p>']]
+  },
+  'summerville-sc/overview': {
+    sections: [['Indoor air testing in Summerville and Charleston', '<p>If a leak, renovation or recurring odor has raised questions at a Summerville property, start with <a href="/locations/summerville-sc/indoor-air-quality-testing.html">indoor air quality testing in Summerville</a>. For a property in Charleston, see <a href="/locations/charleston-sc/indoor-air-quality-testing.html">indoor air quality testing in Charleston</a> to discuss the affected rooms and the timing of your concern.</p>']]
+  },
+  'piedmont-sc/overview': {
+    sections: [['Find testing for your property and project', '<p>For a recurring odor at a Piedmont home or business, start with <a href="/locations/piedmont-sc/indoor-air-quality-testing.html">indoor air quality testing in Piedmont</a>. If the affected property is in a different city, choose <a href="/locations/easley-sc/indoor-air-quality-testing.html">indoor air quality testing in Easley</a> or <a href="/locations/greenville-sc/indoor-air-quality-testing.html">indoor air quality testing in Greenville, SC</a>. Describe the rooms involved and when you notice the issue.</p><p>For a Greenville renovation involving older flooring or ceiling materials, visit <a href="/locations/greenville-sc/asbestos-testing.html">asbestos testing in Greenville, SC</a>. Tell the inspector which materials the contractor expects to disturb so you can discuss the inspection scope before work begins.</p>']]
   },
   'athens-ga/overview': {
     description: 'A1 provides independent asbestos, mold, indoor air, lead, radon, and commercial testing for Athens, GA homes and businesses. Call for a testing quote.',
@@ -23,12 +65,13 @@ module.exports = {
     sections: [['Testing for an Athens home, rental or business', '<p>Before renovation, discuss <a href="/locations/athens-ga/asbestos-testing.html">Athens asbestos testing</a> for the materials the work will disturb. For a leak, musty room or possible growth, start with <a href="/locations/athens-ga/mold-testing.html">mold testing in Athens</a>. A broader odor or indoor-air question can be discussed through our <a href="/locations/athens-ga/indoor-air-quality-testing.html">Athens air quality service</a>.</p><p>Owners and managers can also arrange a consultation about <a href="/locations/athens-ga/commercial-industrial-testing.html">commercial properties and rental portfolios in Athens</a>. A1 keeps the testing scope tied to the addresses and areas agreed for the assignment.</p>']]
   },
   'greenville-sc/indoor-air-quality': {
-    description: 'Indoor air quality testing in Greenville, SC for homes, rentals and workplaces. Discuss odors, moisture concerns and testing options with A1.',
+    description: 'Independent indoor air quality testing for Greenville, SC homes and workplaces. Ask A1 about recurring odors, home monitor readings and what to test next.',
     heading: 'Indoor air testing for your Greenville home or workplace',
     intro: 'A persistent odor, a room that feels different from the rest of the building, or a concern after renovation can be difficult to explain. A1 provides independent indoor air quality testing and consultation in Greenville. We start with your concern, review the property conditions and agree which measurements or samples will help answer it.',
     sections: [
       ['Get help with the concern you actually have', '<p>For a home purchase, tell us which rooms or earlier findings concern you. After a leak, describe the affected area and repairs. For an odor after painting, flooring or other changes, explain what changed and when. The consultation helps separate these questions so you can choose a useful scope instead of ordering every available test.</p><p>If moisture or suspected growth is the concern, explore <a href="/locations/greenville-sc/mold-testing.html">mold testing in Greenville</a>. If work will disturb suspect building materials, ask about <a href="/locations/greenville-sc/asbestos-testing.html">asbestos testing before renovation</a>; a general air test does not answer that material question.</p>'],
       ['An investigation suited to an occupied building', '<p>A1 can discuss testing at a house, rental, office or business property. In a shared building, the visit is scoped to the rooms and areas we can access. Information about HVAC operation, recent maintenance and when an odor occurs helps us interpret the conditions observed. If an intermittent concern is absent during the visit, we explain that limitation and discuss whether further investigation would help.</p><p>Owners and managers can also review <a href="/locations/greenville-sc/commercial-industrial-testing.html">commercial testing in Greenville</a> for renovation work, tenant spaces and property projects.</p>'],
+      ['What to bring if your air monitor shows a spike', '<p>Save a screenshot that shows the reading, its units and the time. Note which room the monitor was in and what was happening nearby, such as cooking or opening a window. A particle reading and a humidity reading tell you different things. These details help frame the question you want a visit to answer.</p><p>A home monitor measures only what its sensors can detect. Our <a href="/blog/diy-vs-professional-air-quality-testing.html">guide to home monitors and professional air quality testing</a> explains how to decide whether a monitor reading answers your question or a property assessment would help.</p>'],
       ['Arrange your Greenville appointment', '<p>Call with the property address, the concern and your timing. A1 will discuss the proposed inspection, any selected laboratory analysis, access and the quote before scheduling. Testing takes place at the property. For a nearby address, see <a href="/locations/greer-sc/indoor-air-quality-testing.html">Greer air quality testing</a> or <a href="/locations/mauldin-sc/indoor-air-quality-testing.html">Mauldin air quality testing</a>, and confirm travel and availability with A1.</p>']
     ],
     faqs: [
@@ -38,8 +81,8 @@ module.exports = {
     ]
   },
   'greer-sc/indoor-air-quality': {
-    description: 'Independent indoor air quality testing in Greer, SC. Investigate recurring odors and indoor-air concerns at homes or businesses. Request an A1 quote.',
-    heading: 'Air quality testing for Greer homes and businesses',
+    description: 'Indoor air quality testing in Greer, SC for homes and businesses. Get independent advice on recurring odors and findings you can share with a contractor.',
+    heading: 'Which indoor air quality services does A1 offer in Greer?',
     intro: 'If an indoor-air concern keeps returning, A1 can help you investigate the property before deciding what to change. We offer independent air quality testing and consultation in Greer, with the visit and selected tests based on your building and the question you need answered.',
     sections: [
       ['When the concern follows heating or cooling changes', '<p>An odor first noticed after HVAC work, a condensate leak or a change in room use needs context. A1 can review the timing and accessible conditions, then discuss measurements or samples suited to the concern. We do not assume that the equipment is the cause simply because work occurred recently.</p><p>Tell us whether the concern appears when the system runs, in one room or throughout the property. If water damage or suspected growth is involved, <a href="/locations/greer-sc/mold-testing.html">mold testing in Greer</a> may be the more relevant starting point.</p>'],
@@ -48,6 +91,7 @@ module.exports = {
     ],
     faqs: [
       ['Should I replace my HVAC equipment before booking air testing?', 'Describe the concern and any proposed work first. An indoor-air investigation and an HVAC repair are different services. A1 can discuss what the testing may help establish, while equipment repair questions should be addressed with the appropriate contractor.'],
+      ['Who recommends the next steps if testing points to a repair?', 'A1 explains its findings and recommends next steps within the testing scope. You choose a separate contractor for any repairs or remediation. When comparing proposals, ask which finding each proposed repair addresses and which rooms it covers.'],
       ['Can you test a Greer business while it is occupied?', 'Discuss the operating schedule, affected areas and access restrictions with A1. The agreed visit needs to represent the conditions relevant to the concern; arrangements and availability are confirmed before booking.'],
       ['What if I only notice the issue at certain times?', 'Tell A1 when it happens and what is occurring in the building at that time. A short room-and-time record can help plan the visit and identify the limitations of a test when the concern is absent.']
     ]

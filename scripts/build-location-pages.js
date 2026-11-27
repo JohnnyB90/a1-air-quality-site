@@ -116,6 +116,9 @@ function serviceLinks(slug, current) {
 }
 
 function nearbyLinks(location) {
+  if (location.nearby.length === 0) {
+    return '<nav aria-label="Service area directory"><h2>Service area directory</h2><p><a href="/service-areas.html">Browse all service areas</a></p></nav>';
+  }
   return `<nav aria-label="Nearby service areas"><h2>Nearby service areas</h2><ul>${location.nearby.map(slug => {
     const other = locations.find(l => l.slug === slug);
     if (!other) throw new Error(`Unknown nearby city ${slug} on ${location.slug}`);
@@ -131,8 +134,8 @@ for (const location of locations) {
     if (!Array.isArray(section) || section.length !== 4 || section[1].length !== 3 || section.some(v => !v)) throw new Error(`Incomplete ${slug} ${key} editorial brief`);
   }
   if (!entry.local || !entry.air || !/^https:\/\//.test(entry.source?.[1])) throw new Error(`Incomplete local source for ${slug}`);
-  const title = `Asbestos, Mold & Air Quality Testing in ${city}, ${state.toUpperCase()}`;
   const overviewCopy = priorityCopy[`${slug}/overview`];
+  const title = overviewCopy?.title || `Asbestos, Mold & Air Quality Testing in ${city}, ${state.toUpperCase()}`;
   const description = overviewCopy?.description || `Independent testing for ${city}, ${state.toUpperCase()} homes and businesses. Asbestos, mold, indoor air, lead, radon, and commercial services. Call A1 for a quote.`;
   const body = `<section class="section-pad location-intro"><div class="container"><div class="reading-width"><h2>Answers for your ${esc(city)} property</h2><p>${esc(landingCopy[slug])}</p></div>
 <div class="section-header location-services-heading"><h2>Choose the testing you need</h2><p>Explore a service or call us if you are unsure where to start.</p></div>
@@ -198,7 +201,7 @@ for (const type of Object.keys(labels)) {
   write(file, html);
 }
 
-let contact = read('contact.html').replace('We serve all of NC, SC, and parts of GA from this location.', 'Call to arrange testing at properties in our listed service areas across SC, NC, GA, and TN.');
+let contact = read('contact.html').replace('We serve all of NC, SC, and parts of GA from this location.', 'Check our <a href="/service-areas.html">service areas by state</a>, then call to arrange testing at your property.');
 const contacts = regionalContacts.map(c => `<div class="sidebar-card"><h3>${c.name} regional contact address</h3><p>${esc(c.address)}</p><p>Call to arrange property testing and confirm any visit to this address.</p></div>`).join('\n');
 contact = managed(contact, 'regional addresses', contacts, '</aside>');
 write('contact.html', contact);

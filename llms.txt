@@ -1,12 +1,12 @@
 # A1 Air Quality Consultants
 
-> Independent air quality testing and consultation. No remediation — zero conflict of interest.
+> Independent environmental testing and consultation. A1 does not sell remediation or removal services.
 
 ## Website
 [Website](https://a1airqualityconsultants.com/)
 
 ## About
-A1 Air Quality Consultants is a professional air quality testing and consultation company based in Spartanburg, SC. We provide independent, science-based testing for mold, asbestos, lead, radon, and indoor air quality in listed communities across South Carolina, North Carolina, Georgia, and Tennessee. We do NOT perform remediation or removal — this ensures our results and recommendations are always unbiased.
+A1 Air Quality Consultants is based in Spartanburg, SC. We provide independent testing and consultation for mold, asbestos, lead, radon, and indoor air quality in listed communities across South Carolina, North Carolina, Georgia, and Tennessee.
 
 ## Credentials & Certifications
 - SCDES Licensed Building Consultant (South Carolina)
@@ -17,7 +17,7 @@ A1 Air Quality Consultants is a professional air quality testing and consultatio
 - 25+ years of industry experience
 
 ## Key Differentiator
-A1 Air Quality Consultants is a testing-only company. We never sell remediation, removal, or repair services. This eliminates the conflict of interest that exists when the same company both tests for hazards and profits from fixing them. Our findings are based solely on laboratory data and professional analysis.
+A1 provides testing and consultation. If the findings call for cleanup or repairs, the customer can share the report with a separate contractor. The report brings together the building history, observations, and any measurements or laboratory results included in the agreed scope.
 
 ## Contact
 - Phone: (864) 619-2092
@@ -147,22 +147,22 @@ A1 serves the listed communities in South Carolina, North Carolina, Georgia, and
 ## Resources & Blog Articles
 
 - [**Commercial Indoor Air Quality Testing: Requirements and Best Practices** (Mar 2026)](https://a1airqualityconsultants.com/blog/commercial-indoor-air-quality-testing-requirements.html)
-  OSHA and ASHRAE set standards for commercial IAQ. Covers testing requirements, methods, ASHRAE 62.1, and how commercial testing differs from residential.
+  How to define a workplace air-quality question, check which project requirements apply, arrange access, and interpret the report.
 
 - [**DIY vs Professional Air Quality Testing** (Mar 2026)](https://a1airqualityconsultants.com/blog/diy-vs-professional-air-quality-testing.html)
-  Home air quality test kits are affordable but limited. Covers accuracy differences, cost comparison, when to choose professional testing, and real estate implications.
+  Compare what a home monitor, radon kit, or professional assessment can measure. Check what a quote includes and what a property transaction requires.
 
 - [**How Much Does Air Quality Testing Cost?** (Mar 2026)](https://a1airqualityconsultants.com/blog/how-much-does-air-quality-testing-cost.html)
   How inspection scope, sample count, laboratory methods, property location, and reporting affect a quote. Contact A1 for current pricing.
 
 - [**Why Independent Testing Matters** (Mar 2026)](https://a1airqualityconsultants.com/blog/why-independent-testing-matters.html)
-  When the same company tests and remediates, conflict of interest leads to exaggerated findings. Explains why testing-only companies deliver more trustworthy results.
+  Questions for comparing testing and cleanup proposals, including who interprets the results and who would perform any recommended work.
 
 - [**Indoor Air Quality: How It Affects Health and Productivity** (Mar 2026)](https://a1airqualityconsultants.com/blog/indoor-air-quality-health-and-productivity.html)
-  Americans spend 90% of their time indoors where pollutant levels can be 2–5x higher (EPA). Covers health effects, workplace productivity impact, and testing.
+  How indoor pollutants can affect health, what productivity research measures, and when targeted testing may help answer a building-specific question.
 
 - [**Lead Paint Testing: What Every Homeowner Should Know** (Feb 2026)](https://a1airqualityconsultants.com/blog/lead-paint-testing-what-homeowners-should-know.html)
-  The only reliable way to detect lead paint. Covers XRF testing, paint chip lab analysis, dust wipe testing, regulations, and costs.
+  The differences between a lead paint inspection, a risk assessment, and a targeted sample, and what to confirm before booking.
 
 - [**Understanding Radon: The Silent Health Risk** (Feb 2026)](https://a1airqualityconsultants.com/blog/understanding-radon-silent-health-risk.html)
   Radon is a radioactive gas and the #2 cause of lung cancer in the U.S. Covers how it enters homes, EPA action levels, and testing methods.
@@ -171,31 +171,33 @@ A1 serves the listed communities in South Carolina, North Carolina, Georgia, and
   Asbestos is a group of mineral fibers used in construction before the 1980s. Covers where it hides, health risks, and NESHAP/OSHA requirements.
 
 - [**Signs You May Need Mold Testing** (Jan 2026)](https://a1airqualityconsultants.com/blog/signs-you-may-need-mold-testing.html)
-  Warning signs include musty odors, visible discoloration, recurring allergies, water damage history, and high humidity.
+  How to follow up on musty odors, water damage, or recurring dampness and decide whether a sample would answer a specific question.
 
 - [**Do I Need Radon Testing Before Buying a Home?** (Dec 2025)](https://a1airqualityconsultants.com/blog/do-i-need-radon-testing-before-buying-a-home.html)
-  The EPA recommends radon testing for all homes below the third floor. Covers testing during real estate transactions, action levels, and negotiation.
+  How to evaluate an existing radon report and plan access, monitoring, and time to review results before a purchase deadline.
 
 - [**VOC Testing: What Are Volatile Organic Compounds?** (Nov 2025)](https://a1airqualityconsultants.com/blog/voc-testing-volatile-organic-compounds.html)
-  VOCs are chemicals from paints, cleaning products, and building materials. Indoor levels can be 2–5x higher than outdoors (EPA).
+  Sources of volatile organic compounds, how testing methods differ, and what a total-VOC reading can tell you about a particular space.
 
 - [**Home Inspection Checklist: Mold, Asbestos, Lead, and Radon** (Nov 2025)](https://a1airqualityconsultants.com/blog/home-inspection-checklist-mold-asbestos-lead-radon.html)
-  A 5-step checklist for inspecting homes for the four most common air quality hazards before buying or renovating.
+  A printable checklist for planning asbestos, mold, lead, radon, and other indoor-air questions before a purchase or renovation.
 
 - [**Radon Levels in SC, NC, GA, and TN** (Oct 2025)](https://a1airqualityconsultants.com/blog/radon-levels-in-north-carolina-south-carolina-georgia.html)
   Explains the limits of regional radon maps and how to plan property testing in South Carolina, North Carolina, Georgia, and Tennessee.
 
 - [**What Humidity Level Causes Mold?** (Sep 2025)](https://a1airqualityconsultants.com/blog/what-humidity-level-causes-mold.html)
-  Indoor humidity above 60% creates ideal conditions for mold growth. The EPA recommends 30–50%. Covers measuring humidity, prevention, and when to test.
+  How to use EPA humidity targets, spot condensation, and check damp materials. A room humidity reading alone cannot establish whether mold is present.
 
 - [**Lead Paint Dangers in Pre-1978 Homes** (Sep 2025)](https://a1airqualityconsultants.com/blog/lead-paint-dangers-in-pre-1978-homes.html)
-  EPA estimates that 87% of homes built before 1940 have some lead-based paint; this is not the percentage for all pre-1978 homes. Covers health risks (especially for children), where lead hides, testing methods, and federal disclosure requirements.
+  How the condition of older painted surfaces and the work planned for them inform a lead-testing discussion before renovation.
 
-- [**Do I Need Asbestos Testing Before Renovation?** (Aug 2025)](https://a1airqualityconsultants.com/blog/do-i-need-asbestos-testing-before-renovation.html)
+- [**Asbestos Inspections Before Renovation in South Carolina** (Aug 2025)](https://a1airqualityconsultants.com/blog/do-i-need-asbestos-testing-before-renovation.html)
   Inspection requirements depend on building type, project scope, and jurisdiction. Links to EPA and state programs, with guidance on planning an inspection before disturbing suspect materials.
 
 - [**How Long Does Mold Take to Grow After Water Damage?** (Jul 2025)](https://a1airqualityconsultants.com/blog/how-long-does-mold-take-to-grow-after-water-damage.html)
-  Mold can begin growing within 24 to 48 hours after water damage. Covers the growth timeline, conditions that accelerate it, and when to test.
+  Why EPA recommends drying wet materials within 24 to 48 hours where feasible, and how the material and moisture conditions affect mold growth.
 
+- [**Hiring a Home Air Quality Tester When You Need Laboratory Analysis**](https://a1airqualityconsultants.com/blog/home-air-quality-testing-near-me-with-laboratory-analysis.html)
+  Compare sample targets, rooms, laboratory methods and written reports before booking.
 - [**What Is Indoor Air Quality Testing? A Complete Guide** (Jul 2025)](https://a1airqualityconsultants.com/blog/what-is-indoor-air-quality-testing.html)
-  IAQ testing measures pollutants like VOCs, mold spores, allergens, CO2, and particulates in homes and buildings.
+  How building history, site observations, and selected measurements guide an indoor-air investigation, and which questions its report can answer.

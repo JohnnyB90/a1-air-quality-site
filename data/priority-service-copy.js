@@ -81,8 +81,8 @@ module.exports = {
     ]
   },
   'greer-sc/indoor-air-quality': {
-    description: 'Independent indoor air quality testing in Greer, SC. Investigate recurring odors and indoor-air concerns at homes or businesses. Request an A1 quote.',
-    heading: 'Air quality testing for Greer homes and businesses',
+    description: 'Indoor air quality testing in Greer, SC for homes and businesses. Get independent advice on recurring odors and findings you can share with a contractor.',
+    heading: 'Which indoor air quality services does A1 offer in Greer?',
     intro: 'If an indoor-air concern keeps returning, A1 can help you investigate the property before deciding what to change. We offer independent air quality testing and consultation in Greer, with the visit and selected tests based on your building and the question you need answered.',
     sections: [
       ['When the concern follows heating or cooling changes', '<p>An odor first noticed after HVAC work, a condensate leak or a change in room use needs context. A1 can review the timing and accessible conditions, then discuss measurements or samples suited to the concern. We do not assume that the equipment is the cause simply because work occurred recently.</p><p>Tell us whether the concern appears when the system runs, in one room or throughout the property. If water damage or suspected growth is involved, <a href="/locations/greer-sc/mold-testing.html">mold testing in Greer</a> may be the more relevant starting point.</p>'],
@@ -91,6 +91,7 @@ module.exports = {
     ],
     faqs: [
       ['Should I replace my HVAC equipment before booking air testing?', 'Describe the concern and any proposed work first. An indoor-air investigation and an HVAC repair are different services. A1 can discuss what the testing may help establish, while equipment repair questions should be addressed with the appropriate contractor.'],
+      ['Who recommends the next steps if testing points to a repair?', 'A1 explains its findings and recommends next steps within the testing scope. You choose a separate contractor for any repairs or remediation. When comparing proposals, ask which finding each proposed repair addresses and which rooms it covers.'],
       ['Can you test a Greer business while it is occupied?', 'Discuss the operating schedule, affected areas and access restrictions with A1. The agreed visit needs to represent the conditions relevant to the concern; arrangements and availability are confirmed before booking.'],
       ['What if I only notice the issue at certain times?', 'Tell A1 when it happens and what is occurring in the building at that time. A short room-and-time record can help plan the visit and identify the limitations of a test when the concern is absent.']
     ]
